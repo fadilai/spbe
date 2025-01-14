@@ -10,123 +10,286 @@
                     </div>
                 </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-9">
-                    <div class="accordion accordion-border-bottom" id="accordionFAQ">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header accordion-button h5 border-0 active"
-                                id="heading-ebd23e34fd2ed58299b32c03c521feb0b02f19d9" type="button"
-                                data-bs-toggle="collapse"
-                                data-bs-target="#collapse-ebd23e34fd2ed58299b32c03c521feb0b02f19d9" aria-expanded="true"
-                                aria-controls="collapse-ebd23e34fd2ed58299b32c03c521feb0b02f19d9">Can I apply if my credit
-                                isn&rsquo;t
-                                perfect?
-                            </h2>
-                            <div id="collapse-ebd23e34fd2ed58299b32c03c521feb0b02f19d9"
-                                class="accordion-collapse collapse border-0 show"
-                                aria-labelledby="heading-ebd23e34fd2ed58299b32c03c521feb0b02f19d9"
-                                data-bs-parent="#accordionFAQ">
-                                <div class="accordion-body py-0 content">The difference between and premium product consist
-                                    number of
-                                    components, plugins, page in each. The Free versions contain only a few elements and
-                                    pages that.</div>
+            <title>SPBE Interface</title>
+            <style>
+
+                .accordion {
+                    background: #fff;
+                    border: 1px solid #ddd;
+                    border-radius: 5px;
+                    margin-bottom: 10px;
+                    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                }
+
+                .accordion-header {
+                    padding: 15px;
+                    font-size: 16px;
+                    font-weight: bold;
+                    cursor: pointer;
+                    background-color: #f8f8f8;
+                    border-bottom: 1px solid #ddd;
+                }
+
+                .accordion-header.active {
+                    background-color: #e9ecef;
+                }
+
+                .accordion-body {
+                    padding: 15px;
+                    display: none;
+                    font-size: 14px;
+                    color: #333;
+                }
+
+                .accordion-body.show {
+                    display: block;
+                }
+
+                .indicator-title {
+                    font-weight: bold;
+                    color: #007bff;
+                    margin-bottom: 10px;
+                }
+
+                .indicator-section {
+                    margin-bottom: 15px;
+                }
+
+                .indicator-section h5 {
+                    margin: 5px 0;
+                    font-size: 14px;
+                    font-weight: bold;
+                    color: #333;
+                }
+
+                .indicator-section p {
+                    margin: 5px 0 10px 0;
+                    font-size: 14px;
+                    line-height: 1.5;
+                }
+            </style>
+            </head>
+
+            <body>
+                <div class="accordion">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        Domain Kebijakan SPBE
+                    </div>
+                    <div class="accordion-body">
+                        <div class="accordion">
+                            <div class="accordion-header" onclick="toggleAccordion(this)">
+                                Aspek Kebijakan Internal terkait Tata Kelola SPBE
                             </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header accordion-button h5 border-0 "
-                                id="heading-a443e01b4db47b3f4a1267e10594576d52730ec1" type="button"
-                                data-bs-toggle="collapse"
-                                data-bs-target="#collapse-a443e01b4db47b3f4a1267e10594576d52730ec1" aria-expanded="false"
-                                aria-controls="collapse-a443e01b4db47b3f4a1267e10594576d52730ec1">How do I know that I have
-                                been approved?
-                            </h2>
-                            <div id="collapse-a443e01b4db47b3f4a1267e10594576d52730ec1"
-                                class="accordion-collapse collapse border-0 "
-                                aria-labelledby="heading-a443e01b4db47b3f4a1267e10594576d52730ec1"
-                                data-bs-parent="#accordionFAQ">
-                                <div class="accordion-body py-0 content">The difference between and premium product consist
-                                    number of
-                                    components, plugins, page in each. The Free versions contain only a few elements and
-                                    pages that.</div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header accordion-button h5 border-0 "
-                                id="heading-4b82be4be873c8ad699fa97049523ac86b67a8bd" type="button"
-                                data-bs-toggle="collapse"
-                                data-bs-target="#collapse-4b82be4be873c8ad699fa97049523ac86b67a8bd" aria-expanded="false"
-                                aria-controls="collapse-4b82be4be873c8ad699fa97049523ac86b67a8bd">Do I need to fax or email
-                                any documents?
-                            </h2>
-                            <div id="collapse-4b82be4be873c8ad699fa97049523ac86b67a8bd"
-                                class="accordion-collapse collapse border-0 "
-                                aria-labelledby="heading-4b82be4be873c8ad699fa97049523ac86b67a8bd"
-                                data-bs-parent="#accordionFAQ">
-                                <div class="accordion-body py-0 content">The difference between and premium product consist
-                                    number of
-                                    components, plugins, page in each. The Free versions contain only a few elements and
-                                    pages that.</div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header accordion-button h5 border-0 "
-                                id="heading-3e13e9676a9cd6a6f8bfbe6e1e9fc0881ef247b3" type="button"
-                                data-bs-toggle="collapse"
-                                data-bs-target="#collapse-3e13e9676a9cd6a6f8bfbe6e1e9fc0881ef247b3" aria-expanded="false"
-                                aria-controls="collapse-3e13e9676a9cd6a6f8bfbe6e1e9fc0881ef247b3">Do you provide loans to
-                                military
-                                personnel?
-                            </h2>
-                            <div id="collapse-3e13e9676a9cd6a6f8bfbe6e1e9fc0881ef247b3"
-                                class="accordion-collapse collapse border-0 "
-                                aria-labelledby="heading-3e13e9676a9cd6a6f8bfbe6e1e9fc0881ef247b3"
-                                data-bs-parent="#accordionFAQ">
-                                <div class="accordion-body py-0 content">The difference between and premium product consist
-                                    number of
-                                    components, plugins, page in each. The Free versions contain only a few elements and
-                                    pages that.</div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header accordion-button h5 border-0 "
-                                id="heading-0c2f829793a1f0562fea97120357dd2d43319164" type="button"
-                                data-bs-toggle="collapse"
-                                data-bs-target="#collapse-0c2f829793a1f0562fea97120357dd2d43319164" aria-expanded="false"
-                                aria-controls="collapse-0c2f829793a1f0562fea97120357dd2d43319164">Can I remove footer credit
-                                purchase ?
-                            </h2>
-                            <div id="collapse-0c2f829793a1f0562fea97120357dd2d43319164"
-                                class="accordion-collapse collapse border-0 "
-                                aria-labelledby="heading-0c2f829793a1f0562fea97120357dd2d43319164"
-                                data-bs-parent="#accordionFAQ">
-                                <div class="accordion-body py-0 content">The difference between and premium product consist
-                                    number of
-                                    components, plugins, page in each. The Free versions contain only a few elements and
-                                    pages that.</div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header accordion-button h5 border-0 "
-                                id="heading-8fe6730e26db16f15763887c30a614caa075f518" type="button"
-                                data-bs-toggle="collapse"
-                                data-bs-target="#collapse-8fe6730e26db16f15763887c30a614caa075f518" aria-expanded="false"
-                                aria-controls="collapse-8fe6730e26db16f15763887c30a614caa075f518">What is the difference the
-                                free
-                                versions?
-                            </h2>
-                            <div id="collapse-8fe6730e26db16f15763887c30a614caa075f518"
-                                class="accordion-collapse collapse border-0 "
-                                aria-labelledby="heading-8fe6730e26db16f15763887c30a614caa075f518"
-                                data-bs-parent="#accordionFAQ">
-                                <div class="accordion-body py-0 content">The difference between and premium product consist
-                                    number of
-                                    components, plugins, page in each. The Free versions contain only a few elements and
-                                    pages that.</div>
+                            <div class="accordion-body">
+                                <div class="accordion">
+                                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                                        Indikator 1 Kebijakan Internal Arsitektur SPBE Pemerintah Daerah
+                                    </div>
+                                    <div class="accordion-body">
+                                        <div class="indicator-section">
+                                            <h5>Bobot Indikator</h5>
+                                            <p>130</p>
+                                        </div>
+                                        <div class="indicator-section">
+                                            <h5>Deskripsi</h5>
+                                            <p>Kebijakan Internal Arsitektur SPBE Pemerintah Daerah</p>
+                                        </div>
+                                        <div class="indicator-section">
+                                            <h5>Penjelasan Indikator</h5>
+                                            <p>Arsitektur SPBE adalah kerangka dasar yang mendeskripsikan integrasi proses
+                                                bisnis...</p>
+                                        </div>
+                                        <div class="indicator-section">
+                                            <h5>Penjelasan Penilaian</h5>
+                                            <p>Penilaian dilakukan terhadap peraturan/norma yang memenuhi kekuatan hukum...
+                                            </p>
+                                        </div>
+                                        <div class="indicator-section">
+                                            <h5>Penjelasan Bukti Dukung</h5>
+                                            <p>Bukti dukung tingkat kematangan dilampirkan berupa dokumen kebijakan...</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion">
+                                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                                        Indikator 2 Kebijakan Internal Arsitektur SPBE Pemerintah Daerah
+                                    </div>
+                                    <div class="accordion-body">
+                                        <div class="indicator-section">
+                                            <h5>Bobot Indikator</h5>
+                                            <p>130</p>
+                                        </div>
+                                        <div class="indicator-section">
+                                            <h5>Deskripsi</h5>
+                                            <p>Kebijakan Internal Arsitektur SPBE Pemerintah Daerah</p>
+                                        </div>
+                                        <div class="indicator-section">
+                                            <h5>Penjelasan Indikator</h5>
+                                            <p>Arsitektur SPBE adalah kerangka dasar yang mendeskripsikan integrasi proses
+                                                bisnis...</p>
+                                        </div>
+                                        <div class="indicator-section">
+                                            <h5>Penjelasan Penilaian</h5>
+                                            <p>Penilaian dilakukan terhadap peraturan/norma yang memenuhi kekuatan hukum...
+                                            </p>
+                                        </div>
+                                        <div class="indicator-section">
+                                            <h5>Penjelasan Bukti Dukung</h5>
+                                            <p>Bukti dukung tingkat kematangan dilampirkan berupa dokumen kebijakan...</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+
+                <div class="accordion">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        Domain Tata Kelola SPBE
+                    </div>
+                    <div class="accordion-body">
+                        <div class="accordion">
+                            <div class="accordion-header" onclick="toggleAccordion(this)">
+                                Aspek Kebijakan Internal terkait Tata Kelola SPBE
+                            </div>
+                            <div class="accordion-body">
+                                <div class="accordion">
+                                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                                        Indikator 1 Kebijakan Internal Arsitektur SPBE Pemerintah Daerah
+                                    </div>
+                                    <div class="accordion-body">
+                                        <div class="indicator-section">
+                                            <h5>Bobot Indikator</h5>
+                                            <p>130</p>
+                                        </div>
+                                        <div class="indicator-section">
+                                            <h5>Deskripsi</h5>
+                                            <p>Kebijakan Internal Arsitektur SPBE Pemerintah Daerah</p>
+                                        </div>
+                                        <div class="indicator-section">
+                                            <h5>Penjelasan Indikator</h5>
+                                            <p>Arsitektur SPBE adalah kerangka dasar yang mendeskripsikan integrasi proses
+                                                bisnis...</p>
+                                        </div>
+                                        <div class="indicator-section">
+                                            <h5>Penjelasan Penilaian</h5>
+                                            <p>Penilaian dilakukan terhadap peraturan/norma yang memenuhi kekuatan hukum...
+                                            </p>
+                                        </div>
+                                        <div class="indicator-section">
+                                            <h5>Penjelasan Bukti Dukung</h5>
+                                            <p>Bukti dukung tingkat kematangan dilampirkan berupa dokumen kebijakan...</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        Domain Layanan SPBE
+                    </div>
+                    <div class="accordion-body">
+                        <div class="accordion">
+                            <div class="accordion-header" onclick="toggleAccordion(this)">
+                                Aspek Kebijakan Internal terkait Tata Kelola SPBE
+                            </div>
+                            <div class="accordion-body">
+                                <div class="accordion">
+                                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                                        Indikator 1 Kebijakan Internal Arsitektur SPBE Pemerintah Daerah
+                                    </div>
+                                    <div class="accordion-body">
+                                        <div class="indicator-section">
+                                            <h5>Bobot Indikator</h5>
+                                            <p>130</p>
+                                        </div>
+                                        <div class="indicator-section">
+                                            <h5>Deskripsi</h5>
+                                            <p>Kebijakan Internal Arsitektur SPBE Pemerintah Daerah</p>
+                                        </div>
+                                        <div class="indicator-section">
+                                            <h5>Penjelasan Indikator</h5>
+                                            <p>Arsitektur SPBE adalah kerangka dasar yang mendeskripsikan integrasi proses
+                                                bisnis...</p>
+                                        </div>
+                                        <div class="indicator-section">
+                                            <h5>Penjelasan Penilaian</h5>
+                                            <p>Penilaian dilakukan terhadap peraturan/norma yang memenuhi kekuatan hukum...
+                                            </p>
+                                        </div>
+                                        <div class="indicator-section">
+                                            <h5>Penjelasan Bukti Dukung</h5>
+                                            <p>Bukti dukung tingkat kematangan dilampirkan berupa dokumen kebijakan...</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        Domain Tata Kelola SPBE
+                    </div>
+                    <div class="accordion-body">
+                        <div class="accordion">
+                            <div class="accordion-header" onclick="toggleAccordion(this)">
+                                Aspek Kebijakan Internal terkait Tata Kelola SPBE
+                            </div>
+                            <div class="accordion-body">
+                                <div class="accordion">
+                                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                                        Indikator 1 Kebijakan Internal Arsitektur SPBE Pemerintah Daerah
+                                    </div>
+                                    <div class="accordion-body">
+                                        <div class="indicator-section">
+                                            <h5>Bobot Indikator</h5>
+                                            <p>130</p>
+                                        </div>
+                                        <div class="indicator-section">
+                                            <h5>Deskripsi</h5>
+                                            <p>Kebijakan Internal Arsitektur SPBE Pemerintah Daerah</p>
+                                        </div>
+                                        <div class="indicator-section">
+                                            <h5>Penjelasan Indikator</h5>
+                                            <p>Arsitektur SPBE adalah kerangka dasar yang mendeskripsikan integrasi proses
+                                                bisnis...</p>
+                                        </div>
+                                        <div class="indicator-section">
+                                            <h5>Penjelasan Penilaian</h5>
+                                            <p>Penilaian dilakukan terhadap peraturan/norma yang memenuhi kekuatan hukum...
+                                            </p>
+                                        </div>
+                                        <div class="indicator-section">
+                                            <h5>Penjelasan Bukti Dukung</h5>
+                                            <p>Bukti dukung tingkat kematangan dilampirkan berupa dokumen kebijakan...</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <script>
+                    function toggleAccordion(element) {
+                        element.classList.toggle('active');
+                        const body = element.nextElementSibling;
+                        if (body) {
+                            body.classList.toggle('show');
+                        }
+                    }
+                </script>
+
         </div>
     </section>
 @endsection
