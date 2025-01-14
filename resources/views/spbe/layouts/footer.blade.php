@@ -67,35 +67,24 @@
                 </div>
             </div>
         </div>
-        <div class="row align-items-center mt-5 text-center text-md-start">
-            <div class="col-lg-4">
-                <a href="index.html">
-                    <img loading="prelaod" decoding="async" class="img-fluid" width="160" src="images/logo.png"
-                        alt="Wallet">
-                </a>
+        <div class="row align-items-center mt-5 position-relative">
+            <div class="col-lg-4 position-absolute start-0 top-0">
+                <div class="footer-copyright-text">
+                    <p>Copyright © {{ date('Y') }} All Rights Reserved.</p>
+                </div>
             </div>
-            <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
-                <ul class="list-unstyled list-inline mb-0 text-lg-center">
-                    <li class="list-inline-item me-4"><a class="text-black" href="privacy-policy.html">Privacy
-                            Policy</a>
-                    </li>
-                    <li class="list-inline-item me-4"><a class="text-black" href="terms.html">Terms &amp; Conditions</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-lg-4 col-md-6 text-md-end mt-4 mt-md-0">
+            <div class="col-lg-4 col-md-6 position-absolute end-0 top-0 text-md-end mt-4 mt-md-0">
                 <ul class="list-unstyled list-inline mb-0 social-icons">
                     <li class="list-inline-item me-3"><a title="Explorer Facebook Profile" class="text-black"
-                            href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                    </li>
-                    <li class="list-inline-item me-3"><a title="Explorer Twitter Profile" class="text-black"
-                            href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                    </li>
+                            href="https://www.facebook.com/@PemerintahKabupatenTulangBawang/?locale=id_ID"><i class="fab fa-facebook-f"></i></a></li>
+                    <li class="list-inline-item me-3"><a title="Explorer Youtube Profile" class="text-black"
+                            href="https://www.youtube.com/channel/UCAsCjRK-eZhWnKjpIX253qw"><i class="fab fa-youtube"></i></a></li>
                     <li class="list-inline-item me-3"><a title="Explorer Instagram Profile" class="text-black"
-                            href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-                    </li>
+                            href="https://www.instagram.com/mediacenterpemkabtulangbawang/"><i class="fab fa-instagram"></i></a></li>
                 </ul>
             </div>
         </div>
+
+
     </div>
 </footer>

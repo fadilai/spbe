@@ -9191,7 +9191,7 @@ a:hover {
 
 .section {
   padding-top: 120px;
-  padding-bottom: 120px;
+  padding-bottom: 100px;
 }
 .section-sm {
   padding-top: 100px;
@@ -9236,7 +9236,7 @@ a:hover {
 }
 
 .text-primary {
-  color: #51b56d !important;
+  color: #114a43 !important;
 }
 
 .text-black {
@@ -9783,11 +9783,11 @@ blockquote::before {
 }
 .service-item .colored-box {
   display: inline-block;
-  height: 70px;
-  width: 70px;
-  line-height: 70px;
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
   border-radius: 8px;
-  color: #51b56d;
+  color: #114A43;
   background-color: rgba(81, 181, 109, 0.2);
 }
 .service-item .service-title {
@@ -9797,13 +9797,13 @@ blockquote::before {
   color: #888888;
 }
 .service-item a:hover .service-title {
-  color: #51b56d;
+  color: #114a43;
 }
 .service-item a:hover .service-description {
   color: #888888;
 }
 .service-item .block {
-  padding: 35px 39px;
+  padding: 20px 30px;
 }
 @media (min-width: 991px) {
   .service-item:nth-child(2),
@@ -10496,4 +10496,7 @@ textarea.form-control {
   text-decoration: underline;
 }
 
+#tentang p{
+    font-size:14px ;
+}
 /* END CUSTOM STYLE */
