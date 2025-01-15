@@ -26,19 +26,25 @@
 
     <!-- # Main Style Sheet -->
     <link rel="stylesheet" href="{{ asset('spbe_template/css/style.css') }}">
+        <link rel="stylesheet" href="{{ asset('spbe_template/css/efek.css') }}">
+
 </head>
 
 <body>
 
-    <!-- Header Start -->
+    {{-- Header --}}
     @include('spbe.layouts.header')
-    <!-- Header End -->
+    {{-- End Header --}}
+
+    {{-- Modal --}}
+    @include('spbe.components.modal')
+    {{-- Modal End --}}
 
     @yield('content')
 
-    <!-- Footer Start -->
+   {{-- Footer --}}
     @include('spbe.layouts.footer')
-    <!-- Footer End -->
+    {{-- Footer End --}}
 
     <!-- # JS Plugins -->
     <script src="{{ asset('spbe_template/plugins/jquery/jquery.min.js') }}"></script>

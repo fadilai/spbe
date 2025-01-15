@@ -1,58 +1,6 @@
 @extends('spbe.layouts.app')
 
 @section('content')
-    <div class="modal applyLoanModal fade" id="applyLoan" tabindex="-1" aria-labelledby="applyLoanLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header border-bottom-0">
-                    <h4 class="modal-title" id="exampleModalLabel">How much do you need?</h4>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <form action="#!" method="post">
-                        <div class="row">
-                            <div class="col-lg-6 mb-4 pb-2">
-                                <div class="form-group">
-                                    <label for="loan_amount" class="form-label">Amount</label>
-                                    <input type="number" class="form-control shadow-none" id="loan_amount"
-                                        placeholder="ex: 25000">
-                                </div>
-                            </div>
-                            <div class="col-lg-6 mb-4 pb-2">
-                                <div class="form-group">
-                                    <label for="loan_how_long_for" class="form-label">How long for?</label>
-                                    <input type="number" class="form-control shadow-none" id="loan_how_long_for"
-                                        placeholder="ex: 12">
-                                </div>
-                            </div>
-                            <div class="col-lg-12 mb-4 pb-2">
-                                <div class="form-group">
-                                    <label for="loan_repayment" class="form-label">Repayment</label>
-                                    <input type="number" class="form-control shadow-none" id="loan_repayment" disabled>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 mb-4 pb-2">
-                                <div class="form-group">
-                                    <label for="loan_full_name" class="form-label">Full Name</label>
-                                    <input type="text" class="form-control shadow-none" id="loan_full_name">
-                                </div>
-                            </div>
-                            <div class="col-lg-6 mb-4 pb-2">
-                                <div class="form-group">
-                                    <label for="loan_email_address" class="form-label">Email address</label>
-                                    <input type="email" class="form-control shadow-none" id="loan_email_address">
-                                </div>
-                            </div>
-                            <div class="col-lg-12">
-                                <button type="submit" class="btn btn-primary w-100">Get Your Loan Now</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <section class="banner bg-tertiary position-relative overflow-hidden">
         <div class="container">
             <div class="row align-items-center justify-content-center">
@@ -62,13 +10,14 @@
                         <p class="mb-4">Sistem Pemerintahan Berbasis Elektronik (SPBE) Mendukung Pelayanan Publik. Melalui
                             penerapan SPBE, kami berkomitmen untuk memberikan pelayanan yang lebih cepat, mudah, dan
                             terintegrasi guna memenuhi kebutuhan masyarakat secara optimal.</p> <a type="button"
-                            class="btn btn-custom" href="#" data-bs-toggle="modal" data-bs-target="#applyLoan">Kunjungi Sekarang<span style="font-size: 14px;" class="ms-2 fas fa-arrow-right"></span></a>
+                            class="btn btn-custom" href="#" data-bs-toggle="modal" data-bs-target="#applyLoan">Kunjungi
+                            Sekarang<span style="font-size: 14px;" class="ms-2 fas fa-arrow-right"></span></a>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="ps-lg-5 text-center">
-                        <img loading="lazy" decoding="async" src="{{ asset('spbe_template/images/banner/banner.png') }}"
-                            alt="banner image" class="w-100">
+                        <img loading="lazy" decoding="async" src="{{ asset('spbe_template/images/bupati.svg') }}"
+                            alt="banner image" class="w-60" style="width: 90%;">
                     </div>
                 </div>
             </div>
@@ -130,8 +79,8 @@
                         <h2 class="mb-3">Tentang</h2>
                         <p>Dasar penyusunan SPBE dengan memperhatikan komparasi peraturan PermenPanRB Nomor 5 Tahun 2018
                             dengan PermenPanRB Nomor 59 Tahun 2020.</p>
-                        <img src="{{ asset('spbe_template/images/icon_tentang.svg') }}" alt="Deskripsi gambar"
-                            class="img-fluid mt-4">
+                        <img src="{{ asset('spbe_template/images/tentang.webp') }}" alt="Deskripsi gambar"
+                            class="img-fluid mt-4 bounce-effect">
                     </div>
                 </div>
 
@@ -238,13 +187,40 @@
                         </p> <a class="btn btn-custom mt-4" href="about.html">Lihat</a>
                     </div>
                 </div>
-                <div class="col-lg-6 text-center text-lg-end">
+                <div class="col-lg-6 text-lg-end">
                     {{-- <img loading="lazy" decoding="async" src="{{ asset('spbe_template/images/index_domain.svg') }}"
                         alt="About Ourselves" class="img-fluid"> --}}
-                    <card>
-                        <a>test</a><br>
-                        </a>test</a>
-                    </card>
+                    <div class="card mb-2">
+                        <div class="card-body">
+                            <h3 class="card-title">4.0</h3>
+                            <h5 class="card-text">Nilai SPBE Tahun 2025</h5>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Domain SPBE</h5>
+                            <div class="domains-container">
+                                <div class="domain">
+                                    <h5>5.0</h5>
+                                    <p>Domain Kebijakan SPBE</p>
+                                </div>
+                                <div class="domain">
+                                    <h5>3.5</h5>
+                                    <p>Domain Tata Kelola SPBE</p>
+                                </div>
+                                <div class="domain">
+                                    <h5>1.565</h5>
+                                    <p>Domain Manajemen SPBE</p>
+                                </div>
+                                <div class="domain">
+                                    <h5>4.353</h5>
+                                    <p>Domain Layanan SPBE</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
 
 
                 </div>
@@ -508,11 +484,8 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="section-title text-center">
-                        <p class="text-primary text-uppercase fw-bold mb-3">Our Service Holders</p>
-                        <h1 class="mb-4">Trusted By 1.2K+ Peoples</h1>
-                        <p class="lead mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing. egestas cursus
-                            pellentesque dignissim
-                            dui, congue. Vel etiam ut</p>
+                        <h2 class="mb-4">Kegiatan SPBE</h2>
+                        <p class="text-primary fw-bold mb-3">Memastikan penerapan unsur-unsur SPBE secara terpadu.</p>
                     </div>
                 </div>
             </div>

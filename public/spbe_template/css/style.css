@@ -9804,7 +9804,7 @@ blockquote::before {
     color: #888888;
 }
 .service-item .block {
-    padding: 20px 30px;
+    padding: 20px 26px;
 }
 @media (min-width: 991px) {
     .service-item:nth-child(2),
@@ -10555,4 +10555,16 @@ textarea.form-control {
     font-size: 14px;
     line-height: 1.5;
 }
+
+
+.domains-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.domain p{
+    font-size: 14px;
+}
+
 /* END CUSTOM STYLE */
