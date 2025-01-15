@@ -62,8 +62,7 @@
                         <p class="mb-4">Sistem Pemerintahan Berbasis Elektronik (SPBE) Mendukung Pelayanan Publik. Melalui
                             penerapan SPBE, kami berkomitmen untuk memberikan pelayanan yang lebih cepat, mudah, dan
                             terintegrasi guna memenuhi kebutuhan masyarakat secara optimal.</p> <a type="button"
-                            class="btn btn-custom" href="#" data-bs-toggle="modal" data-bs-target="#applyLoan">Apply
-                            Loan Now <span style="font-size: 14px;" class="ms-2 fas fa-arrow-right"></span></a>
+                            class="btn btn-custom" href="#" data-bs-toggle="modal" data-bs-target="#applyLoan">Kunjungi Sekarang<span style="font-size: 14px;" class="ms-2 fas fa-arrow-right"></span></a>
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -126,7 +125,7 @@
     <section id="tentang" class="section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4">
                     <div class="section-title pt-4">
                         <h2 class="mb-3">Tentang</h2>
                         <p>Dasar penyusunan SPBE dengan memperhatikan komparasi peraturan PermenPanRB Nomor 5 Tahun 2018
@@ -137,7 +136,7 @@
                 </div>
 
                 <!-- Start of Service Items (2 rows of 2 items) -->
-                <div class="col-lg-8 col-md-6">
+                <div class="col-lg-8">
                     <div class="row">
                         <!-- First row -->
                         <div class="col-md-6">
@@ -290,7 +289,7 @@
             <div class="row align-items-center justify-content-between">
                 <div class="col-lg-5">
                     <div class="section-title">
-                        <p class="text-primary text-uppercase fw-bold mb-3">Difference Of Us</p>
+                        <p class="text-primary text-uppercase fw-bold mb-3"></p>
                         <h1>What Makes Us <br> Different Form Other?</h1>
                         <div class="content mb-0 mt-4">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consv allis quam aliquet integer
@@ -354,12 +353,12 @@
     </section>
 
     <section class="homepage_tab position-relative">
-        <div class="section container">
+        <div class="section container pt-5">
             <div class="row justify-content-center">
                 <div class="col-lg-8 mb-4">
                     <div class="section-title text-center">
-                        <p class="text-primary text-uppercase fw-bold mb-3">Difference Of Us</p>
-                        <h1>Get Know The Basics Simple Pricing And Payments</h1>
+                        <h2>Layanan SPBE</h2>
+                        <p class="text-primary fw-bold mb-3">Memastikan penerapan unsur-unsur SPBE secara terpadu.</p>
                     </div>
                 </div>
                 <div class="col-lg-10">
@@ -368,22 +367,21 @@
                                 class="nav-link btn btn-outline-primary effect-none text-dark active"
                                 id="pills-how-much-can-i-recive-tab" data-bs-toggle="pill"
                                 href="#pills-how-much-can-i-recive" role="tab"
-                                aria-controls="pills-how-much-can-i-recive" aria-selected="true">How Much Can I
-                                Recive?</a>
+                                aria-controls="pills-how-much-can-i-recive" aria-selected="true">Administrasi
+                                Pemerintahan</a>
                         </li>
                         <li class="nav-item m-2" role="presentation"> <a
                                 class="nav-link btn btn-outline-primary effect-none text-dark "
                                 id="pills-how-much-does-it-costs-tab" data-bs-toggle="pill"
                                 href="#pills-how-much-does-it-costs" role="tab"
-                                aria-controls="pills-how-much-does-it-costs" aria-selected="true">How Much Does It
-                                Costs?</a>
+                                aria-controls="pills-how-much-does-it-costs" aria-selected="true">Layanan Publik</a>
                         </li>
-                        <li class="nav-item m-2" role="presentation"> <a
+                        {{-- <li class="nav-item m-2" role="presentation"> <a
                                 class="nav-link btn btn-outline-primary effect-none text-dark "
                                 id="pills-how-do-i-repay-tab" data-bs-toggle="pill" href="#pills-how-do-i-repay"
                                 role="tab" aria-controls="pills-how-do-i-repay" aria-selected="true">How Do I
                                 Repay?</a>
-                        </li>
+                        </li> --}}
                     </ul>
                     <div class="rounded shadow bg-white p-5 tab-content" id="pills-tabContent">
                         <div class="tab-pane fade show active" id="pills-how-much-can-i-recive" role="tabpanel"

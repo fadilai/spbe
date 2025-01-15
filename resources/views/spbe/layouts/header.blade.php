@@ -24,17 +24,17 @@
                     <li class="nav-item">
                         <a class="nav-link {{ request()->is('domain') ? 'active' : '' }}" href="/domain">Domain SPBE</a>
                     </li>
-                    <li class="nav-item "> <a class="nav-link" href="how-it-works.html">Kebijakan</a>
+                    <li class="nav-item "> <a class="nav-link" href="#">Kebijakan</a>
                     </li>
-                    <li class="nav-item "> <a class="nav-link" href="services.html">Tata Kelola</a>
+                    <li class="nav-item "> <a class="nav-link" href="#">Tata Kelola</a>
                     </li>
-                    <li class="nav-item "> <a class="nav-link" href="contact.html">Manajemen</a>
+                    <li class="nav-item "> <a class="nav-link" href="#">Manajemen</a>
                     </li>
-                    <li class="nav-item "> <a class="nav-link" href="contact.html">Layanan</a>
+                    <li class="nav-item "> <a class="nav-link" href="#">Layanan</a>
                     </li>
                 </ul>
-                <a href="#!" class="btn btn-outline-primary cutom-color">Log In</a>
-                <a href="#!" class="btn btn-custom ms-2 ms-lg-3">Sign Up</a>
+                <a href="#!" class="btn btn-outline-primary cutom-color">Masuk</a>
+                <a href="#!" class="btn btn-custom ms-2 ms-lg-3">Daftar</a>
             </div>
         </div>
     </nav>
