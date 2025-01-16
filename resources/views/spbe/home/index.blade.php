@@ -16,8 +16,8 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="ps-lg-5 text-center">
-                        <img loading="lazy" decoding="async" src="{{ asset('spbe_template/images/bupati.svg') }}"
-                            alt="banner image" class="w-60" style="width: 90%;">
+                        <img loading="lazy" decoding="async" src="{{ asset('spbe_template/images/img_cover.png') }}"
+                            alt="banner image" class="w-70">
                     </div>
                 </div>
             </div>
@@ -90,7 +90,7 @@
                         <!-- First row -->
                         <div class="col-md-6">
                             <div class="service-item">
-                                <a class="text-black" href="service-details.html">
+                                <a class="text-black" href="#kebijakan">
                                     <div class="block">
                                         <span class="colored-box text-center h4 mb-4">01</span>
                                         <h4 class="mb-3 service-title">Kebijakan SPBE</h4>
@@ -187,7 +187,7 @@
                         </p> <a class="btn btn-custom mt-4" href="about.html">Lihat</a>
                     </div>
                 </div>
-                <div class="col-lg-6 text-lg-end">
+                <div class="col-lg-6">
                     {{-- <img loading="lazy" decoding="async" src="{{ asset('spbe_template/images/index_domain.svg') }}"
                         alt="About Ourselves" class="img-fluid"> --}}
                     <div class="card mb-2">
@@ -260,78 +260,124 @@
         </div>
     </section>
 
-    <section class="section">
+    <section id="kebijakan" class="section">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-lg-5">
                     <div class="section-title">
                         <p class="text-primary text-uppercase fw-bold mb-3"></p>
-                        <h1>What Makes Us <br> Different Form Other?</h1>
+                        <h2>Kebijakan SPBE</h2>
                         <div class="content mb-0 mt-4">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consv allis quam aliquet integer
-                                eget magna
-                                ullam corper intesager peent esque urna. Ac eu fringilla intea dger egadv estas ut. Sed
-                                vulutate aenean
-                                nunc quis a urna morbi id vitae. Vulpuate nisl</p>
-                            <p>sed morbi sit ut placerat eges aeftas et. Pellen tesque tristisque magnis augue gravida
-                                pulvinar
-                                placerat. Tellus massa pretra scelerisque leo. In volutpat arcu nunc nisl et, viverra
-                                faucisfbus egestas.
-                                In habitasse sagittis, convallis ut commodo amet, odio sagittis. Maecenas massa turpis duis
-                                felis, massa.
-                                Morbi feugiat.</p>
+                            <p>Memastikan penerapan unsur-unsur SPBE secara terpadu.</p>
+                            <img src="{{ asset('spbe_template/images/kebijakan.webp') }}" alt="Deskripsi gambar"
+                                class="img-fluid mt-4 bounce-effect">
+
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="difference-of-us-item p-3 rounded mr-0 me-lg-4">
-                        <div class="d-block d-sm-flex align-items-center m-2">
-                            <div class="icon me-4 mb-4 mb-sm-0"> <i class="fas fa-shield-alt mt-4"
-                                    style="font-size:36px"></i>
+                    <div class="scrollable-items" style="max-height: 400px; overflow-y: auto;">
+                        <div class="difference-of-us-item p-3 rounded mr-0 me-lg-4">
+                            <div class="d-block d-sm-flex align-items-center m-2">
+                                <div class="icon me-4 mb-4 mb-sm-0"> <i class="bi-journal-bookmark-fill mt-3"
+                                        style="font-size:28px"></i>
+                                </div>
+                                <div class="block">
+                                    <h5 class="mb-3">Peraturan Presiden 132 Tahun 2022</h5>
+                                    <a href="#" class="mb-0" data-bs-toggle="modal"
+                                        data-bs-target="#applyLoan">Lihat<i class="bi bi-arrow-right-circle ms-2"></i></a>
+                                </div>
                             </div>
-                            <div class="block">
-                                <h3 class="mb-3">Fast And Secure Process</h3>
-                                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing. Portaa nulla congue
-                                    sed aliquam id
-                                    adipiscing auue</p>
+                        </div>
+                        <div class="difference-of-us-item p-3 rounded mr-0 me-lg-4">
+                            <div class="d-block d-sm-flex align-items-center m-2">
+                                <div class="icon me-4 mb-4 mb-sm-0"> <i class="bi-journal-bookmark-fill mt-3"
+                                        style="font-size:28px"></i>
+                                </div>
+                                <div class="block">
+                                    <h5 class="mb-3">Peraturan Presiden 82 Tahun 2023</h5>
+                                    <a href="#" class="mb-0" data-bs-toggle="modal"
+                                        data-bs-target="#applyLoan">Lihat<i class="bi bi-arrow-right-circle ms-2"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="difference-of-us-item p-3 rounded mr-0 me-lg-4">
+                            <div class="d-block d-sm-flex align-items-center m-2">
+                                <div class="icon me-4 mb-4 mb-sm-0"> <i class="bi-journal-bookmark-fill mt-3"
+                                        style="font-size:28px"></i>
+                                </div>
+                                <div class="block">
+                                    <h5 class="mb-3">Peraturan Presiden 47 Tahun 2023</h5>
+                                    <a href="#" class="mb-0" data-bs-toggle="modal"
+                                        data-bs-target="#applyLoan">Lihat<i class="bi bi-arrow-right-circle ms-2"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="difference-of-us-item p-3 rounded mr-0 me-lg-4">
+                            <div class="d-block d-sm-flex align-items-center m-2">
+                                <div class="icon me-4 mb-4 mb-sm-0"> <i class="bi-journal-bookmark-fill mt-3"
+                                        style="font-size:28px"></i>
+                                </div>
+                                <div class="block">
+                                    <h5 class="mb-3">Peraturan Presiden 132 Tahun 2022</h5>
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#applyLoan"
+                                        class="mb-0">Lihat<i class="bi bi-arrow-right-circle ms-2"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="difference-of-us-item p-3 rounded mr-0 me-lg-4">
+                            <div class="d-block d-sm-flex align-items-center m-2">
+                                <div class="icon me-4 mb-4 mb-sm-0"> <i class="bi-journal-bookmark-fill mt-3"
+                                        style="font-size:28px"></i>
+                                </div>
+                                <div class="block">
+                                    <h5 class="mb-3">Peraturan Presiden 132 Tahun 2022</h5>
+                                    <a href="/" class="mb-0">Lihat<i
+                                            class="bi bi-arrow-right-circle ms-2"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="difference-of-us-item p-3 rounded mr-0 me-lg-4">
+                            <div class="d-block d-sm-flex align-items-center m-2">
+                                <div class="icon me-4 mb-4 mb-sm-0"> <i class="bi-journal-bookmark-fill mt-3"
+                                        style="font-size:28px"></i>
+                                </div>
+                                <div class="block">
+                                    <h5 class="mb-3">Peraturan Presiden 132 Tahun 2022</h5>
+                                    <a href="/" class="mb-0">Lihat<i
+                                            class="bi bi-arrow-right-circle ms-2"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="difference-of-us-item p-3 rounded mr-0 me-lg-4">
+                            <div class="d-block d-sm-flex align-items-center m-2">
+                                <div class="icon me-4 mb-4 mb-sm-0"> <i class="bi-journal-bookmark-fill mt-3"
+                                        style="font-size:28px"></i>
+                                </div>
+                                <div class="block">
+                                    <h5 class="mb-3">Peraturan Presiden 132 Tahun 2022</h5>
+                                    <a href="/" class="mb-0">Lihat<i
+                                            class="bi bi-arrow-right-circle ms-2"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="difference-of-us-item p-3 rounded mr-0 me-lg-4">
-                        <div class="d-block d-sm-flex align-items-center m-2">
-                            <div class="icon me-4 mb-4 mb-sm-0"> <i class="fas fa-blender-phone mt-4"
-                                    style="font-size:36px"></i>
-                            </div>
-                            <div class="block">
-                                <h3 class="mb-3">Quick Question Answers</h3>
-                                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing. Portaa nulla congue
-                                    sed aliquam id
-                                    adipiscing auue</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="difference-of-us-item p-3 rounded mr-0 me-lg-4">
-                        <div class="d-block d-sm-flex align-items-center m-2">
-                            <div class="icon me-4 mb-4 mb-sm-0"> <i class="fas fa-money-bill-alt mt-4"
-                                    style="font-size:36px"></i>
-                            </div>
-                            <div class="block">
-                                <h3 class="mb-3">We Get You Your Cash Quick</h3>
-                                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing. Portaa nulla congue
-                                    sed aliquam id
-                                    adipiscing auue</p>
-                            </div>
-                        </div>
+
+                    <div class="d-flex justify-content-center">
+                        <button class="btn btn-custom mt-4" data-bs-toggle="modal" data-bs-target="#applyLoan"><i
+                                class="bi bi-journals me-2"></i>Lihat Semua</button>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="homepage_tab position-relative">
+    <section class="homepage_tab position-relative" id="layanan">
         <div class="section container pt-5">
             <div class="row justify-content-center">
-                <div class="col-lg-8 mb-4">
+                <div class="col-lg-8">
                     <div class="section-title text-center">
                         <h2>Layanan SPBE</h2>
                         <p class="text-primary fw-bold mb-3">Memastikan penerapan unsur-unsur SPBE secara terpadu.</p>
@@ -352,12 +398,6 @@
                                 href="#pills-how-much-does-it-costs" role="tab"
                                 aria-controls="pills-how-much-does-it-costs" aria-selected="true">Layanan Publik</a>
                         </li>
-                        {{-- <li class="nav-item m-2" role="presentation"> <a
-                                class="nav-link btn btn-outline-primary effect-none text-dark "
-                                id="pills-how-do-i-repay-tab" data-bs-toggle="pill" href="#pills-how-do-i-repay"
-                                role="tab" aria-controls="pills-how-do-i-repay" aria-selected="true">How Do I
-                                Repay?</a>
-                        </li> --}}
                     </ul>
                     <div class="rounded shadow bg-white p-5 tab-content" id="pills-tabContent">
                         <div class="tab-pane fade show active" id="pills-how-much-can-i-recive" role="tabpanel"
@@ -365,22 +405,83 @@
                             <div class="row align-items-center">
                                 <div class="col-md-6 order-1 order-md-0">
                                     <div class="content-block">
-                                        <h3 class="mb-4">How Much Can I Recive?</h3>
+                                        <h5 class="mb-4">Administrasi Pemerintahan</h5>
                                         <div class="content">
-                                            <p>Lorem ipsum dolor sit amet, consec tetasssur adipiscing elit. Tellus integer
-                                                proin nisl pretium,
-                                                vestibulum dictum blandit risus. Nisl commodo</p>
-                                            <p>turpis vivamus donec. Id congue vesti bualum odio dignissim at quisque
-                                                viverra. Non semper in sed
-                                                quisque dui. Platea posuere ullamcorper id fames ut sed urna cursus eget.
-                                                Neque, vel</p>
+                                            <div class="row">
+                                                <!-- Card 1 -->
+                                                <div class="col-md-6 mb-4">
+                                                    <a href="/  ">
+                                                        <div class="card shadow-sm h-100 rounded-4">
+                                                            <div class="card-body text-center">
+                                                                <div class="mb-3">
+                                                                    <img src="{{ asset('spbe_template/images/ssss.jpg') }}"
+                                                                        alt="Icon" class="img-fluid"
+                                                                        style="width:70%;object-fit: contain;border-radius:8px;">
+                                                                </div>
+                                                                <b class="card-title">Layanan 1</b>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <!-- Card 2 -->
+                                                <div class="col-md-6 mb-4">
+                                                    <a href="/  ">
+                                                        <div class="card shadow-sm h-100 rounded-4">
+                                                            <div class="card-body text-center">
+                                                                <div class="mb-3">
+                                                                    <img src="{{ asset('spbe_template/images/ssss.jpg') }}"
+                                                                        alt="Icon" class="img-fluid"
+                                                                        style="width:70%;object-fit: contain;border-radius:8px;">
+                                                                </div>
+                                                                <b class="card-title">Layanan 2</b>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <!-- Card 3 -->
+                                                <div class="col-md-6 mb-4">
+                                                    <a href="/  ">
+                                                        <div class="card shadow-sm h-100 rounded-4">
+                                                            <div class="card-body text-center">
+                                                                <div class="mb-3">
+                                                                    <img src="{{ asset('spbe_template/images/ssss.jpg') }}"
+                                                                        alt="Icon" class="img-fluid"
+                                                                        style="width:70%;object-fit: contain;border-radius:8px;">
+                                                                </div>
+                                                                <b class="card-title">Layanan 3</b>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <!-- Card 4 -->
+                                                <div class="col-md-6 mb-4">
+                                                    <a href="/  ">
+                                                        <div class="card shadow-sm h-100 rounded-4">
+                                                            <div class="card-body text-center">
+                                                                <div class="mb-3">
+                                                                    <img src="{{ asset('spbe_template/images/ssss.jpg') }}"
+                                                                        alt="Icon" class="img-fluid"
+                                                                        style="width:70%;object-fit: contain;border-radius:8px;">
+                                                                </div>
+                                                                <b class="card-title">Layanan 4</b>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-center">
+                                                <button class="btn btn-custom mt-2" data-bs-toggle="modal"
+                                                    data-bs-target="#applyLoan"><i
+                                                        class="bi bi-journals me-2"></i>Selengkapnya</button>
+                                            </div>
+
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-6 order-0 order-md-1 mb-5 mt-md-0">
                                     <div class="image-block text-center">
                                         <img loading="lazy" decoding="async"
-                                            src="{{ asset('spbe_template/images/payment-info.png') }}"
+                                            src="{{ asset('spbe_template/images/img_layanan_1.jpg') }}"
                                             alt="How Much Can I Recive?" class="img-fluid">
                                     </div>
                                 </div>
@@ -391,49 +492,84 @@
                             <div class="row align-items-center">
                                 <div class="col-md-6 order-1 order-md-0">
                                     <div class="content-block">
-                                        <h3 class="mb-4">How Much Does It Costs?</h3>
+                                        <h5 class="mb-4">Layanan Publik</h5>
                                         <div class="content">
-                                            <p>Lorem ipsum dolor sit amet, consec tetasssur adipiscing elit. Tellus integer
-                                                proin nisl pretium,
-                                                vestibulum dictum blandit risus. Nisl commodo</p>
-                                            <p>turpis vivamus donec. Id congue vesti bualum odio dignissim at quisque
-                                                viverra. Non semper in sed
-                                                quisque dui. Platea posuere ullamcorper id fames ut sed urna cursus eget.
-                                                Neque, vel</p>
+                                            <div class="row">
+                                                <!-- Card 1 -->
+                                                <div class="col-md-6 mb-4">
+                                                    <a href="/  ">
+                                                        <div class="card shadow-sm h-100 rounded-4">
+                                                            <div class="card-body text-center">
+                                                                <div class="mb-3">
+                                                                    <img src="{{ asset('spbe_template/images/ssss.jpg') }}"
+                                                                        alt="Icon" class="img-fluid"
+                                                                        style="width:70%;object-fit: contain;border-radius:8px;">
+                                                                </div>
+                                                                <b class="card-title">Layanan 1</b>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <!-- Card 2 -->
+                                                <div class="col-md-6 mb-4">
+                                                    <a href="/  ">
+                                                        <div class="card shadow-sm h-100 rounded-4">
+                                                            <div class="card-body text-center">
+                                                                <div class="mb-3">
+                                                                    <img src="{{ asset('spbe_template/images/ssss.jpg') }}"
+                                                                        alt="Icon" class="img-fluid"
+                                                                        style="width:70%;object-fit: contain;border-radius:8px;">
+                                                                </div>
+                                                                <b class="card-title">Layanan 2</b>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <!-- Card 3 -->
+                                                <div class="col-md-6 mb-4">
+                                                    <a href="/  ">
+                                                        <div class="card shadow-sm h-100 rounded-4">
+                                                            <div class="card-body text-center">
+                                                                <div class="mb-3">
+                                                                    <img src="{{ asset('spbe_template/images/ssss.jpg') }}"
+                                                                        alt="Icon" class="img-fluid"
+                                                                        style="width:70%;object-fit: contain;border-radius:8px;">
+                                                                </div>
+                                                                <b class="card-title">Layanan 3</b>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <!-- Card 4 -->
+                                                <div class="col-md-6 mb-4">
+                                                    <a href="/  ">
+                                                        <div class="card shadow-sm h-100 rounded-4">
+                                                            <div class="card-body text-center">
+                                                                <div class="mb-3">
+                                                                    <img src="{{ asset('spbe_template/images/ssss.jpg') }}"
+                                                                        alt="Icon" class="img-fluid"
+                                                                        style="width:70%;object-fit: contain;border-radius:8px;">
+                                                                </div>
+                                                                <b class="card-title">Layanan 4</b>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-center">
+                                                <button class="btn btn-custom mt-2" data-bs-toggle="modal"
+                                                    data-bs-target="#applyLoan"><i
+                                                        class="bi bi-journals me-2"></i>Selengkapnya</button>
+                                            </div>
+
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-6 order-0 order-md-1 mb-5 mt-md-0">
                                     <div class="image-block text-center">
                                         <img loading="lazy" decoding="async"
-                                            src="{{ asset('spbe_template/images/illustration-2.png') }}"
+                                            src="{{ asset('spbe_template/images/img_layanan_2.jpg') }}"
                                             alt="How Much Does It Costs?" class="img-fluid">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade " id="pills-how-do-i-repay" role="tabpanel"
-                            aria-labelledby="pills-how-do-i-repay-tab">
-                            <div class="row align-items-center">
-                                <div class="col-md-6 order-1 order-md-0">
-                                    <div class="content-block">
-                                        <h3 class="mb-4">How Do I Repay?</h3>
-                                        <div class="content">
-                                            <p>Lorem ipsum dolor sit amet, consec tetasssur adipiscing elit. Tellus integer
-                                                proin nisl pretium,
-                                                vestibulum dictum blandit risus. Nisl commodo</p>
-                                            <p>turpis vivamus donec. Id congue vesti bualum odio dignissim at quisque
-                                                viverra. Non semper in sed
-                                                quisque dui. Platea posuere ullamcorper id fames ut sed urna cursus eget.
-                                                Neque, vel</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 order-0 order-md-1 mb-5 mt-md-0">
-                                    <div class="image-block text-center">
-                                        <img loading="lazy" decoding="async"
-                                            src="{{ asset('spbe_template/images/illustration-1.png') }}"
-                                            alt="How Do I Repay?" class="img-fluid">
                                     </div>
                                 </div>
                             </div>
@@ -490,103 +626,56 @@
                 </div>
             </div>
             <div class="row position-relative">
+                <!-- Card 1 -->
                 <div class="col-lg-4 col-md-6 pt-1">
-                    <div class="shadow rounded bg-white p-4 mt-4">
-                        <div class="d-block d-sm-flex align-items-center mb-3">
-                            <img loading="lazy" decoding="async"
-                                src="{{ asset('spbe_template/images/testimonials/01.jpg') }}" alt="Leslie Alexander"
-                                class="img-fluid" width="65" height="66">
-                            <div class="mt-3 mt-sm-0 ms-0 ms-sm-3">
-                                <h4 class="h5 mb-1">Leslie Alexander</h4>
-                                <p class="mb-0">Web Designer</p>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#applyLoan" class="text-decoration-none">
+                        <div class="shadow rounded bg-white p-4 mt-4">
+                            <div class="d-block d-sm-flex align-items-center mb-3">
+                                <i class="bi bi-calendar3" style="font-size: 30px;color:#114a43;"></i>
+                                <div class="mt-3 mt-sm-0 ms-0 ms-sm-3">
+                                    <h4 class="h5 mb-1">Rapat Penggunaan Aplikasi Penilaian SPBE Mandiri 2024</h4>
+                                    <div class="content"><i class="bi bi-geo-alt me-2"></i>Ruang Rapat Komunika</div>
+                                    <p class="mb-0"><i class="bi bi-stopwatch me-2"></i>Senin, 15 Juli 2024</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="content">Lorem ipsum dolor <a href="http://google.com">@reamansimond</a> demina
-                            egestas sit purus
-                            felis arcu. Vitae, turpisds tortr etiam faucibus ac suspendisse.</div>
-                    </div>
+                    </a>
                 </div>
+
+                <!-- Card 2 -->
                 <div class="col-lg-4 col-md-6 pt-1">
-                    <div class="shadow rounded bg-white p-4 mt-4">
-                        <div class="d-block d-sm-flex align-items-center mb-3">
-                            <img loading="lazy" decoding="async"
-                                src="{{ asset('spbe_template/images/testimonials/02.jpg') }}" alt="Arlene McCoy"
-                                class="img-fluid" width="65" height="66">
-                            <div class="mt-3 mt-sm-0 ms-0 ms-sm-3">
-                                <h4 class="h5 mb-1">Arlene McCoy</h4>
-                                <p class="mb-0">Content Strategist</p>
+                    <a href="#" class="text-decoration-none">
+                        <div class="shadow rounded bg-white p-4 mt-4">
+                            <div class="d-block d-sm-flex align-items-center mb-3">
+                                <i class="bi bi-calendar3" style="font-size: 30px;color:#114a43;"></i>
+                                <div class="mt-3 mt-sm-0 ms-0 ms-sm-3">
+                                    <h4 class="h5 mb-1">Rapat Penggunaan Aplikasi Penilaian SPBE Mandiri 2024</h4>
+                                    <div class="content"><i class="bi bi-geo-alt me-2"></i>Ruang Rapat Komunika</div>
+                                    <p class="mb-0"><i class="bi bi-stopwatch me-2"></i>Senin, 15 Juli 2024</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="content">Lorem ipsum dolor <a href="http://google.com">@reamansimond</a> demina
-                            egestas sit purus
-                            felis arcu. Vitae, turpisds tortr etiam faucibus ac suspendisse.</div>
-                    </div>
+                    </a>
                 </div>
+
+                <!-- Card 3 -->
                 <div class="col-lg-4 col-md-6 pt-1">
-                    <div class="shadow rounded bg-white p-4 mt-4">
-                        <div class="d-block d-sm-flex align-items-center mb-3">
-                            <img loading="lazy" decoding="async"
-                                src="{{ asset('spbe_template/images/testimonials/03.jpg') }}" alt="Marvin McKinney"
-                                class="img-fluid" width="65" height="66">
-                            <div class="mt-3 mt-sm-0 ms-0 ms-sm-3">
-                                <h4 class="h5 mb-1">Marvin McKinney</h4>
-                                <p class="mb-0">Video Game Writer</p>
+                    <a href="#" class="text-decoration-none">
+                        <div class="shadow rounded bg-white p-4 mt-4">
+                            <div class="d-block d-sm-flex align-items-center mb-3">
+                                <i class="bi bi-calendar3" style="font-size: 30px;color:#114a43;"></i>
+                                <div class="mt-3 mt-sm-0 ms-0 ms-sm-3">
+                                    <h4 class="h5 mb-1">Rapat Penggunaan Aplikasi Penilaian SPBE Mandiri 2024</h4>
+                                    <div class="content"><i class="bi bi-geo-alt me-2"></i>Ruang Rapat Komunika</div>
+                                    <p class="mb-0"><i class="bi bi-stopwatch me-2"></i>Senin, 15 Juli 2024</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="content">Lorem ipsum dolor <a href="http://google.com">@reamansimond</a> demina
-                            egestas sit purus
-                            felis arcu. Vitae, turpisds tortr etiam faucibus ac suspendisse.</div>
-                    </div>
+                    </a>
                 </div>
-                <div class="col-lg-4 col-md-6 pt-1">
-                    <div class="shadow rounded bg-white p-4 mt-4">
-                        <div class="d-block d-sm-flex align-items-center mb-3">
-                            <img loading="lazy" decoding="async"
-                                src="{{ asset('spbe_template/images/testimonials/04.jpg') }}" alt="Devon Lane"
-                                class="img-fluid" width="65" height="66">
-                            <div class="mt-3 mt-sm-0 ms-0 ms-sm-3">
-                                <h4 class="h5 mb-1">Devon Lane</h4>
-                                <p class="mb-0">Nursing Assistant</p>
-                            </div>
-                        </div>
-                        <div class="content">Lorem ipsum dolor <a href="http://google.com">@reamansimond</a> demina
-                            egestas sit purus
-                            felis arcu. Vitae, turpisds tortr etiam faucibus ac suspendisse.</div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 pt-1">
-                    <div class="shadow rounded bg-white p-4 mt-4">
-                        <div class="d-block d-sm-flex align-items-center mb-3">
-                            <img loading="lazy" decoding="async"
-                                src="{{ asset('spbe_template/images/testimonials/05.jpg') }}" alt="Bessie Cooper"
-                                class="img-fluid" width="65" height="66">
-                            <div class="mt-3 mt-sm-0 ms-0 ms-sm-3">
-                                <h4 class="h5 mb-1">Bessie Cooper</h4>
-                                <p class="mb-0">Video Game Writer</p>
-                            </div>
-                        </div>
-                        <div class="content">Lorem ipsum dolor <a href="http://google.com">@reamansimond</a> demina
-                            egestas sit purus
-                            felis arcu. Vitae, turpisds tortr etiam faucibus ac suspendisse.</div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 pt-1">
-                    <div class="shadow rounded bg-white p-4 mt-4">
-                        <div class="d-block d-sm-flex align-items-center mb-3">
-                            <img loading="lazy" decoding="async"
-                                src="{{ asset('spbe_template/images/testimonials/06.jpg') }}" alt="Kathryn Murphy"
-                                class="img-fluid" width="65" height="66">
-                            <div class="mt-3 mt-sm-0 ms-0 ms-sm-3">
-                                <h4 class="h5 mb-1">Kathryn Murphy</h4>
-                                <p class="mb-0">Film Critic</p>
-                            </div>
-                        </div>
-                        <div class="content">Lorem ipsum dolor <a href="http://google.com">@reamansimond</a> demina
-                            egestas sit purus
-                            felis arcu. Vitae, turpisds tortr etiam faucibus ac suspendisse.</div>
-                    </div>
-                </div>
+
             </div>
+
         </div>
         <div class="has-shapes">
             <svg class="shape shape-left text-light" width="290" height="709" viewBox="0 0 290 709" fill="none"
@@ -625,13 +714,26 @@
         </div>
     </section>
 
-    <section class="section">
+    <section class="section" id="manajemen">
+        <div class="container">
+            <div class="section-title text-center mb-5 pb-2">
+                <h2>Manajemen SPBE</h2>
+                <p class="text-primary fw-bold mb-3">Memastikan penerapan unsur-unsur SPBE secara terpadu.</p>
+
+            </div>
+
+
+        </div>
+    </section>
+
+    <section class="section testimonials overflow-hidden bg-tertiary">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12">
                     <div class="section-title text-center mb-5 pb-2">
-                        <p class="text-primary text-uppercase fw-bold mb-3">Questions You Have</p>
-                        <h1>Frequently Asked Questions</h1>
+                        <h2>Pengetahuan</h2>
+                        <p class="text-primary fw-bold mb-3">Beberapa pertanyaan yang sering diajukan.</p>
+
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -641,18 +743,34 @@
                                 id="heading-ebd23e34fd2ed58299b32c03c521feb0b02f19d9" type="button"
                                 data-bs-toggle="collapse"
                                 data-bs-target="#collapse-ebd23e34fd2ed58299b32c03c521feb0b02f19d9" aria-expanded="true"
-                                aria-controls="collapse-ebd23e34fd2ed58299b32c03c521feb0b02f19d9">Can I apply if my credit
-                                isn&rsquo;t
-                                perfect?
+                                aria-controls="collapse-ebd23e34fd2ed58299b32c03c521feb0b02f19d9">Apa kebijakan yang
+                                mengatur kerangka kerja SPBE di Kabupaten Pasuruan?
                             </h2>
                             <div id="collapse-ebd23e34fd2ed58299b32c03c521feb0b02f19d9"
                                 class="accordion-collapse collapse border-0 show"
                                 aria-labelledby="heading-ebd23e34fd2ed58299b32c03c521feb0b02f19d9"
                                 data-bs-parent="#accordionFAQ">
-                                <div class="accordion-body py-0 content">The difference between and premium product consist
-                                    number of
-                                    components, plugins, page in each. The Free versions contain only a few elements and
-                                    pages that.</div>
+                                <div class="accordion-body py-0 content">
+
+                                    <p></p>
+                                    <div><span style="font-size: 13.2px;"><b>Peraturan Bupati Pasuruan Nomor 31 Tahun
+                                                2021 tentang Sistem Pemerintahan Berbasis Elektronik Pemerintah Daerah
+                                                Kabupaten Pasuruan:</b></span></div>
+                                    <div><span style="font-size: 13.2px;">Mengatur kerangka kerja untuk implementasi
+                                            SPBE di Pemerintah Daerah Kabupaten Pasuruan, termasuk kebijakan, tata
+                                            kelola, pengelolaan dan pengembangan sistem, serta evaluasi dan
+                                            pemantauan.</span></div>
+                                    <div><span style="font-size: 13.2px;"><br></span></div>
+                                    <div><span style="font-size: 13.2px;"><b>Peraturan Bupati Pasuruan Nomor 111 Tahun
+                                                2023 tentang Sistem Pemerintahan Berbasis Elektronik Pemerintah
+                                                Kabupaten Pasuruan:</b></span></div>
+                                    <div><span style="font-size: 13.2px;">Memperbarui
+                                            dan menyempurnakan kebijakan SPBE sebelumnya untuk menyesuaikan dengan
+                                            perkembangan teknologi dan kebutuhan lokal. Mengatur struktur organisasi,
+                                            pengembangan aplikasi dan infrastruktur, layanan publik berbasis elektronik,
+                                            keamanan informasi, dan evaluasi berkelanjutan.</span><br></div>
+                                    <p></p>
+                                </div>
                             </div>
                         </div>
                         <div class="accordion-item p-1 mb-2">
@@ -660,18 +778,29 @@
                                 id="heading-a443e01b4db47b3f4a1267e10594576d52730ec1" type="button"
                                 data-bs-toggle="collapse"
                                 data-bs-target="#collapse-a443e01b4db47b3f4a1267e10594576d52730ec1" aria-expanded="false"
-                                aria-controls="collapse-a443e01b4db47b3f4a1267e10594576d52730ec1">How do I know that I have
-                                been
-                                approved?
+                                aria-controls="collapse-a443e01b4db47b3f4a1267e10594576d52730ec1">Apa Kebijakan yang
+                                mengatur penyelenggaraan sistem dan transaksi elektronik yang mendukung SPBE?
                             </h2>
                             <div id="collapse-a443e01b4db47b3f4a1267e10594576d52730ec1"
                                 class="accordion-collapse collapse border-0 "
                                 aria-labelledby="heading-a443e01b4db47b3f4a1267e10594576d52730ec1"
                                 data-bs-parent="#accordionFAQ">
-                                <div class="accordion-body py-0 content">The difference between and premium product consist
-                                    number of
-                                    components, plugins, page in each. The Free versions contain only a few elements and
-                                    pages that.</div>
+                                <div class="accordion-body py-0 content">
+                                    <p></p>
+                                    <p><strong>Peraturan Pemerintah Nomor 71 Tahun 2019</strong></p>
+                                    <ul>
+                                        <li><strong>Isi Utama:</strong> Penyelenggaraan sistem dan transaksi elektronik
+                                            yang mendukung SPBE.<ul>
+                                                <li>PP Nomor 71 Tahun 2019 mengatur penyelenggaraan sistem elektronik,
+                                                    transaksi elektronik, keamanan data, dan perlindungan privasi yang
+                                                    penting bagi pelaksanaan SPBE.</li>
+                                            </ul>
+                                        </li>
+                                        <li><strong>Keamanan dan Privasi:</strong> Kebijakan terkait keamanan informasi
+                                            dan perlindungan data pribadi</li>
+                                    </ul>
+                                    <p></p>
+                                </div>
                             </div>
                         </div>
                         <div class="accordion-item p-1 mb-2">
@@ -679,18 +808,29 @@
                                 id="heading-4b82be4be873c8ad699fa97049523ac86b67a8bd" type="button"
                                 data-bs-toggle="collapse"
                                 data-bs-target="#collapse-4b82be4be873c8ad699fa97049523ac86b67a8bd" aria-expanded="false"
-                                aria-controls="collapse-4b82be4be873c8ad699fa97049523ac86b67a8bd">Do I need to fax or email
-                                any
-                                documents?
+                                aria-controls="collapse-4b82be4be873c8ad699fa97049523ac86b67a8bd">Apa Kebijakan yang
+                                mengatur evaluasi dan pemantauan pelaksanaan SPBE?
                             </h2>
                             <div id="collapse-4b82be4be873c8ad699fa97049523ac86b67a8bd"
                                 class="accordion-collapse collapse border-0 "
                                 aria-labelledby="heading-4b82be4be873c8ad699fa97049523ac86b67a8bd"
                                 data-bs-parent="#accordionFAQ">
-                                <div class="accordion-body py-0 content">The difference between and premium product consist
-                                    number of
-                                    components, plugins, page in each. The Free versions contain only a few elements and
-                                    pages that.</div>
+                                <div class="accordion-body py-0 content">
+                                    <p></p>
+                                    <p><strong>PermenPAN-RB Nomor 59 Tahun 2020</strong></p>
+                                    <ul>
+                                        <li><strong>Isi Utama:</strong> Aturan tentang evaluasi dan pemantauan
+                                            pelaksanaan SPBE di instansi pemerintah.<ul>
+                                                <li>PermenPAN-RB Nomor 59 Tahun 2020 mengatur tentang
+                                                    indikator-indikator penilaian dan mekanisme evaluasi SPBE untuk
+                                                    memastikan pelaksanaan yang sesuai dengan standar nasional.</li>
+                                            </ul>
+                                        </li>
+                                        <li><strong>Indikator Penilaian:</strong> Kebijakan internal, tata kelola,
+                                            manajemen, layanan, dan hasil implementasi SPBE.</li>
+                                    </ul>
+                                    <p></p>
+                                </div>
                             </div>
                         </div>
                         <div class="accordion-item p-1 mb-2">
@@ -698,18 +838,35 @@
                                 id="heading-3e13e9676a9cd6a6f8bfbe6e1e9fc0881ef247b3" type="button"
                                 data-bs-toggle="collapse"
                                 data-bs-target="#collapse-3e13e9676a9cd6a6f8bfbe6e1e9fc0881ef247b3" aria-expanded="false"
-                                aria-controls="collapse-3e13e9676a9cd6a6f8bfbe6e1e9fc0881ef247b3">Do you provide loans to
-                                military
-                                personnel?
+                                aria-controls="collapse-3e13e9676a9cd6a6f8bfbe6e1e9fc0881ef247b3">Apa kebijakan yang
+                                mengatur kerangka kerja nasional SPBE?
                             </h2>
                             <div id="collapse-3e13e9676a9cd6a6f8bfbe6e1e9fc0881ef247b3"
                                 class="accordion-collapse collapse border-0 "
                                 aria-labelledby="heading-3e13e9676a9cd6a6f8bfbe6e1e9fc0881ef247b3"
                                 data-bs-parent="#accordionFAQ">
-                                <div class="accordion-body py-0 content">The difference between and premium product consist
-                                    number of
-                                    components, plugins, page in each. The Free versions contain only a few elements and
-                                    pages that.</div>
+                                <div class="accordion-body py-0 content">
+                                    <p></p>
+                                    <h5>Dasar Hukum SPBE</h5>
+                                    <ul>
+                                        <li>
+                                            <p><strong>Peraturan Presiden Nomor 95 Tahun 2018</strong></p>
+                                            <ul>
+                                                <li><strong>Isi Utama:</strong> Penjelasan tentang peraturan yang
+                                                    mengatur kerangka kerja nasional SPBE.<ul>
+                                                        <li>Peraturan Presiden Nomor 95 Tahun 2018 menetapkan kebijakan
+                                                            umum, prinsip-prinsip dasar, dan kerangka kerja nasional
+                                                            untuk penerapan SPBE di seluruh instansi pemerintah.</li>
+                                                    </ul>
+                                                </li>
+                                                <li><strong>Tujuan:</strong> Meningkatkan kualitas layanan publik dan
+                                                    tata kelola pemerintahan melalui pemanfaatan teknologi informasi dan
+                                                    komunikasi</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <p></p>
+                                </div>
                             </div>
                         </div>
                         <div class="accordion-item p-1 mb-2">
@@ -717,36 +874,18 @@
                                 id="heading-0c2f829793a1f0562fea97120357dd2d43319164" type="button"
                                 data-bs-toggle="collapse"
                                 data-bs-target="#collapse-0c2f829793a1f0562fea97120357dd2d43319164" aria-expanded="false"
-                                aria-controls="collapse-0c2f829793a1f0562fea97120357dd2d43319164">Can I remove footer
-                                credit purchase ?
+                                aria-controls="collapse-0c2f829793a1f0562fea97120357dd2d43319164">Siapa yang bertanggung
+                                jawab atas implementasi SPBE di Pemerintah Daerah?
                             </h2>
                             <div id="collapse-0c2f829793a1f0562fea97120357dd2d43319164"
                                 class="accordion-collapse collapse border-0 "
                                 aria-labelledby="heading-0c2f829793a1f0562fea97120357dd2d43319164"
                                 data-bs-parent="#accordionFAQ">
-                                <div class="accordion-body py-0 content">The difference between and premium product consist
-                                    number of
-                                    components, plugins, page in each. The Free versions contain only a few elements and
-                                    pages that.</div>
-                            </div>
-                        </div>
-                        <div class="accordion-item p-1 mb-2">
-                            <h2 class="accordion-header accordion-button h5 border-0 "
-                                id="heading-8fe6730e26db16f15763887c30a614caa075f518" type="button"
-                                data-bs-toggle="collapse"
-                                data-bs-target="#collapse-8fe6730e26db16f15763887c30a614caa075f518" aria-expanded="false"
-                                aria-controls="collapse-8fe6730e26db16f15763887c30a614caa075f518">What is the difference
-                                the free
-                                versions?
-                            </h2>
-                            <div id="collapse-8fe6730e26db16f15763887c30a614caa075f518"
-                                class="accordion-collapse collapse border-0 "
-                                aria-labelledby="heading-8fe6730e26db16f15763887c30a614caa075f518"
-                                data-bs-parent="#accordionFAQ">
-                                <div class="accordion-body py-0 content">The difference between and premium product consist
-                                    number of
-                                    components, plugins, page in each. The Free versions contain only a few elements and
-                                    pages that.</div>
+                                <div class="accordion-body py-0 content">Pemerintah daerah, termasuk Pemerintah Kabupaten
+                                    Pasuruan, bertanggung jawab atas pelaksanaan dan pengembangan SPBE sesuai dengan
+                                    kebijakan yang telah ditetapkan oleh pemerintah pusat
+
+                                </div>
                             </div>
                         </div>
                     </div>

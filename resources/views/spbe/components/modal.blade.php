@@ -6,7 +6,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <form action="#!" method="post">
+                <form action="" method="post">
                     <div class="row">
                         <div class="col-lg-6 mb-4 pb-2">
                             <div class="form-group">
@@ -41,7 +41,7 @@
                             </div>
                         </div>
                         <div class="col-lg-12">
-                            <button type="submit" class="btn btn-primary w-100">Get Your Loan Now</button>
+                            <button type="submit" class="btn btn-custom w-100">Get Your Loan Now</button>
                         </div>
                     </div>
                 </form>

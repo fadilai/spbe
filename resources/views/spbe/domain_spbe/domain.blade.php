@@ -1,6 +1,40 @@
 @extends('spbe.layouts.app')
 
 @section('content')
+    <style>
+        .accordion {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .accordion-header {
+            padding: 15px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            background-color: #f8f8f8;
+            border-bottom: 1px solid #ddd;
+            color: #114A43;
+        }
+
+        .accordion-header.active {
+            background-color: #e9ecef;
+        }
+
+        .accordion-body {
+            padding: 15px;
+            display: none;
+            font-size: 14px;
+            color: #333;
+        }
+
+        .accordion-body.show {
+            display: block;
+        }
+    </style>
     <section class="section">
         <div class="container">
             <div class="row justify-content-center mb-5">

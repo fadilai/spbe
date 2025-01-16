@@ -9282,7 +9282,6 @@ a.text-black:hover {
 .content img {
     max-width: 100%;
     margin-top: 10px;
-    margin-bottom: 35px;
 }
 .content h1,
 .content .h1,
@@ -9865,13 +9864,13 @@ blockquote::before {
     margin-bottom: 10px;
 }
 .difference-of-us-item .icon {
-    height: 85px;
+    height: 60px;
     flex: 0 0 auto;
-    width: 85px;
-    line-height: 85px;
+    width: 60px;
+    line-height: 60px;
     text-align: center;
     border-radius: 8px;
-    color: #917aeb;
+    color: #134b44;
     background-color: rgba(145, 122, 235, 0.1);
 }
 .difference-of-us-item:nth-child(even) .icon {
@@ -10273,8 +10272,8 @@ textarea.form-control {
 
 .social-icons a {
     display: inline-block;
-    height: 45px;
-    width: 45px;
+    height: 30px;
+    width: 30px;
     border: 1px solid #ddd;
     display: flex;
     align-items: center;
@@ -10501,38 +10500,6 @@ textarea.form-control {
     font-size: 14px;
 }
 
-.accordion {
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.accordion-header {
-    padding: 15px;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    background-color: #f8f8f8;
-    border-bottom: 1px solid #ddd;
-}
-
-.accordion-header.active {
-    background-color: #e9ecef;
-}
-
-.accordion-body {
-    padding: 15px;
-    display: none;
-    font-size: 14px;
-    color: #333;
-}
-
-.accordion-body.show {
-    display: block;
-}
-
 .indicator-title {
     font-weight: bold;
     color: #007bff;
@@ -10556,15 +10523,28 @@ textarea.form-control {
     line-height: 1.5;
 }
 
-
 .domains-container {
     display: flex;
     justify-content: space-between;
     gap: 20px;
 }
 
-.domain p{
+.domain p {
     font-size: 14px;
+}
+
+#layanan b {
+    color: #114a43;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.card-body:hover {
+    cursor: pointer;
 }
 
 /* END CUSTOM STYLE */

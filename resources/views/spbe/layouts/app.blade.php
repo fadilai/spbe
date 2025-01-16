@@ -27,6 +27,7 @@
     <!-- # Main Style Sheet -->
     <link rel="stylesheet" href="{{ asset('spbe_template/css/style.css') }}">
         <link rel="stylesheet" href="{{ asset('spbe_template/css/efek.css') }}">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 
 </head>
 
