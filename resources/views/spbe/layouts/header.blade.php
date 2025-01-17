@@ -1,5 +1,5 @@
 <!-- navigation -->
-<header class="navigation bg-tertiary">
+<header id="main-header" class="navigation sticky-header">
     <nav class="navbar navbar-expand-xl navbar-light text-center py-3">
         <div class="container">
             <div class="d-flex align-items-center">

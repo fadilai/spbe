@@ -10633,4 +10633,21 @@ textarea.form-control {
 }
 /* End section Manajemen */
 
+/* Header */
+/* Warna default */
+.sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #fbfbfb;
+  transition: background-color 0.3s ease;
+}
+
+/* Warna saat di-scroll */
+.scrolled {
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+/* End Header */
+
 /* END CUSTOM STYLE */

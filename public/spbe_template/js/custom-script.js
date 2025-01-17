@@ -69,3 +69,19 @@ function toggleAccordion(element) {
     }
 }
 // Js for accordion
+
+// Js for scroll to header
+document.addEventListener("DOMContentLoaded", function () {
+    const header = document.getElementById("main-header");
+
+    // Tambahkan event listener untuk scroll
+    window.addEventListener("scroll", function () {
+        if (window.scrollY > 50) {
+            // Jika scroll lebih dari 50px
+            header.classList.add("scrolled");
+        } else {
+            header.classList.remove("scrolled");
+        }
+    });
+});
+// Js for scroll to header
