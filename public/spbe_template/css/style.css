@@ -8941,7 +8941,9 @@ fieldset:disabled .btn {
 /*  typography */
 body {
     line-height: 1.7;
-    font-family: "Rubik", sans-serif;
+    /* font-family: "Rubik", sans-serif; */
+     font-family: 'Poppins', sans-serif;
+
     -webkit-font-smoothing: antialiased;
     font-size: 15px;
     font-weight: 400;
@@ -8970,7 +8972,9 @@ h6,
 .h5,
 .h6 {
     color: #040404;
-    font-family: "Rubik", sans-serif;
+    /* font-family: "Rubik", sans-serif; */
+     font-family: 'Poppins', sans-serif;
+
     font-weight: 700;
 }
 
@@ -9599,7 +9603,8 @@ blockquote::before {
 }
 
 .navbar-brand {
-    font-family: "Rubik", sans-serif;
+                                                                        font-family: 'Poppins', sans-serif;
+
     font-size: 30px;
 }
 
@@ -10079,7 +10084,8 @@ blockquote::before {
     border-radius: 50%;
     color: #fff;
     position: relative;
-    font-family: "Rubik", sans-serif;
+                                                                       font-family: 'Poppins', sans-serif;
+
 }
 .loan-steps .count::after {
     position: absolute;
@@ -10526,7 +10532,7 @@ textarea.form-control {
 .domains-container {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    gap: 15px;
 }
 
 .domain p {
@@ -10545,6 +10551,23 @@ textarea.form-control {
 
 .card-body:hover {
     cursor: pointer;
+}
+
+
+ #admin {
+    position: fixed;
+    bottom: 0px;
+    right: 15px;
+    z-index: 9999999;
+    align-items: center;
+    border-radius: 5px;
+    padding: 10px;
+    transition: transform 0.3s ease;
+
+}
+
+#admin:hover {
+    transform: scale(1.1);
 }
 
 /* END CUSTOM STYLE */

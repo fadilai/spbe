@@ -5,18 +5,21 @@
     <meta charset="utf-8">
     <title>SPBE Kabupaten Tulang Bawang</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
-    <meta name="description" content="This is meta description">
-    <meta name="author" content="Themefisher">
+    <meta name="description"
+        content="SPBE adalah singkatan dari Sistem Pemerintahan Berbasis Elektronik. SPBE merupakan konsep dan upaya pemerintah untuk memberikan layanan publik dengan memanfaatkan teknologi informasi dan komunikasi. SPBE juga dikenal sebagai e-Government.">
+    <meta name="author" content="Diskominfo Kab. Tulang Bawang">
     <link rel="shortcut icon" href="{{ asset('spbe_template/images/spbe.svg') }}" type="image/x-icon">
     <link rel="icon" href="{{ asset('spbe_template/images/spbe.svg') }}" type="image/x-icon">
 
     <!-- theme meta -->
-    <meta name="theme-name" content="wallet" />
+    <meta name="theme-name" content="Diskominfo Kab. Tulang Bawang" />
 
     <!-- # Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.cdnfonts.com/css/poppins" rel="stylesheet">
 
     <!-- # CSS Plugins -->
     <link rel="stylesheet" href="{{ asset('spbe_template/plugins/slick/slick.css') }}">
@@ -26,8 +29,8 @@
 
     <!-- # Main Style Sheet -->
     <link rel="stylesheet" href="{{ asset('spbe_template/css/style.css') }}">
-        <link rel="stylesheet" href="{{ asset('spbe_template/css/efek.css') }}">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('spbe_template/css/efek.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 
 </head>
 
@@ -43,7 +46,7 @@
 
     @yield('content')
 
-   {{-- Footer --}}
+    {{-- Footer --}}
     @include('spbe.layouts.footer')
     {{-- Footer End --}}
 

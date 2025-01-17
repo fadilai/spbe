@@ -6,10 +6,8 @@
             <div class="row align-items-center justify-content-center">
                 <div class="col-lg-6 mb-5 mb-lg-0">
                     <div class="block text-center text-lg-start pe-0 pe-xl-5">
-                        <h1 class="text-capitalize mb-4 fs-1">Pemerintah Kabupaten Tulang Bawang</h1>
-                        <p class="mb-4">Sistem Pemerintahan Berbasis Elektronik (SPBE) Mendukung Pelayanan Publik. Melalui
-                            penerapan SPBE, kami berkomitmen untuk memberikan pelayanan yang lebih cepat, mudah, dan
-                            terintegrasi guna memenuhi kebutuhan masyarakat secara optimal.</p> <a type="button"
+                        <h3 class="text-capitalize mb-4 fs-2">Sistem Pemerintahan Berbasis Elektronik (SPBE) Mendukung Pelayanan Publik</h3>
+                        <p class="mb-4" style="color: #114A43;font-weight:600;">Pemerintah Kabupaten Pasuruan</p> <a type="button"
                             class="btn btn-custom" href="#" data-bs-toggle="modal" data-bs-target="#applyLoan">Kunjungi
                             Sekarang<span style="font-size: 14px;" class="ms-2 fas fa-arrow-right"></span></a>
                     </div>
@@ -102,7 +100,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="service-item">
-                                <a class="text-black" href="service-details.html">
+                                <a class="text-black" href="#tatakelola">
                                     <div class="block">
                                         <span class="colored-box text-center h4 mb-4">02</span>
                                         <h3 class="mb-3 service-title">Tata Kelola SPBE</h3>
@@ -117,7 +115,7 @@
                         <!-- Second row -->
                         <div class="col-md-6">
                             <div class="service-item">
-                                <a class="text-black" href="service-details.html">
+                                <a class="text-black" href="#manajemen">
                                     <div class="block">
                                         <span class="colored-box text-center h4 mb-4">03</span>
                                         <h3 class="mb-3 service-title">Manajemen SPBE</h3>
@@ -130,7 +128,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="service-item">
-                                <a class="text-black" href="service-details.html">
+                                <a class="text-black" href="#layanan">
                                     <div class="block">
                                         <span class="colored-box text-center h4 mb-4">04</span>
                                         <h3 class="mb-3 service-title">Layanan SPBE</h3>
@@ -153,7 +151,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="section-title">
-                        <p class="text-primary text-uppercase fw-bold mb-3">Index SPBE</p>
+                        <h4 class="text-primary text-uppercase fw-bold mb-3">Index SPBE</h4>
                         <h5>Kabupaten Tulang Bawang</h5>
                         <p class="lead mb-0 mt-4">
                         <div>
@@ -737,7 +735,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="accordion shadow rounded py-5 px-0 px-lg-4 bg-white position-relative" id="accordionFAQ">
+                    <div class="accordion shadow rounded py-3 px-0 px-lg-4 bg-white position-relative" id="accordionFAQ">
                         <div class="accordion-item p-1 mb-2">
                             <h2 class="accordion-header accordion-button h5 border-0 active"
                                 id="heading-ebd23e34fd2ed58299b32c03c521feb0b02f19d9" type="button"
@@ -891,27 +889,12 @@
                     </div>
                 </div>
                 <div class="col-lg-4 mt-4 mt-lg-0">
-                    <div class="shadow rounded py-5 px-4 ms-0 ms-lg-4 bg-white position-relative">
+                    <div class="shadow rounded py-3 px-2 ms-0 ms-lg-4 bg-white position-relative">
                         <div class="block mx-0 mx-lg-3 mt-0">
-                            <h4 class="h5">Still Have Questions?</h4>
-                            <div class="content">Call Us We Will Be Happy To Help
-                                <br> <a href="tel:+3301563965">+3301563965</a>
-                                <br>Monday - Friday
-                                <br>9AM TO 8PM Eastern Time
-                            </div>
-                        </div>
-                        <div class="block mx-0 mx-lg-3 mt-4">
-                            <h4 class="h5">Canada Office</h4>
-                            <div class="content">231 Ross Street.
-                                <br>K7A 1C2.
-                                <br>Smiths Falls
-                            </div>
-                        </div>
-                        <div class="block mx-0 mx-lg-3 mt-4">
-                            <h4 class="h5">UK Office</h4>
-                            <div class="content">57 Folkestone Road.
-                                <br>AB54 5XQ,
-                                <br>Winston
+                            <h4 class="h5">Kontak</h4>
+                            <div class="content">Hubungi Kami, Kami Akan Senang Membantu
+                                <br> <a href="tel:+62895616710043"><i class="bi bi-telephone me-1"></i> 0895616710043</a>
+                                <br><i class="bi bi-calendar3 me-1"></i> Senin - Jumat, 08:00 - 16:00 WIB
                             </div>
                         </div>
                     </div>
