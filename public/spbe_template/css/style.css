@@ -10572,8 +10572,64 @@ textarea.form-control {
 
 
 /* Section Manajemen */
+
 #manajemen span{
     color: #fff;
+}
+#manajemen  .scrollable-container {
+  overflow-x: auto;
+  display: flex;
+  justify-content: start;
+    scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+#manajemen .scrollable-container::-webkit-scrollbar {
+  display: none;
+}
+
+#manajemen  .card-wrapper {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  padding:1rem;
+}
+
+#manajemen  .card-item {
+  flex: 0 0 calc(33.333% - 1rem);
+  max-width: calc(33.333% - 1rem);
+  box-sizing: border-box;
+}
+
+#manajemen  .scroll-pagination {
+  display: flex;
+  gap: 8px;
+}
+
+#manajemen  .pagination-dot {
+  width: 10px;
+  height: 10px;
+  background-color: #ccc;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+#manajemen  .pagination-dot.active {
+  background-color: #51b56d ;
+}
+
+@media (max-width: 768px) {
+  #manajemen .card-item {
+    flex: 0 0 calc(50% - 1rem);
+    max-width: calc(50% - 1rem);
+  }
+}
+
+@media (max-width: 576px) {
+ #manajemen .card-item {
+    flex: 0 0 calc(100% - 1rem);
+    max-width: calc(100% - 1rem);
+  }
 }
 /* End section Manajemen */
 

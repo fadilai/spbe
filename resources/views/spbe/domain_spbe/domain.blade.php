@@ -3835,17 +3835,6 @@
                     </div>
                 </div>
             </div>
-
-            <script>
-                function toggleAccordion(element) {
-                    element.classList.toggle('active');
-                    const body = element.nextElementSibling;
-                    if (body) {
-                        body.classList.toggle('show');
-                    }
-                }
-            </script>
-
         </div>
     </section>
 @endsection

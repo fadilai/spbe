@@ -755,38 +755,59 @@
             </div>
 
             <!-- Cards -->
-            <div class="row gy-4">
-                <div class="col-md-4 card-item" data-category="manajemen-pengetahuan">
-                    <div class="card shadow-sm border-0">
-                        <div class="card-body">
-                            <h5 class="card-title text-dark">SOP Konsultasi TIK pada aplikasi SAKTI</h5>
-                            <span class="badge bg-primary mb-2">#Manajemen Pengetahuan</span>
-                            <p class="card-text">Prosedur Konsultasi TIK pada aplikasi SAKTI</p>
-                            <a href="#" class="btn btn-outline-primary">Lihat</a>
+            <div class="scrollable-container">
+                <div class="card-wrapper">
+                    <div class="col-md-4 card-item" data-category="manajemen-pengetahuan">
+                        <div class="card shadow-sm border-0">
+                            <div class="card-body">
+                                <h5 class="card-title text-dark">SOP Konsultasi TIK pada aplikasi SAKTI</h5>
+                                <span class="badge bg-primary mb-2">#Manajemen Pengetahuan</span>
+                                <p class="card-text">Prosedur Konsultasi TIK pada aplikasi SAKTI</p>
+                                <a href="#" class="btn btn-outline-primary">Lihat</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 card-item" data-category="manajemen-pengetahuan">
+                        <div class="card shadow-sm border-0">
+                            <div class="card-body">
+                                <h5 class="card-title text-dark">SOP Penyusunan Daftar Informasi Publik</h5>
+                                <span class="badge bg-primary mb-2">#Manajemen Pengetahuan</span>
+                                <p class="card-text">Prosedur Penyusunan Daftar Informasi Publik</p>
+                                <a href="#" class="btn btn-outline-primary">Lihat</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 card-item" data-category="manajemen-layanan">
+                        <div class="card shadow-sm border-0">
+                            <div class="card-body">
+                                <h5 class="card-title text-dark">Layanan SPBE Terpadu</h5>
+                                <span class="badge bg-primary mb-2">#Manajemen Layanan SPBE</span>
+                                <p class="card-text">Prosedur layanan terpadu SPBE.</p>
+                                <a href="#" class="btn btn-outline-primary">Lihat</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 card-item" data-category="manajemen-layanan">
+                        <div class="card shadow-sm border-0">
+                            <div class="card-body">
+                                <h5 class="card-title text-dark">Layanan SPBE Terpadu</h5>
+                                <span class="badge bg-primary mb-2">#Manajemen Layanan SPBE</span>
+                                <p class="card-text">Prosedur layanan terpadu SPBE.</p>
+                                <a href="#" class="btn btn-outline-primary">Lihat</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 card-item" data-category="manajemen-pengetahuan">
-                    <div class="card shadow-sm border-0">
-                        <div class="card-body">
-                            <h5 class="card-title text-dark">SOP Penyusunan Daftar Informasi Publik</h5>
-                            <span class="badge bg-primary mb-2">#Manajemen Pengetahuan</span>
-                            <p class="card-text">Prosedur Penyusunan Daftar Informasi Publik</p>
-                            <a href="#" class="btn btn-outline-primary">Lihat</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 card-item" data-category="manajemen-layanan">
-                    <div class="card shadow-sm border-0">
-                        <div class="card-body">
-                            <h5 class="card-title text-dark">Layanan SPBE Terpadu</h5>
-                            <span class="badge bg-primary mb-2">#Manajemen Layanan SPBE</span>
-                            <p class="card-text">Prosedur layanan terpadu SPBE.</p>
-                            <a href="#" class="btn btn-outline-primary">Lihat</a>
-                        </div>
-                    </div>
-                </div>
+
             </div>
+            <!-- Pagination -->
+                <div class="scroll-pagination d-flex justify-content-center mt-3">
+                    <span class="pagination-dot active"></span>
+                    <span class="pagination-dot"></span>
+                    <span class="pagination-dot"></span>
+                </div>
+        </div>
+
         </div>
     </section>
     {{-- End Section Manajemen --}}
@@ -972,27 +993,6 @@
     </section>
     {{-- End Section Pengetahuan/Pertanyaan --}}
 
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const filterButtons = document.querySelectorAll(".filter-btn");
-            const cards = document.querySelectorAll(".card-item");
 
-            filterButtons.forEach((button) => {
-                button.addEventListener("click", () => {
-                    const category = button.getAttribute("data-category");
-                    filterButtons.forEach((btn) => btn.classList.remove("active", "btn-primary"));
-                    button.classList.add("active", "btn-primary");
-                    cards.forEach((card) => {
-                        if (category === "all" || card.getAttribute("data-category") ===
-                            category) {
-                            card.style.display = "block";
-                        } else {
-                            card.style.display = "none";
-                        }
-                    });
-                });
-            });
-            document.querySelector(".filter-btn[data-category='all']").click();
-        });
-    </script>
+
 @endsection

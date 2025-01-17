@@ -58,6 +58,7 @@
 
     <!-- Main Script -->
     <script src="{{ asset('spbe_template/js/script.js') }}"></script>
+    <script src="{{ asset('spbe_template/js/custom-script.js') }}"></script>
 
 </body>
 
