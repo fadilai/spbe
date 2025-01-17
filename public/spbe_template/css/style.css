@@ -5398,7 +5398,7 @@ fieldset:disabled .btn {
 }
 
 .border-primary {
-    border-color: #0d6efd !important;
+    border-color: #114a43 !important;
 }
 
 .border-secondary {
@@ -10569,5 +10569,12 @@ textarea.form-control {
 #admin:hover {
     transform: scale(1.1);
 }
+
+
+/* Section Manajemen */
+#manajemen span{
+    color: #fff;
+}
+/* End section Manajemen */
 
 /* END CUSTOM STYLE */

@@ -1,14 +1,17 @@
 @extends('spbe.layouts.app')
 
 @section('content')
+    {{-- Section Banner --}}
     <section class="banner bg-tertiary position-relative overflow-hidden">
         <div class="container">
             <div class="row align-items-center justify-content-center">
                 <div class="col-lg-6 mb-5 mb-lg-0">
                     <div class="block text-center text-lg-start pe-0 pe-xl-5">
-                        <h3 class="text-capitalize mb-4 fs-2">Sistem Pemerintahan Berbasis Elektronik (SPBE) Mendukung Pelayanan Publik</h3>
-                        <p class="mb-4" style="color: #114A43;font-weight:600;">Pemerintah Kabupaten Pasuruan</p> <a type="button"
-                            class="btn btn-custom" href="#" data-bs-toggle="modal" data-bs-target="#applyLoan">Kunjungi
+                        <h3 class="text-capitalize mb-4 fs-2">Sistem Pemerintahan Berbasis Elektronik (SPBE) Mendukung
+                            Pelayanan Publik</h3>
+                        <p class="mb-4" style="color: #114A43;font-weight:600;">Pemerintah Kabupaten Pasuruan</p> <a
+                            type="button" class="btn btn-custom" href="#" data-bs-toggle="modal"
+                            data-bs-target="#applyLoan">Kunjungi
                             Sekarang<span style="font-size: 14px;" class="ms-2 fas fa-arrow-right"></span></a>
                     </div>
                 </div>
@@ -68,7 +71,9 @@
             </svg>
         </div>
     </section>
+    {{-- End Section Banner --}}
 
+    {{-- Section Tentang --}}
     <section id="tentang" class="section">
         <div class="container">
             <div class="row">
@@ -145,7 +150,9 @@
             </div>
         </div>
     </section>
+    {{-- End Section Tentang --}}
 
+    {{-- Section Index Spbe --}}
     <section id="index_spbe" class="about-section section bg-tertiary position-relative overflow-hidden">
         <div class="container">
             <div class="row align-items-center">
@@ -167,7 +174,7 @@
                                     labels: ['2018', '2019', '2020', '2023', '2024', '2025'],
                                     datasets: [{
                                         label: 'Statistik SPBE Kabupaten Tulang Bawang',
-                                        data: [12, 19, 3, 5, 2, 19],
+                                        data: [2.12, 3.33, 2.92, 3.33, 2.99, 4.00],
                                         borderWidth: 1,
                                         backgroundColor: '#134B44',
                                         borderColor: '#134B44'
@@ -257,7 +264,9 @@
             </div>
         </div>
     </section>
+    {{-- End Section Index Spbe --}}
 
+    {{-- Section Kebijakan --}}
     <section id="kebijakan" class="section">
         <div class="container">
             <div class="row align-items-center justify-content-between">
@@ -371,7 +380,9 @@
             </div>
         </div>
     </section>
+    {{-- End Section Kebijakan --}}
 
+    {{-- Section Layanan --}}
     <section class="homepage_tab position-relative" id="layanan">
         <div class="section container pt-5">
             <div class="row justify-content-center">
@@ -612,7 +623,9 @@
             </div>
         </div>
     </section>
+    {{-- End Section Layanan --}}
 
+    {{-- Section Kegiatan --}}
     <section class="section testimonials overflow-hidden bg-tertiary">
         <div class="container">
             <div class="row justify-content-center">
@@ -711,7 +724,9 @@
             </svg>
         </div>
     </section>
+    {{-- End Section Kegiatan --}}
 
+    {{-- Section Manajemen --}}
     <section class="section" id="manajemen">
         <div class="container">
             <div class="section-title text-center mb-5 pb-2">
@@ -719,11 +734,64 @@
                 <p class="text-primary fw-bold mb-3">Memastikan penerapan unsur-unsur SPBE secara terpadu.</p>
 
             </div>
+            <!-- Tabs -->
+            <div class="d-flex justify-content-center flex-wrap gap-2 mb-4">
+                <button class="btn btn-outline-primary active filter-btn" data-category="manajemen-layanan">Manajemen
+                    Layanan SPBE</button>
+                <button class="btn btn-outline-primary filter-btn" data-category="manajemen-perubahan">Manajemen
+                    Perubahan</button>
+                <button class="btn btn-outline-primary filter-btn" data-category="manajemen-pengetahuann">Manajemen
+                    Pengetahuan</button>
+                <button class="btn btn-outline-primary filter-btn" data-category="manajemen-sdm">Manajemen Sumber Daya
+                    Manusia</button>
+                <button class="btn btn-outline-primary filter-btn" data-category="manajemen-aset">Manajemen Aset
+                    TIK</button>
+                <button class="btn btn-outline-primary filter-btn" data-category="manajemen-data">Manajemen Data</button>
+                <button class="btn btn-outline-primary filter-btn" data-category="manajemen-keamanan">Manajemen Keamanan
+                    Informasi</button>
+                <button class="btn btn-outline-primary filter-btn" data-category="manajemen-risiko">Manajemen Risiko
+                    SPBE</button>
+                <button class="btn btn-outline-primary filter-btn" data-category="all">Tampilkan Semua</button>
+            </div>
 
-
+            <!-- Cards -->
+            <div class="row gy-4">
+                <div class="col-md-4 card-item" data-category="manajemen-pengetahuan">
+                    <div class="card shadow-sm border-0">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark">SOP Konsultasi TIK pada aplikasi SAKTI</h5>
+                            <span class="badge bg-primary mb-2">#Manajemen Pengetahuan</span>
+                            <p class="card-text">Prosedur Konsultasi TIK pada aplikasi SAKTI</p>
+                            <a href="#" class="btn btn-outline-primary">Lihat</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 card-item" data-category="manajemen-pengetahuan">
+                    <div class="card shadow-sm border-0">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark">SOP Penyusunan Daftar Informasi Publik</h5>
+                            <span class="badge bg-primary mb-2">#Manajemen Pengetahuan</span>
+                            <p class="card-text">Prosedur Penyusunan Daftar Informasi Publik</p>
+                            <a href="#" class="btn btn-outline-primary">Lihat</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 card-item" data-category="manajemen-layanan">
+                    <div class="card shadow-sm border-0">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark">Layanan SPBE Terpadu</h5>
+                            <span class="badge bg-primary mb-2">#Manajemen Layanan SPBE</span>
+                            <p class="card-text">Prosedur layanan terpadu SPBE.</p>
+                            <a href="#" class="btn btn-outline-primary">Lihat</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
+    {{-- End Section Manajemen --}}
 
+    {{-- Section Pengetahuan/Pertanyaan --}}
     <section class="section testimonials overflow-hidden bg-tertiary">
         <div class="container">
             <div class="row justify-content-center">
@@ -902,4 +970,29 @@
             </div>
         </div>
     </section>
+    {{-- End Section Pengetahuan/Pertanyaan --}}
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const filterButtons = document.querySelectorAll(".filter-btn");
+            const cards = document.querySelectorAll(".card-item");
+
+            filterButtons.forEach((button) => {
+                button.addEventListener("click", () => {
+                    const category = button.getAttribute("data-category");
+                    filterButtons.forEach((btn) => btn.classList.remove("active", "btn-primary"));
+                    button.classList.add("active", "btn-primary");
+                    cards.forEach((card) => {
+                        if (category === "all" || card.getAttribute("data-category") ===
+                            category) {
+                            card.style.display = "block";
+                        } else {
+                            card.style.display = "none";
+                        }
+                    });
+                });
+            });
+            document.querySelector(".filter-btn[data-category='all']").click();
+        });
+    </script>
 @endsection
