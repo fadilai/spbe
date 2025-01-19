@@ -78,7 +78,7 @@
              function openWhatssApp() {
                 var message =
                     "Halo Min, saya memiliki kendala dalam menggunakan website SPBE. Bisa bantu saya?";
-                var phoneNumber = "6285616710043";
+                var phoneNumber = "6282175324747";
 
                 // Membuat URL untuk mengarahkan pengguna ke halaman WhatsApp
                 var whatsappURL = "https://api.whatsapp.com/send?phone=" + phoneNumber + "&text=" + encodeURIComponent(message);

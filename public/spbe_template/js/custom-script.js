@@ -1,9 +1,7 @@
 // Js for filter buttons
-
 document.addEventListener("DOMContentLoaded", function () {
     const filterButtons = document.querySelectorAll(".filter-btn");
     const cards = document.querySelectorAll(".card-item");
-
     filterButtons.forEach((button) => {
         button.addEventListener("click", () => {
             const category = button.getAttribute("data-category");
@@ -32,23 +30,19 @@ document.addEventListener("DOMContentLoaded", function () {
     const container = document.querySelector(".scrollable-container");
     const wrapper = document.querySelector(".card-wrapper");
     const pagination = document.querySelector(".scroll-pagination");
-
     const containerWidth = container.offsetWidth;
     const totalCards = wrapper.children.length;
     const visibleCards = Math.floor(
         containerWidth / wrapper.children[0].offsetWidth
     );
     const totalDots = Math.ceil(totalCards / visibleCards);
-
     for (let i = 0; i < totalDots; i++) {
         const dot = document.createElement("span");
         dot.classList.add("pagination-dot");
         if (i === 0) dot.classList.add("active");
         pagination.appendChild(dot);
     }
-
     const dots = document.querySelectorAll(".pagination-dot");
-
     container.addEventListener("scroll", () => {
         const scrollLeft = container.scrollLeft;
         const currentIndex = Math.round(scrollLeft / containerWidth);
@@ -73,11 +67,8 @@ function toggleAccordion(element) {
 // Js for scroll to header
 document.addEventListener("DOMContentLoaded", function () {
     const header = document.getElementById("main-header");
-
-    // Tambahkan event listener untuk scroll
     window.addEventListener("scroll", function () {
         if (window.scrollY > 50) {
-            // Jika scroll lebih dari 50px
             header.classList.add("scrolled");
         } else {
             header.classList.remove("scrolled");

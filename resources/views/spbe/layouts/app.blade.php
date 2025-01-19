@@ -42,6 +42,7 @@
 
     {{-- Modal --}}
     @include('spbe.components.modal')
+     @include('spbe.components.modalKebijakan')
     {{-- Modal End --}}
 
     @yield('content')

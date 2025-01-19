@@ -10,8 +10,7 @@
                         <h3 class="text-capitalize mb-4 fs-2">Sistem Pemerintahan Berbasis Elektronik (SPBE) Mendukung
                             Pelayanan Publik</h3>
                         <p class="mb-4" style="color: #114A43;font-weight:600;">Pemerintah Kabupaten Pasuruan</p> <a
-                            type="button" class="btn btn-custom" href="#" data-bs-toggle="modal"
-                            data-bs-target="#applyLoan">Kunjungi
+                            type="button" class="btn btn-custom" href="https://tulangbawangkab.go.id/" >Kunjungi
                             Sekarang<span style="font-size: 14px;" class="ms-2 fas fa-arrow-right"></span></a>
                     </div>
                 </div>
@@ -292,7 +291,7 @@
                                 <div class="block">
                                     <h5 class="mb-3">Peraturan Presiden 132 Tahun 2022</h5>
                                     <a href="#" class="mb-0" data-bs-toggle="modal"
-                                        data-bs-target="#applyLoan">Lihat<i class="bi bi-arrow-right-circle ms-2"></i></a>
+                                        data-bs-target="#modalKebijakan">Lihat<i class="bi bi-arrow-right-circle ms-2"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -763,7 +762,7 @@
                                 <h5 class="card-title text-dark">SOP Konsultasi TIK pada aplikasi SAKTI</h5>
                                 <span class="badge bg-primary mb-2">#Manajemen Pengetahuan</span>
                                 <p class="card-text">Prosedur Konsultasi TIK pada aplikasi SAKTI</p>
-                                <a href="#" class="btn btn-outline-primary">Lihat</a>
+                                <a href="#" class="btn btn-outline-primary">Lihat <i class="bi bi-arrow-right-circle"></i> </a>
                             </div>
                         </div>
                     </div>
@@ -773,7 +772,7 @@
                                 <h5 class="card-title text-dark">SOP Penyusunan Daftar Informasi Publik</h5>
                                 <span class="badge bg-primary mb-2">#Manajemen Pengetahuan</span>
                                 <p class="card-text">Prosedur Penyusunan Daftar Informasi Publik</p>
-                                <a href="#" class="btn btn-outline-primary">Lihat</a>
+                                <a href="#" class="btn btn-outline-primary">Lihat <i class="bi bi-arrow-right-circle"></i></a>
                             </div>
                         </div>
                     </div>
@@ -783,7 +782,7 @@
                                 <h5 class="card-title text-dark">Layanan SPBE Terpadu</h5>
                                 <span class="badge bg-primary mb-2">#Manajemen Layanan SPBE</span>
                                 <p class="card-text">Prosedur layanan terpadu SPBE.</p>
-                                <a href="#" class="btn btn-outline-primary">Lihat</a>
+                                <a href="#" class="btn btn-outline-primary">Lihat <i class="bi bi-arrow-right-circle"></i></a>
                             </div>
                         </div>
                     </div>
@@ -793,7 +792,7 @@
                                 <h5 class="card-title text-dark">Layanan SPBE Terpadu</h5>
                                 <span class="badge bg-primary mb-2">#Manajemen Layanan SPBE</span>
                                 <p class="card-text">Prosedur layanan terpadu SPBE.</p>
-                                <a href="#" class="btn btn-outline-primary">Lihat</a>
+                                <a href="#" class="btn btn-outline-primary">Lihat <i class="bi bi-arrow-right-circle"></i></a>
                             </div>
                         </div>
                     </div>
@@ -801,11 +800,11 @@
 
             </div>
             <!-- Pagination -->
-                <div class="scroll-pagination d-flex justify-content-center mt-3">
-                    <span class="pagination-dot active"></span>
-                    <span class="pagination-dot"></span>
-                    <span class="pagination-dot"></span>
-                </div>
+            <div class="scroll-pagination d-flex justify-content-center mt-3">
+                <span class="pagination-dot active"></span>
+                <span class="pagination-dot"></span>
+                <span class="pagination-dot"></span>
+            </div>
         </div>
 
         </div>
@@ -992,7 +991,4 @@
         </div>
     </section>
     {{-- End Section Pengetahuan/Pertanyaan --}}
-
-
-
 @endsection

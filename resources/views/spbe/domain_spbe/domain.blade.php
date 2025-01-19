@@ -35,7 +35,7 @@
             display: block;
         }
     </style>
-    <section class="section">
+    <section class="section" style="padding-top: 100px;">
         <div class="container">
             <div class="row justify-content-center mb-5">
                 <div class="col-lg-6">
@@ -2575,7 +2575,9 @@
                     </div>
                 </div>
             </div>
+            {{-- End Domain 3 --}}
 
+            {{-- Doamin 4 --}}
             <div class="accordion">
                 <div class="accordion-header" onclick="toggleAccordion(this)">
                     Domain Layanan SPBE
@@ -3835,6 +3837,7 @@
                     </div>
                 </div>
             </div>
+            {{-- End Domain 4 --}}
         </div>
     </section>
 @endsection
