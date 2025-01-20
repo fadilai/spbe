@@ -10,7 +10,7 @@
                         <h3 class="text-capitalize mb-4 fs-2">Sistem Pemerintahan Berbasis Elektronik (SPBE) Mendukung
                             Pelayanan Publik</h3>
                         <p class="mb-4" style="color: #114A43;font-weight:600;">Pemerintah Kabupaten Pasuruan</p> <a
-                            type="button" class="btn btn-custom" href="https://tulangbawangkab.go.id/" >Kunjungi
+                            type="button" class="btn btn-custom" href="https://tulangbawangkab.go.id/">Kunjungi
                             Sekarang<span style="font-size: 14px;" class="ms-2 fas fa-arrow-right"></span></a>
                     </div>
                 </div>
@@ -170,10 +170,10 @@
                             new Chart(ctx, {
                                 type: 'bar',
                                 data: {
-                                    labels: ['2018', '2019', '2020', '2023', '2024', '2025'],
+                                    labels: ['2019', '2020', '2021', '2022', '2023', '2024'],
                                     datasets: [{
                                         label: 'Statistik SPBE Kabupaten Tulang Bawang',
-                                        data: [2.12, 3.33, 2.92, 3.33, 2.99, 4.00],
+                                        data: [ 0.00, 0.00, 0.00, 2.09, 2.55, 2.85],
                                         borderWidth: 1,
                                         backgroundColor: '#134B44',
                                         borderColor: '#134B44'
@@ -182,50 +182,48 @@
                                 options: {
                                     scales: {
                                         y: {
-                                            beginAtZero: true
+                                            beginAtZero: true,
+                                            max: 4.00
                                         }
                                     }
                                 }
                             });
                         </script>
-                        </p> <a class="btn btn-custom mt-4" href="about.html">Lihat</a>
+                        </p>
+                        {{-- <a class="btn btn-custom mt-4" href="about.html">Lihat</a> --}}
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    {{-- <img loading="lazy" decoding="async" src="{{ asset('spbe_template/images/index_domain.svg') }}"
-                        alt="About Ourselves" class="img-fluid"> --}}
-                    <div class="card mb-2">
+                    <div class="card mb-2" style="pointer-events: none !important; border: 1px solid #000000;background-color:#114A43;box-shadow: 0 4px 8px rgb(17,74,67);">
                         <div class="card-body">
-                            <h3 class="card-title">4.0</h3>
-                            <h5 class="card-text">Nilai SPBE Tahun 2025</h5>
+                            <h3 class="card-title text-white">2.85</h3>
+                            <h5 class="card-text text-white">Nilai SPBE Tahun 2024</h5>
                         </div>
                     </div>
 
-                    <div class="card">
+                    <div class="card" style="pointer-events: none !important; border: 1px solid #114A43;box-shadow: 0 4px 8px rgb(17,74,67);">
                         <div class="card-body">
-                            <h5 class="card-title">Domain SPBE</h5>
+                            <h5 class="card-title mb-3">Domain SPBE</h5>
                             <div class="domains-container">
                                 <div class="domain">
-                                    <h5>5.0</h5>
+                                    <h5 class="text-primary">3.70</h5>
                                     <p>Domain Kebijakan SPBE</p>
                                 </div>
                                 <div class="domain">
-                                    <h5>3.5</h5>
+                                    <h5 class="text-primary">2.10</h5>
                                     <p>Domain Tata Kelola SPBE</p>
                                 </div>
                                 <div class="domain">
-                                    <h5>1.565</h5>
+                                    <h5 class="text-primary">1.00</h5>
                                     <p>Domain Manajemen SPBE</p>
                                 </div>
                                 <div class="domain">
-                                    <h5>4.353</h5>
+                                    <h5 class="text-primary">3.69</h5>
                                     <p>Domain Layanan SPBE</p>
                                 </div>
                             </div>
                         </div>
-
                     </div>
-
 
                 </div>
             </div>
@@ -291,7 +289,8 @@
                                 <div class="block">
                                     <h5 class="mb-3">PERATURAN PRESIDEN REPUBLIK INDONESIA NOMOR 95 TAHUN 2018</h5>
                                     <a href="#" class="mb-0" data-bs-toggle="modal"
-                                        data-bs-target="#modalKebijakan">Lihat<i class="bi bi-arrow-right-circle ms-2"></i></a>
+                                        data-bs-target="#modalKebijakan">Lihat<i
+                                            class="bi bi-arrow-right-circle ms-2"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -418,7 +417,7 @@
                                             <div class="row">
                                                 <!-- Card 1 -->
                                                 <div class="col-md-6 mb-4">
-                                                    <a href="/  ">
+                                                    <a href="/ ">
                                                         <div class="card shadow-sm h-100 rounded-4">
                                                             <div class="card-body text-center">
                                                                 <div class="mb-3">
@@ -638,8 +637,9 @@
             <div class="row position-relative">
                 <!-- Card 1 -->
                 <div class="col-lg-4 col-md-6 pt-1">
-                    <a href="#" data-bs-toggle="modal" data-bs-target="#modalKegiatan" class="text-decoration-none">
-                        <div class="shadow rounded bg-white p-4 mt-4">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#modalKegiatan"
+                        class="text-decoration-none">
+                        <div class=" rounded bg-white p-4 mt-4" style="box-shadow: 0 4px 8px rgb(17,74,67);">
                             <div class="d-block d-sm-flex align-items-center mb-3">
                                 <i class="bi bi-calendar3" style="font-size: 30px;color:#114a43;"></i>
                                 <div class="mt-3 mt-sm-0 ms-0 ms-sm-3">
@@ -655,7 +655,7 @@
                 <!-- Card 2 -->
                 <div class="col-lg-4 col-md-6 pt-1">
                     <a href="#" class="text-decoration-none">
-                        <div class="shadow rounded bg-white p-4 mt-4">
+                        <div class=" rounded bg-white p-4 mt-4" style="box-shadow: 0 4px 8px rgb(17,74,67);">
                             <div class="d-block d-sm-flex align-items-center mb-3">
                                 <i class="bi bi-calendar3" style="font-size: 30px;color:#114a43;"></i>
                                 <div class="mt-3 mt-sm-0 ms-0 ms-sm-3">
@@ -671,7 +671,7 @@
                 <!-- Card 3 -->
                 <div class="col-lg-4 col-md-6 pt-1">
                     <a href="#" class="text-decoration-none">
-                        <div class="shadow rounded bg-white p-4 mt-4">
+                        <div class="rounded bg-white p-4 mt-4" style="box-shadow: 0 4px 8px rgb(17,74,67);">
                             <div class="d-block d-sm-flex align-items-center mb-3">
                                 <i class="bi bi-calendar3" style="font-size: 30px;color:#114a43;"></i>
                                 <div class="mt-3 mt-sm-0 ms-0 ms-sm-3">
@@ -757,13 +757,13 @@
             <div class="scrollable-container">
                 <div class="card-wrapper">
                     <div class="col-md-4 card-item" data-category="manajemen-pengetahuan">
-                        <div class="card shadow-sm border-0">
+                        <div class="card shadow-sm border-0" >
                             <div class="card-body">
                                 <h5 class="card-title text-dark">SOP Konsultasi TIK pada aplikasi SAKTI</h5>
                                 <span class="badge bg-primary mb-2">#Manajemen Pengetahuan</span>
                                 <p class="card-text">Prosedur Konsultasi TIK pada aplikasi SAKTI</p>
-                                <a href="#" data-bs-toggle="modal"
-                                        data-bs-target="#modalManajemen" class="btn btn-outline-primary">Lihat <i class="bi bi-arrow-right-circle"></i> </a>
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#modalManajemen"
+                                    class="btn btn-outline-primary">Lihat <i class="bi bi-arrow-right-circle"></i> </a>
                             </div>
                         </div>
                     </div>
@@ -773,7 +773,8 @@
                                 <h5 class="card-title text-dark">SOP Penyusunan Daftar Informasi Publik</h5>
                                 <span class="badge bg-primary mb-2">#Manajemen Pengetahuan</span>
                                 <p class="card-text">Prosedur Penyusunan Daftar Informasi Publik</p>
-                                <a href="#" class="btn btn-outline-primary">Lihat <i class="bi bi-arrow-right-circle"></i></a>
+                                <a href="#" class="btn btn-outline-primary">Lihat <i
+                                        class="bi bi-arrow-right-circle"></i></a>
                             </div>
                         </div>
                     </div>
@@ -783,7 +784,8 @@
                                 <h5 class="card-title text-dark">Layanan SPBE Terpadu</h5>
                                 <span class="badge bg-primary mb-2">#Manajemen Layanan SPBE</span>
                                 <p class="card-text">Prosedur layanan terpadu SPBE.</p>
-                                <a href="#" class="btn btn-outline-primary">Lihat <i class="bi bi-arrow-right-circle"></i></a>
+                                <a href="#" class="btn btn-outline-primary">Lihat <i
+                                        class="bi bi-arrow-right-circle"></i></a>
                             </div>
                         </div>
                     </div>
@@ -793,7 +795,8 @@
                                 <h5 class="card-title text-dark">Layanan SPBE Terpadu</h5>
                                 <span class="badge bg-primary mb-2">#Manajemen Layanan SPBE</span>
                                 <p class="card-text">Prosedur layanan terpadu SPBE.</p>
-                                <a href="#" class="btn btn-outline-primary">Lihat <i class="bi bi-arrow-right-circle"></i></a>
+                                <a href="#" class="btn btn-outline-primary">Lihat <i
+                                        class="bi bi-arrow-right-circle"></i></a>
                             </div>
                         </div>
                     </div>

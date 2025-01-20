@@ -10,8 +10,6 @@
                     PERATURAN PRESIDEN REPUBLIK INDONESIA NOMOR 132 TAHUN 2022 TENTANG ARSITEKTUR SISTEM PEMERINTAHAN
                     BERBASIS ELEKTRONIK NASIONAL
                 </p>
-
-                <!-- Tampilkan PDF -->
                 <iframe
                     src="{{ asset('spbe_template/file/PERATURAN_PRESIDEN_REPUBLIK_INDONESIA_NOMOR_95_TAHUN_2018-1721621844.pdf') }}"
                     width="100%"

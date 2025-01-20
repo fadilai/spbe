@@ -3,11 +3,14 @@
 
 <head>
     <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <title>SPBE Kabupaten Tulang Bawang</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="keywords" content="Kabupaten Tulang bawang">
     <meta name="description"
         content="SPBE adalah singkatan dari Sistem Pemerintahan Berbasis Elektronik. SPBE merupakan konsep dan upaya pemerintah untuk memberikan layanan publik dengan memanfaatkan teknologi informasi dan komunikasi. SPBE juga dikenal sebagai e-Government.">
-    <meta name="author" content="Diskominfo Kab. Tulang Bawang">
+    <meta name="author" content="Tim IT Dinas Komunikasi dan Informatika Kab. Tulang Bawang">
     <link rel="shortcut icon" href="{{ asset('spbe_template/images/spbe.svg') }}" type="image/x-icon">
     <link rel="icon" href="{{ asset('spbe_template/images/spbe.svg') }}" type="image/x-icon">
 
