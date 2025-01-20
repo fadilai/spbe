@@ -52,9 +52,9 @@
                 <div class="footer-widget">
                     <h5 class="mb-4 text-primary font-secondary">Layanan</h5>
                     <ul class="list-unstyled">
-                        <li class="mb-2"><a href="contact.html">Layanan 1</a>
+                        <li class="mb-2"><a href="https://sikeptemen.tulangbawangkab.go.id/main">Sikep Temen</a>
                         </li>
-                        <li class="mb-2"><a href="faq.html">Layanan 2</a>
+                        <li class="mb-2"><a href="https://sikeptemen.tulangbawangkab.go.id/main">Sibete</a>
                         </li>
                     </ul>
                 </div>

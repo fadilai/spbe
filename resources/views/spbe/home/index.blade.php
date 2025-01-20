@@ -289,7 +289,7 @@
                                         style="font-size:28px"></i>
                                 </div>
                                 <div class="block">
-                                    <h5 class="mb-3">Peraturan Presiden 132 Tahun 2022</h5>
+                                    <h5 class="mb-3">PERATURAN PRESIDEN REPUBLIK INDONESIA NOMOR 95 TAHUN 2018</h5>
                                     <a href="#" class="mb-0" data-bs-toggle="modal"
                                         data-bs-target="#modalKebijakan">Lihat<i class="bi bi-arrow-right-circle ms-2"></i></a>
                                 </div>
@@ -479,7 +479,7 @@
                                             </div>
                                             <div class="d-flex justify-content-center">
                                                 <button class="btn btn-custom mt-2" data-bs-toggle="modal"
-                                                    data-bs-target="#applyLoan"><i
+                                                    data-bs-target="#modalLayanan"><i
                                                         class="bi bi-journals me-2"></i>Selengkapnya</button>
                                             </div>
 
@@ -638,7 +638,7 @@
             <div class="row position-relative">
                 <!-- Card 1 -->
                 <div class="col-lg-4 col-md-6 pt-1">
-                    <a href="#" data-bs-toggle="modal" data-bs-target="#applyLoan" class="text-decoration-none">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#modalKegiatan" class="text-decoration-none">
                         <div class="shadow rounded bg-white p-4 mt-4">
                             <div class="d-block d-sm-flex align-items-center mb-3">
                                 <i class="bi bi-calendar3" style="font-size: 30px;color:#114a43;"></i>
@@ -762,7 +762,8 @@
                                 <h5 class="card-title text-dark">SOP Konsultasi TIK pada aplikasi SAKTI</h5>
                                 <span class="badge bg-primary mb-2">#Manajemen Pengetahuan</span>
                                 <p class="card-text">Prosedur Konsultasi TIK pada aplikasi SAKTI</p>
-                                <a href="#" class="btn btn-outline-primary">Lihat <i class="bi bi-arrow-right-circle"></i> </a>
+                                <a href="#" data-bs-toggle="modal"
+                                        data-bs-target="#modalManajemen" class="btn btn-outline-primary">Lihat <i class="bi bi-arrow-right-circle"></i> </a>
                             </div>
                         </div>
                     </div>

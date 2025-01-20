@@ -10623,6 +10623,14 @@ textarea.form-control {
     flex: 0 0 calc(50% - 1rem);
     max-width: calc(50% - 1rem);
   }
+   .domains-container {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .domain {
+        width: 100%;
+    }
 }
 
 @media (max-width: 576px) {
@@ -10649,5 +10657,6 @@ textarea.form-control {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 /* End Header */
+
 
 /* END CUSTOM STYLE */

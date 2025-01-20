@@ -57,9 +57,19 @@ document.addEventListener("DOMContentLoaded", function () {
 // Js for accordion
 function toggleAccordion(element) {
     element.classList.toggle("active");
+    const icon = element.querySelector("i");
     const body = element.nextElementSibling;
+
     if (body) {
         body.classList.toggle("show");
+    }
+
+    if (element.classList.contains("active")) {
+        icon.classList.remove("bi-arrow-right-circle");
+        icon.classList.add("bi-arrow-down-circle");
+    } else {
+        icon.classList.remove("bi-arrow-down-circle");
+        icon.classList.add("bi-arrow-right-circle");
     }
 }
 // Js for accordion

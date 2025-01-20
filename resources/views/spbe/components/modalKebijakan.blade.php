@@ -13,7 +13,7 @@
 
                 <!-- Tampilkan PDF -->
                 <iframe
-                    src="{{ asset('spbe_template/file/4RO8142W-0895616710043.pdf') }}"
+                    src="{{ asset('spbe_template/file/PERATURAN_PRESIDEN_REPUBLIK_INDONESIA_NOMOR_95_TAHUN_2018-1721621844.pdf') }}"
                     width="100%"
                     height="500px"
                     style="border: none;"
