@@ -86,3 +86,114 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 // Js for scroll to header
+
+// Dropdown index domain
+const dropdownButton = document.querySelector(".dropdown-button");
+const dropdownMenu = document.querySelector(".dropdown-menu");
+const nilaiSpbeElement = document.getElementById("nilai-spbe");
+const tahunSpbeElement = document.getElementById("tahun-spbe");
+const domainsContainer = document.getElementById("domains-container");
+
+const dataSPBE = {
+    2019: {
+        nilai: "1.52",
+        domains: [
+            { score: "1.29", name: "Domain Kebijakan SPBE" },
+            { score: "1.00", name: "Domain Tata Kelola SPBE" },
+            { score: "-", name: "Domain Manajemen SPBE" },
+            { score: "1.85", name: "Domain Layanan SPBE" },
+        ],
+    },
+    2020: {
+        nilai: "-",
+        domains: [
+            { score: "-", name: "Domain Kebijakan SPBE" },
+            { score: "-", name: "Domain Tata Kelola SPBE" },
+            { score: "-", name: "Domain Manajemen SPBE" },
+            { score: "-", name: "Domain Layanan SPBE" },
+        ],
+    },
+    2021: {
+        nilai: "-",
+        domains: [
+            { score: "-", name: "Domain Kebijakan SPBE" },
+            { score: "-", name: "Domain Tata Kelola SPBE" },
+            { score: "-", name: "Domain Manajemen SPBE" },
+            { score: "-", name: "Domain Layanan SPBE" },
+        ],
+    },
+    2022: {
+        nilai: "2.09",
+        domains: [
+            { score: "2.50", name: "Domain Kebijakan SPBE" },
+            { score: "1.40", name: "Domain Tata Kelola SPBE" },
+            { score: "1.00", name: "Domain Manajemen SPBE" },
+            { score: "2.75", name: "Domain Layanan SPBE" },
+        ],
+    },
+    2023: {
+        nilai: "2.55",
+        domains: [
+            { score: "3.00", name: "Domain Kebijakan SPBE" },
+            { score: "2.00", name: "Domain Tata Kelola SPBE" },
+            { score: "1.09", name: "Domain Manajemen SPBE" },
+            { score: "3.25", name: "Domain Layanan SPBE" },
+        ],
+    },
+    2024: {
+        nilai: "2.85",
+        domains: [
+            { score: "3.70", name: "Domain Kebijakan SPBE" },
+            { score: "2.10", name: "Domain Tata Kelola SPBE" },
+            { score: "1.00", name: "Domain Manajemen SPBE" },
+            { score: "3.69", name: "Domain Layanan SPBE" },
+        ],
+    },
+};
+
+dropdownButton.addEventListener("click", () => {
+    dropdownMenu.style.display =
+        dropdownMenu.style.display === "none" ||
+        dropdownMenu.style.display === ""
+            ? "block"
+            : "none";
+});
+
+document.querySelectorAll(".dropdown-item").forEach((item) => {
+    item.addEventListener("click", (e) => {
+        e.preventDefault();
+        const year = e.target.getAttribute("data-year");
+        updateData(year);
+        dropdownMenu.style.display = "none";
+    });
+});
+
+function updateData(year) {
+    const data = dataSPBE[year];
+    if (data) {
+        nilaiSpbeElement.textContent = data.nilai;
+        tahunSpbeElement.textContent = `Nilai SPBE Tahun ${year}`;
+        domainsContainer.innerHTML = data.domains
+            .map(
+                (domain) => `
+                <div class="domain">
+                    <h5 class="text-primary">${domain.score}</h5>
+                    <p>${domain.name}</p>
+                </div>
+            `
+            )
+            .join("");
+    }
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+    updateData("2024");
+});
+
+document.addEventListener("click", (e) => {
+    if (!e.target.closest(".dropdown")) {
+        dropdownMenu.style.display = "none";
+    }
+});
+
+// End Dropdown index domain

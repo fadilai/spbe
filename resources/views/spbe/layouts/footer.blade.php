@@ -54,7 +54,9 @@
                     <ul class="list-unstyled">
                         <li class="mb-2"><a href="https://sikeptemen.tulangbawangkab.go.id/main">Sikep Temen</a>
                         </li>
-                        <li class="mb-2"><a href="https://sikeptemen.tulangbawangkab.go.id/main">Sibete</a>
+                        <li class="mb-2"><a href="#">Sibete</a>
+                        </li>
+                         <li class="mb-2"><a href="https://jdih.tulangbawangkab.go.id/">JDIH</a>
                         </li>
                     </ul>
                 </div>

@@ -34,7 +34,7 @@
                     </li>
                 </ul>
                 <a href="#!" class="btn btn-outline-primary cutom-color">Masuk</a>
-                <a href="#!" class="btn btn-custom ms-2 ms-lg-3">Daftar</a>
+                {{-- <a href="#!" class="btn btn-custom ms-2 ms-lg-3">Daftar</a> --}}
             </div>
         </div>
     </nav>

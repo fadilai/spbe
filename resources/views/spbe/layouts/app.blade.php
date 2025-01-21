@@ -45,13 +45,10 @@
 
     {{-- Modal --}}
     @include('spbe.components.modal')
-     @include('spbe.components.modalKebijakan')
-          @include('spbe.components.modalLayanan')
+    @include('spbe.components.modalKebijakan')
+    @include('spbe.components.modalLayanan')
     @include('spbe.components.modalKegiatan')
-        @include('spbe.components.modalManajemen')
-
-
-
+    @include('spbe.components.modalManajemen')
     {{-- Modal End --}}
 
     @yield('content')

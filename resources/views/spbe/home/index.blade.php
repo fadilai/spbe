@@ -173,7 +173,7 @@
                                     labels: ['2019', '2020', '2021', '2022', '2023', '2024'],
                                     datasets: [{
                                         label: 'Statistik SPBE Kabupaten Tulang Bawang',
-                                        data: [ 0.00, 0.00, 0.00, 2.09, 2.55, 2.85],
+                                        data: [1.52, 0.00, 0.00, 2.09, 2.55, 2.85],
                                         borderWidth: 1,
                                         backgroundColor: '#134B44',
                                         borderColor: '#134B44'
@@ -190,21 +190,49 @@
                             });
                         </script>
                         </p>
-                        {{-- <a class="btn btn-custom mt-4" href="about.html">Lihat</a> --}}
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="card mb-2" style="pointer-events: none !important; border: 1px solid #000000;background-color:#114A43;box-shadow: 0 4px 8px rgb(17,74,67);">
+                    <div class="dropdown mb-2" style="pointer-events: auto; position: relative; text-align:end;">
+                        <button class="dropdown-button"
+                            style="background-color: #114A43; color: white; padding: 8px 15px; border: none; cursor: pointer; border-radius: 5px;">
+                            Pilih Tahun <i class="bi bi-menu-button-fill"></i>
+                        </button>
+                        <ul class="dropdown-menu"
+                            style="list-style-type: none; margin: 0; padding: 0; position: absolute; background-color: white; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); border-radius: 5px; display: none; min-width: 150px; z-index: 1000; right:0;">
+                            <li><a href="#" class="dropdown-item" data-year="2019"
+                                    style="display: block; padding: 10px; text-decoration: none; color: black; cursor: pointer;">2019</a>
+                            </li>
+                            <li><a href="#" class="dropdown-item" data-year="2020"
+                                    style="display: block; padding: 10px; text-decoration: none; color: black; cursor: pointer;">2020</a>
+                            </li>
+                            <li><a href="#" class="dropdown-item" data-year="2021"
+                                    style="display: block; padding: 10px; text-decoration: none; color: black; cursor: pointer;">2021</a>
+                            </li>
+                            <li><a href="#" class="dropdown-item" data-year="2022"
+                                    style="display: block; padding: 10px; text-decoration: none; color: black; cursor: pointer;">2022</a>
+                            </li>
+                            <li><a href="#" class="dropdown-item" data-year="2023"
+                                    style="display: block; padding: 10px; text-decoration: none; color: black; cursor: pointer;">2023</a>
+                            </li>
+                            <li><a href="#" class="dropdown-item" data-year="2024"
+                                    style="display: block; padding: 10px; text-decoration: none; color: black; cursor: pointer;">2024</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card mb-2"
+                        style="pointer-events: none !important; border: 1px solid #000000; background-color:#114A43; box-shadow: 0 4px 8px rgb(17,74,67);">
                         <div class="card-body">
-                            <h3 class="card-title text-white">2.85</h3>
-                            <h5 class="card-text text-white">Nilai SPBE Tahun 2024</h5>
+                            <h3 class="card-title text-white" id="nilai-spbe">2.85</h3>
+                            <h5 class="card-text text-white" id="tahun-spbe">Nilai SPBE Tahun 2024</h5>
                         </div>
                     </div>
 
-                    <div class="card" style="pointer-events: none !important; border: 1px solid #114A43;box-shadow: 0 4px 8px rgb(17,74,67);">
+                    <div class="card"
+                        style="pointer-events: none !important; border: 1px solid #114A43; box-shadow: 0 4px 8px rgb(17,74,67);">
                         <div class="card-body">
                             <h5 class="card-title mb-3">Domain SPBE</h5>
-                            <div class="domains-container">
+                            <div class="domains-container" id="domains-container">
                                 <div class="domain">
                                     <h5 class="text-primary">3.70</h5>
                                     <p>Domain Kebijakan SPBE</p>
@@ -224,7 +252,6 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
             <div class="has-shapes">
@@ -300,9 +327,23 @@
                                         style="font-size:28px"></i>
                                 </div>
                                 <div class="block">
+                                    <h5 class="mb-3">Peraturan Presiden 132 Tahun 2022</h5>
+                                    <a href="#" class="mb-0" data-bs-toggle="modal"
+                                        data-bs-target="#modalKebijakan2">Lihat<i
+                                            class="bi bi-arrow-right-circle ms-2"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="difference-of-us-item p-3 rounded mr-0 me-lg-4">
+                            <div class="d-block d-sm-flex align-items-center m-2">
+                                <div class="icon me-4 mb-4 mb-sm-0"> <i class="bi-journal-bookmark-fill mt-3"
+                                        style="font-size:28px"></i>
+                                </div>
+                                <div class="block">
                                     <h5 class="mb-3">Peraturan Presiden 82 Tahun 2023</h5>
                                     <a href="#" class="mb-0" data-bs-toggle="modal"
-                                        data-bs-target="#applyLoan">Lihat<i class="bi bi-arrow-right-circle ms-2"></i></a>
+                                        data-bs-target="#modalKebijakan3">Lihat<i
+                                            class="bi bi-arrow-right-circle ms-2"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -313,19 +354,7 @@
                                 </div>
                                 <div class="block">
                                     <h5 class="mb-3">Peraturan Presiden 47 Tahun 2023</h5>
-                                    <a href="#" class="mb-0" data-bs-toggle="modal"
-                                        data-bs-target="#applyLoan">Lihat<i class="bi bi-arrow-right-circle ms-2"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="difference-of-us-item p-3 rounded mr-0 me-lg-4">
-                            <div class="d-block d-sm-flex align-items-center m-2">
-                                <div class="icon me-4 mb-4 mb-sm-0"> <i class="bi-journal-bookmark-fill mt-3"
-                                        style="font-size:28px"></i>
-                                </div>
-                                <div class="block">
-                                    <h5 class="mb-3">Peraturan Presiden 132 Tahun 2022</h5>
-                                    <a href="#" data-bs-toggle="modal" data-bs-target="#applyLoan"
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#modalKebijakan4"
                                         class="mb-0">Lihat<i class="bi bi-arrow-right-circle ms-2"></i></a>
                                 </div>
                             </div>
@@ -336,7 +365,8 @@
                                         style="font-size:28px"></i>
                                 </div>
                                 <div class="block">
-                                    <h5 class="mb-3">Peraturan Presiden 132 Tahun 2022</h5>
+                                    <h5 class="mb-3">Peraturan Menteri Komunikasi dan Informatika Nomor 16 Tahun 2020
+                                    </h5>
                                     <a href="/" class="mb-0">Lihat<i
                                             class="bi bi-arrow-right-circle ms-2"></i></a>
                                 </div>
@@ -349,7 +379,7 @@
                                         style="font-size:28px"></i>
                                 </div>
                                 <div class="block">
-                                    <h5 class="mb-3">Peraturan Presiden 132 Tahun 2022</h5>
+                                    <h5 class="mb-3">Peraturan Badan Riset dan Inovasi Nasional Nomor 2 Tahun 2024</h5>
                                     <a href="/" class="mb-0">Lihat<i
                                             class="bi bi-arrow-right-circle ms-2"></i></a>
                                 </div>
@@ -421,56 +451,56 @@
                                                         <div class="card shadow-sm h-100 rounded-4">
                                                             <div class="card-body text-center">
                                                                 <div class="mb-3">
-                                                                    <img src="{{ asset('spbe_template/images/ssss.jpg') }}"
+                                                                    <img src="{{ asset('spbe_template/images/layanan/spbe_tb.png') }}"
                                                                         alt="Icon" class="img-fluid"
-                                                                        style="width:70%;object-fit: contain;border-radius:8px;">
+                                                                        style="object-fit: contain;">
                                                                 </div>
-                                                                <b class="card-title">Layanan 1</b>
+                                                                <b class="card-title">SPBE</b>
                                                             </div>
                                                         </div>
                                                     </a>
                                                 </div>
                                                 <!-- Card 2 -->
                                                 <div class="col-md-6 mb-4">
-                                                    <a href="/  ">
+                                                    <a href="https://jdih.tulangbawangkab.go.id/">
                                                         <div class="card shadow-sm h-100 rounded-4">
                                                             <div class="card-body text-center">
                                                                 <div class="mb-3">
-                                                                    <img src="{{ asset('spbe_template/images/ssss.jpg') }}"
+                                                                    <img src="{{ asset('spbe_template/images/layanan/jdih_tb.png') }}"
                                                                         alt="Icon" class="img-fluid"
-                                                                        style="width:70%;object-fit: contain;border-radius:8px;">
+                                                                        style="object-fit: contain;">
                                                                 </div>
-                                                                <b class="card-title">Layanan 2</b>
+                                                                <b class="card-title">JDIH</b>
                                                             </div>
                                                         </div>
                                                     </a>
                                                 </div>
                                                 <!-- Card 3 -->
                                                 <div class="col-md-6 mb-4">
-                                                    <a href="/  ">
+                                                    <a href="https://ppid.tulangbawangkab.go.id/">
                                                         <div class="card shadow-sm h-100 rounded-4">
                                                             <div class="card-body text-center">
                                                                 <div class="mb-3">
-                                                                    <img src="{{ asset('spbe_template/images/ssss.jpg') }}"
+                                                                    <img src="{{ asset('spbe_template/images/layanan/ppid_tb.png') }}"
                                                                         alt="Icon" class="img-fluid"
-                                                                        style="width:70%;object-fit: contain;border-radius:8px;">
+                                                                        style="object-fit: contain;">
                                                                 </div>
-                                                                <b class="card-title">Layanan 3</b>
+                                                                <b class="card-title">PPID</b>
                                                             </div>
                                                         </div>
                                                     </a>
                                                 </div>
                                                 <!-- Card 4 -->
                                                 <div class="col-md-6 mb-4">
-                                                    <a href="/  ">
+                                                    <a href="https://sikeptemen.tulangbawangkab.go.id/main ">
                                                         <div class="card shadow-sm h-100 rounded-4">
                                                             <div class="card-body text-center">
                                                                 <div class="mb-3">
-                                                                    <img src="{{ asset('spbe_template/images/ssss.jpg') }}"
+                                                                    <img src="{{ asset('spbe_template/images/layanan/sikep temen.png') }}"
                                                                         alt="Icon" class="img-fluid"
-                                                                        style="width:70%;object-fit: contain;border-radius:8px;">
+                                                                        style="object-fit: contain;">
                                                                 </div>
-                                                                <b class="card-title">Layanan 4</b>
+                                                                <b class="card-title">SIKEP TEMEN</b>
                                                             </div>
                                                         </div>
                                                     </a>
@@ -504,60 +534,60 @@
                                             <div class="row">
                                                 <!-- Card 1 -->
                                                 <div class="col-md-6 mb-4">
-                                                    <a href="/  ">
+                                                    <a href="https://sipd.kemendagri.go.id/">
                                                         <div class="card shadow-sm h-100 rounded-4">
                                                             <div class="card-body text-center">
                                                                 <div class="mb-3">
-                                                                    <img src="{{ asset('spbe_template/images/ssss.jpg') }}"
+                                                                    <img src="{{ asset('spbe_template/images/layanan/sipd.png') }}"
                                                                         alt="Icon" class="img-fluid"
-                                                                        style="width:70%;object-fit: contain;border-radius:8px;">
+                                                                        style="width:;object-fit: contain;">
                                                                 </div>
-                                                                <b class="card-title">Layanan 1</b>
+                                                                <b class="card-title">SIPD</b>
                                                             </div>
                                                         </div>
                                                     </a>
                                                 </div>
                                                 <!-- Card 2 -->
                                                 <div class="col-md-6 mb-4">
-                                                    <a href="/  ">
+                                                    <a href="https://sicantik.go.id/">
                                                         <div class="card shadow-sm h-100 rounded-4">
                                                             <div class="card-body text-center">
                                                                 <div class="mb-3">
-                                                                    <img src="{{ asset('spbe_template/images/ssss.jpg') }}"
+                                                                    <img src="{{ asset('spbe_template/images/layanan/sicantik.png') }}"
                                                                         alt="Icon" class="img-fluid"
-                                                                        style="width:70%;object-fit: contain;border-radius:8px;">
+                                                                        style=";object-fit: contain;">
                                                                 </div>
-                                                                <b class="card-title">Layanan 2</b>
+                                                                <b class="card-title">SICANTIK</b>
                                                             </div>
                                                         </div>
                                                     </a>
                                                 </div>
                                                 <!-- Card 3 -->
                                                 <div class="col-md-6 mb-4">
-                                                    <a href="/  ">
+                                                    <a href="https://srikandi.arsip.go.id/">
                                                         <div class="card shadow-sm h-100 rounded-4">
                                                             <div class="card-body text-center">
                                                                 <div class="mb-3">
-                                                                    <img src="{{ asset('spbe_template/images/ssss.jpg') }}"
+                                                                    <img src="{{ asset('spbe_template/images/layanan/srikandi.png') }}"
                                                                         alt="Icon" class="img-fluid"
-                                                                        style="width:70%;object-fit: contain;border-radius:8px;">
+                                                                        style="width:;object-fit: contain;">
                                                                 </div>
-                                                                <b class="card-title">Layanan 3</b>
+                                                                <b class="card-title">SRIKANDI</b>
                                                             </div>
                                                         </div>
                                                     </a>
                                                 </div>
                                                 <!-- Card 4 -->
                                                 <div class="col-md-6 mb-4">
-                                                    <a href="/  ">
+                                                    <a href="https://oss.go.id/">
                                                         <div class="card shadow-sm h-100 rounded-4">
                                                             <div class="card-body text-center">
                                                                 <div class="mb-3">
-                                                                    <img src="{{ asset('spbe_template/images/ssss.jpg') }}"
+                                                                    <img src="{{ asset('spbe_template/images/layanan/oss.png') }}"
                                                                         alt="Icon" class="img-fluid"
-                                                                        style="width:70%;object-fit: contain;border-radius:8px;">
+                                                                        style="object-fit: contain;">
                                                                 </div>
-                                                                <b class="card-title">Layanan 4</b>
+                                                                <b class="card-title">OSS</b>
                                                             </div>
                                                         </div>
                                                     </a>
@@ -639,7 +669,7 @@
                 <div class="col-lg-4 col-md-6 pt-1">
                     <a href="#" data-bs-toggle="modal" data-bs-target="#modalKegiatan"
                         class="text-decoration-none">
-                        <div class=" rounded bg-white p-4 mt-4" style="box-shadow: 0 4px 8px rgb(17,74,67);">
+                        <div class=" rounded bg-white p-4 mt-4" style="box-shadow: 0 1px 3px rgb(17,74,67);">
                             <div class="d-block d-sm-flex align-items-center mb-3">
                                 <i class="bi bi-calendar3" style="font-size: 30px;color:#114a43;"></i>
                                 <div class="mt-3 mt-sm-0 ms-0 ms-sm-3">
@@ -655,7 +685,7 @@
                 <!-- Card 2 -->
                 <div class="col-lg-4 col-md-6 pt-1">
                     <a href="#" class="text-decoration-none">
-                        <div class=" rounded bg-white p-4 mt-4" style="box-shadow: 0 4px 8px rgb(17,74,67);">
+                        <div class=" rounded bg-white p-4 mt-4" style="box-shadow: 0 1px 3px rgb(17,74,67);">
                             <div class="d-block d-sm-flex align-items-center mb-3">
                                 <i class="bi bi-calendar3" style="font-size: 30px;color:#114a43;"></i>
                                 <div class="mt-3 mt-sm-0 ms-0 ms-sm-3">
@@ -671,7 +701,7 @@
                 <!-- Card 3 -->
                 <div class="col-lg-4 col-md-6 pt-1">
                     <a href="#" class="text-decoration-none">
-                        <div class="rounded bg-white p-4 mt-4" style="box-shadow: 0 4px 8px rgb(17,74,67);">
+                        <div class="rounded bg-white p-4 mt-4" style="box-shadow: 0 1px 3px rgb(17,74,67);">
                             <div class="d-block d-sm-flex align-items-center mb-3">
                                 <i class="bi bi-calendar3" style="font-size: 30px;color:#114a43;"></i>
                                 <div class="mt-3 mt-sm-0 ms-0 ms-sm-3">
@@ -739,7 +769,7 @@
                     Layanan SPBE</button>
                 <button class="btn btn-outline-primary filter-btn" data-category="manajemen-perubahan">Manajemen
                     Perubahan</button>
-                <button class="btn btn-outline-primary filter-btn" data-category="manajemen-pengetahuann">Manajemen
+                <button class="btn btn-outline-primary filter-btn" data-category="manajemen-pengetahuan">Manajemen
                     Pengetahuan</button>
                 <button class="btn btn-outline-primary filter-btn" data-category="manajemen-sdm">Manajemen Sumber Daya
                     Manusia</button>
@@ -757,7 +787,7 @@
             <div class="scrollable-container">
                 <div class="card-wrapper">
                     <div class="col-md-4 card-item" data-category="manajemen-pengetahuan">
-                        <div class="card shadow-sm border-0" >
+                        <div class="card shadow-sm border-0">
                             <div class="card-body">
                                 <h5 class="card-title text-dark">SOP Konsultasi TIK pada aplikasi SAKTI</h5>
                                 <span class="badge bg-primary mb-2">#Manajemen Pengetahuan</span>
@@ -995,4 +1025,23 @@
         </div>
     </section>
     {{-- End Section Pengetahuan/Pertanyaan --}}
+
+    {{-- Section Tata Kelola --}}
+    {{-- <section id="tatakelola" class="section testimonials overflow-hidden bg-tertiary">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="section-title text-center mb-5 pb-2">
+                        <h2>Tata Kelola</h2>
+                        <p class="text-primary fw-bold mb-3">Memastikan penerapan unsur-unsur SPBE secara terpadu.</p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section> --}}
+    {{-- End Tata Kelola --}}
+
+
 @endsection
