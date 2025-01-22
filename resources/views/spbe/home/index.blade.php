@@ -789,9 +789,9 @@
                     <div class="col-md-4 card-item" data-category="manajemen-layanan">
                         <div class="card shadow-sm border-0">
                             <div class="card-body">
-                                <h5 class="card-title text-dark">SOP Konsultasi TIK pada aplikasi SAKTI</h5>
+                                <h5 class="card-title text-dark">SOP Konsultasi TIK pada aplikasi SIAP TUBA</h5>
                                 <span class="badge bg-primary mb-2">#Manajemen Layanan SPBE</span>
-                                <p class="card-text">Prosedur Konsultasi TIK pada aplikasi SAKTI</p>
+                                <p class="card-text">Prosedur Konsultasi TIK pada aplikasi SIAP TUBA</p>
                                 <a href="#" data-bs-toggle="modal" data-bs-target="#modalManajemen"
                                     class="btn btn-outline-primary">Lihat <i class="bi bi-arrow-right-circle"></i> </a>
                             </div>
