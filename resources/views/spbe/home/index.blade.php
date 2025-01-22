@@ -220,16 +220,16 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="card mb-2"
-                        style="pointer-events: none !important; border: 1px solid #000000; background-color:#114A43; box-shadow: 0 4px 8px rgb(17,74,67);">
+                    <div class="card mb-2 shadow"
+                        style="pointer-events: none !important;  background-color:#114A43; ">
                         <div class="card-body">
                             <h3 class="card-title text-white" id="nilai-spbe">2.85</h3>
                             <h5 class="card-text text-white" id="tahun-spbe">Nilai SPBE Tahun 2024</h5>
                         </div>
                     </div>
 
-                    <div class="card"
-                        style="pointer-events: none !important; border: 1px solid #114A43; box-shadow: 0 4px 8px rgb(17,74,67);">
+                    <div class="card shadow"
+                        style="pointer-events: none !important;  ">
                         <div class="card-body">
                             <h5 class="card-title mb-3">Domain SPBE</h5>
                             <div class="domains-container" id="domains-container">
@@ -669,7 +669,7 @@
                 <div class="col-lg-4 col-md-6 pt-1">
                     <a href="#" data-bs-toggle="modal" data-bs-target="#modalKegiatan"
                         class="text-decoration-none">
-                        <div class=" rounded bg-white p-4 mt-4" style="box-shadow: 0 1px 3px rgb(17,74,67);">
+                        <div class=" rounded bg-white p-4 mt-4 shadow" >
                             <div class="d-block d-sm-flex align-items-center mb-3">
                                 <i class="bi bi-calendar3" style="font-size: 30px;color:#114a43;"></i>
                                 <div class="mt-3 mt-sm-0 ms-0 ms-sm-3">
@@ -685,7 +685,7 @@
                 <!-- Card 2 -->
                 <div class="col-lg-4 col-md-6 pt-1">
                     <a href="#" class="text-decoration-none">
-                        <div class=" rounded bg-white p-4 mt-4" style="box-shadow: 0 1px 3px rgb(17,74,67);">
+                        <div class=" rounded bg-white p-4 mt-4 shadow" >
                             <div class="d-block d-sm-flex align-items-center mb-3">
                                 <i class="bi bi-calendar3" style="font-size: 30px;color:#114a43;"></i>
                                 <div class="mt-3 mt-sm-0 ms-0 ms-sm-3">
@@ -701,7 +701,7 @@
                 <!-- Card 3 -->
                 <div class="col-lg-4 col-md-6 pt-1">
                     <a href="#" class="text-decoration-none">
-                        <div class="rounded bg-white p-4 mt-4" style="box-shadow: 0 1px 3px rgb(17,74,67);">
+                        <div class="rounded bg-white p-4 mt-4 shadow" >
                             <div class="d-block d-sm-flex align-items-center mb-3">
                                 <i class="bi bi-calendar3" style="font-size: 30px;color:#114a43;"></i>
                                 <div class="mt-3 mt-sm-0 ms-0 ms-sm-3">
@@ -1049,7 +1049,7 @@
     {{-- End Section Pengetahuan/Pertanyaan --}}
 
     {{-- Section Tata Kelola --}}
-    <section id="tatakelola" class="section testimonials overflow-hidden bg-tertiary">
+    {{-- <section id="tatakelola" class="section testimonials overflow-hidden bg-tertiary">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12">
@@ -1066,6 +1066,6 @@
 
             </div>
         </div>
-    </section>
+    </section> --}}
     {{-- End Tata Kelola --}}
 @endsection
