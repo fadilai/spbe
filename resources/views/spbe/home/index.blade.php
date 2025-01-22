@@ -307,10 +307,10 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="scrollable-items" style="max-height: 400px; overflow-y: auto;">
+                    <div class="scrollable-items p-4" style="max-height: 400px; overflow-y: auto;">
                         <div class="difference-of-us-item p-3 rounded mr-0 me-lg-4">
                             <div class="d-block d-sm-flex align-items-center m-2">
-                                <div class="icon me-4 mb-4 mb-sm-0"> <i class="bi-journal-bookmark-fill mt-3"
+                                <div class="icon me-4 mb-4 mb-sm-0"> <i class="bi bi-file-pdf-fill mt-3"
                                         style="font-size:28px"></i>
                                 </div>
                                 <div class="block">
@@ -323,7 +323,7 @@
                         </div>
                         <div class="difference-of-us-item p-3 rounded mr-0 me-lg-4">
                             <div class="d-block d-sm-flex align-items-center m-2">
-                                <div class="icon me-4 mb-4 mb-sm-0"> <i class="bi-journal-bookmark-fill mt-3"
+                                <div class="icon me-3 mb-3 mb-sm-0"> <i class="bi bi-file-pdf-fill mt-3"
                                         style="font-size:28px"></i>
                                 </div>
                                 <div class="block">
@@ -336,7 +336,7 @@
                         </div>
                         <div class="difference-of-us-item p-3 rounded mr-0 me-lg-4">
                             <div class="d-block d-sm-flex align-items-center m-2">
-                                <div class="icon me-4 mb-4 mb-sm-0"> <i class="bi-journal-bookmark-fill mt-3"
+                                <div class="icon me-3 mb-3 mb-sm-0"> <i class="bi bi-file-pdf-fill mt-3"
                                         style="font-size:28px"></i>
                                 </div>
                                 <div class="block">
@@ -349,7 +349,7 @@
                         </div>
                         <div class="difference-of-us-item p-3 rounded mr-0 me-lg-4">
                             <div class="d-block d-sm-flex align-items-center m-2">
-                                <div class="icon me-4 mb-4 mb-sm-0"> <i class="bi-journal-bookmark-fill mt-3"
+                                <div class="icon me-3 mb-3 mb-sm-0"> <i class="bi bi-file-pdf-fill mt-3"
                                         style="font-size:28px"></i>
                                 </div>
                                 <div class="block">
@@ -361,7 +361,7 @@
                         </div>
                         <div class="difference-of-us-item p-3 rounded mr-0 me-lg-4">
                             <div class="d-block d-sm-flex align-items-center m-2">
-                                <div class="icon me-4 mb-4 mb-sm-0"> <i class="bi-journal-bookmark-fill mt-3"
+                                <div class="icon me-3 mb-3 mb-sm-0"> <i class="bi bi-file-pdf-fill mt-3"
                                         style="font-size:28px"></i>
                                 </div>
                                 <div class="block">
@@ -375,7 +375,7 @@
 
                         <div class="difference-of-us-item p-3 rounded mr-0 me-lg-4">
                             <div class="d-block d-sm-flex align-items-center m-2">
-                                <div class="icon me-4 mb-4 mb-sm-0"> <i class="bi-journal-bookmark-fill mt-3"
+                                <div class="icon me-3 mb-3 mb-sm-0"> <i class="bi bi-file-pdf-fill mt-3"
                                         style="font-size:28px"></i>
                                 </div>
                                 <div class="block">
@@ -388,7 +388,7 @@
 
                         <div class="difference-of-us-item p-3 rounded mr-0 me-lg-4">
                             <div class="d-block d-sm-flex align-items-center m-2">
-                                <div class="icon me-4 mb-4 mb-sm-0"> <i class="bi-journal-bookmark-fill mt-3"
+                                <div class="icon me-3 mb-3 mb-sm-0"> <i class="bi bi-file-pdf-fill mt-3"
                                         style="font-size:28px"></i>
                                 </div>
                                 <div class="block">
