@@ -9,7 +9,7 @@
                     <div class="block text-center text-lg-start pe-0 pe-xl-5">
                         <h3 class="text-capitalize mb-4 fs-2">Sistem Pemerintahan Berbasis Elektronik (SPBE) Mendukung
                             Pelayanan Publik</h3>
-                        <p class="mb-4" style="color: #114A43;font-weight:600;">Pemerintah Kabupaten Pasuruan</p> <a
+                        <p class="mb-4" style="color: #114A43;font-weight:600;">Pemerintah Kabupaten Tulang Bawang</p> <a
                             type="button" class="btn btn-custom" href="https://tulangbawangkab.go.id/">Kunjungi
                             Sekarang<span style="font-size: 14px;" class="ms-2 fas fa-arrow-right"></span></a>
                     </div>
@@ -786,12 +786,34 @@
             <!-- Cards -->
             <div class="scrollable-container">
                 <div class="card-wrapper">
-                    <div class="col-md-4 card-item" data-category="manajemen-pengetahuan">
+                    <div class="col-md-4 card-item" data-category="manajemen-layanan">
                         <div class="card shadow-sm border-0">
                             <div class="card-body">
                                 <h5 class="card-title text-dark">SOP Konsultasi TIK pada aplikasi SAKTI</h5>
-                                <span class="badge bg-primary mb-2">#Manajemen Pengetahuan</span>
+                                <span class="badge bg-primary mb-2">#Manajemen Layanan SPBE</span>
                                 <p class="card-text">Prosedur Konsultasi TIK pada aplikasi SAKTI</p>
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#modalManajemen"
+                                    class="btn btn-outline-primary">Lihat <i class="bi bi-arrow-right-circle"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 card-item" data-category="manajemen-layanan">
+                        <div class="card shadow-sm border-0">
+                            <div class="card-body">
+                                <h5 class="card-title text-dark">SOP Pemanfaatan SPLP (Sistem Penghubung Layanan Pemerintah)</h5>
+                                <span class="badge bg-primary mb-2">#Manajemen Layanan SPBE</span>
+                                <p class="card-text">SOP Pemanfaatan SPLP (Sistem Penghubung Layanan Pemerintah)</p>
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#modalManajemen"
+                                    class="btn btn-outline-primary">Lihat <i class="bi bi-arrow-right-circle"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 card-item" data-category="manajemen-layanan">
+                        <div class="card shadow-sm border-0">
+                            <div class="card-body">
+                                <h5 class="card-title text-dark">SOP Permohonan Penyelenggaraan Pelayanan Video Converence</h5>
+                                <span class="badge bg-primary mb-2">#Manajemen Layanan SPBE</span>
+                                <p class="card-text">Prosedur tentang Permohonan Penyelenggaraan Pelayanan</p>
                                 <a href="#" data-bs-toggle="modal" data-bs-target="#modalManajemen"
                                     class="btn btn-outline-primary">Lihat <i class="bi bi-arrow-right-circle"></i> </a>
                             </div>
@@ -864,7 +886,7 @@
                                 data-bs-toggle="collapse"
                                 data-bs-target="#collapse-ebd23e34fd2ed58299b32c03c521feb0b02f19d9" aria-expanded="true"
                                 aria-controls="collapse-ebd23e34fd2ed58299b32c03c521feb0b02f19d9">Apa kebijakan yang
-                                mengatur kerangka kerja SPBE di Kabupaten Pasuruan?
+                                mengatur kerangka kerja SPBE di Kabupaten Tulang Bawang?
                             </h2>
                             <div id="collapse-ebd23e34fd2ed58299b32c03c521feb0b02f19d9"
                                 class="accordion-collapse collapse border-0 show"
@@ -873,17 +895,17 @@
                                 <div class="accordion-body py-0 content">
 
                                     <p></p>
-                                    <div><span style="font-size: 13.2px;"><b>Peraturan Bupati Pasuruan Nomor 31 Tahun
+                                    <div><span style="font-size: 13.2px;"><b>Peraturan Bupati Tulang Bawang Nomor 31 Tahun
                                                 2021 tentang Sistem Pemerintahan Berbasis Elektronik Pemerintah Daerah
-                                                Kabupaten Pasuruan:</b></span></div>
+                                                Kabupaten Tulang Bawang:</b></span></div>
                                     <div><span style="font-size: 13.2px;">Mengatur kerangka kerja untuk implementasi
-                                            SPBE di Pemerintah Daerah Kabupaten Pasuruan, termasuk kebijakan, tata
+                                            SPBE di Pemerintah Daerah Kabupaten Tulang Bawang, termasuk kebijakan, tata
                                             kelola, pengelolaan dan pengembangan sistem, serta evaluasi dan
                                             pemantauan.</span></div>
                                     <div><span style="font-size: 13.2px;"><br></span></div>
-                                    <div><span style="font-size: 13.2px;"><b>Peraturan Bupati Pasuruan Nomor 111 Tahun
+                                    <div><span style="font-size: 13.2px;"><b>Peraturan Bupati Tulang Bawang Nomor 111 Tahun
                                                 2023 tentang Sistem Pemerintahan Berbasis Elektronik Pemerintah
-                                                Kabupaten Pasuruan:</b></span></div>
+                                                Kabupaten Tulang Bawang:</b></span></div>
                                     <div><span style="font-size: 13.2px;">Memperbarui
                                             dan menyempurnakan kebijakan SPBE sebelumnya untuk menyesuaikan dengan
                                             perkembangan teknologi dan kebutuhan lokal. Mengatur struktur organisasi,
@@ -1002,7 +1024,7 @@
                                 aria-labelledby="heading-0c2f829793a1f0562fea97120357dd2d43319164"
                                 data-bs-parent="#accordionFAQ">
                                 <div class="accordion-body py-0 content">Pemerintah daerah, termasuk Pemerintah Kabupaten
-                                    Pasuruan, bertanggung jawab atas pelaksanaan dan pengembangan SPBE sesuai dengan
+                                    Tulang Bawang, bertanggung jawab atas pelaksanaan dan pengembangan SPBE sesuai dengan
                                     kebijakan yang telah ditetapkan oleh pemerintah pusat
 
                                 </div>
@@ -1042,6 +1064,4 @@
         </div>
     </section> --}}
     {{-- End Tata Kelola --}}
-
-
 @endsection

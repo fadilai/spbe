@@ -33,7 +33,7 @@
                     <li class="nav-item "> <a class="nav-link" href="#layanan">Layanan</a>
                     </li>
                 </ul>
-                <a href="#!" class="btn btn-outline-primary cutom-color">Masuk</a>
+                <a href="#!" class="btn btn-outline-primary cutom-color">Masuk <i class="bi bi-box-arrow-in-right" style="font-size: 13px;"></i></a>
                 {{-- <a href="#!" class="btn btn-custom ms-2 ms-lg-3">Daftar</a> --}}
             </div>
         </div>
