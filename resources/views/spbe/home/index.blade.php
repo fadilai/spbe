@@ -1049,7 +1049,7 @@
     {{-- End Section Pengetahuan/Pertanyaan --}}
 
     {{-- Section Tata Kelola --}}
-    {{-- <section id="tatakelola" class="section testimonials overflow-hidden bg-tertiary">
+    <section id="tatakelola" class="section testimonials overflow-hidden bg-tertiary">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12">
@@ -1061,7 +1061,11 @@
                 </div>
 
             </div>
+
+            <div class="card" style="width: 90%">
+
+            </div>
         </div>
-    </section> --}}
+    </section>
     {{-- End Tata Kelola --}}
 @endsection
