@@ -984,8 +984,7 @@
                                             kelola, pengelolaan dan pengembangan sistem, serta evaluasi dan
                                             pemantauan.</span></div>
                                     <div><span style="font-size: 13.2px;"><br></span></div>
-                                    <div><span style="font-size: 13.2px;"><b>Peraturan Bupati Tulang Bawang Nomor 111 Tahun
-                                                2023 tentang Sistem Pemerintahan Berbasis Elektronik Pemerintah
+                                    <div><span style="font-size: 13.2px;"><b>Peraturan Bupati Tulang Bawang Nomor 15 Tahun 2024 tentang Sistem Pemerintahan Berbasis Elektronik Pemerintah
                                                 Kabupaten Tulang Bawang:</b></span></div>
                                     <div><span style="font-size: 13.2px;">Memperbarui
                                             dan menyempurnakan kebijakan SPBE sebelumnya untuk menyesuaikan dengan
