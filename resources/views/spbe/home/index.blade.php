@@ -960,16 +960,16 @@
 
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="">
                     <div class="accordion shadow rounded py-3 px-0 px-lg-4 bg-white position-relative" id="accordionFAQ">
                         <div class="accordion-item p-1 mb-2">
-                            <h2 class="accordion-header accordion-button h5 border-0 active"
+                            <h3 class="accordion-header accordion-button h6 border-0 active"
                                 id="heading-ebd23e34fd2ed58299b32c03c521feb0b02f19d9" type="button"
                                 data-bs-toggle="collapse"
                                 data-bs-target="#collapse-ebd23e34fd2ed58299b32c03c521feb0b02f19d9" aria-expanded="true"
                                 aria-controls="collapse-ebd23e34fd2ed58299b32c03c521feb0b02f19d9">Apa kebijakan yang
                                 mengatur kerangka kerja SPBE di Kabupaten Tulang Bawang?
-                            </h2>
+                            </h3>
                             <div id="collapse-ebd23e34fd2ed58299b32c03c521feb0b02f19d9"
                                 class="accordion-collapse collapse border-0 show"
                                 aria-labelledby="heading-ebd23e34fd2ed58299b32c03c521feb0b02f19d9"
@@ -996,13 +996,13 @@
                             </div>
                         </div>
                         <div class="accordion-item p-1 mb-2">
-                            <h2 class="accordion-header accordion-button h5 border-0 "
+                            <h3 class="accordion-header accordion-button h6 border-0 "
                                 id="heading-a443e01b4db47b3f4a1267e10594576d52730ec1" type="button"
                                 data-bs-toggle="collapse"
                                 data-bs-target="#collapse-a443e01b4db47b3f4a1267e10594576d52730ec1" aria-expanded="false"
                                 aria-controls="collapse-a443e01b4db47b3f4a1267e10594576d52730ec1">Apa Kebijakan yang
                                 mengatur penyelenggaraan sistem dan transaksi elektronik yang mendukung SPBE?
-                            </h2>
+                            </h3>
                             <div id="collapse-a443e01b4db47b3f4a1267e10594576d52730ec1"
                                 class="accordion-collapse collapse border-0 "
                                 aria-labelledby="heading-a443e01b4db47b3f4a1267e10594576d52730ec1"
@@ -1026,13 +1026,13 @@
                             </div>
                         </div>
                         <div class="accordion-item p-1 mb-2">
-                            <h2 class="accordion-header accordion-button h5 border-0 "
+                            <h3 class="accordion-header accordion-button h6 border-0 "
                                 id="heading-4b82be4be873c8ad699fa97049523ac86b67a8bd" type="button"
                                 data-bs-toggle="collapse"
                                 data-bs-target="#collapse-4b82be4be873c8ad699fa97049523ac86b67a8bd" aria-expanded="false"
                                 aria-controls="collapse-4b82be4be873c8ad699fa97049523ac86b67a8bd">Apa Kebijakan yang
                                 mengatur evaluasi dan pemantauan pelaksanaan SPBE?
-                            </h2>
+                            </h3>
                             <div id="collapse-4b82be4be873c8ad699fa97049523ac86b67a8bd"
                                 class="accordion-collapse collapse border-0 "
                                 aria-labelledby="heading-4b82be4be873c8ad699fa97049523ac86b67a8bd"
@@ -1056,13 +1056,13 @@
                             </div>
                         </div>
                         <div class="accordion-item p-1 mb-2">
-                            <h2 class="accordion-header accordion-button h5 border-0 "
+                            <h3 class="accordion-header accordion-button h6 border-0 "
                                 id="heading-3e13e9676a9cd6a6f8bfbe6e1e9fc0881ef247b3" type="button"
                                 data-bs-toggle="collapse"
                                 data-bs-target="#collapse-3e13e9676a9cd6a6f8bfbe6e1e9fc0881ef247b3" aria-expanded="false"
                                 aria-controls="collapse-3e13e9676a9cd6a6f8bfbe6e1e9fc0881ef247b3">Apa kebijakan yang
                                 mengatur kerangka kerja nasional SPBE?
-                            </h2>
+                            </h3>
                             <div id="collapse-3e13e9676a9cd6a6f8bfbe6e1e9fc0881ef247b3"
                                 class="accordion-collapse collapse border-0 "
                                 aria-labelledby="heading-3e13e9676a9cd6a6f8bfbe6e1e9fc0881ef247b3"
@@ -1092,13 +1092,13 @@
                             </div>
                         </div>
                         <div class="accordion-item p-1 mb-2">
-                            <h2 class="accordion-header accordion-button h5 border-0 "
+                            <h3 class="accordion-header accordion-button h6 border-0 "
                                 id="heading-0c2f829793a1f0562fea97120357dd2d43319164" type="button"
                                 data-bs-toggle="collapse"
                                 data-bs-target="#collapse-0c2f829793a1f0562fea97120357dd2d43319164" aria-expanded="false"
                                 aria-controls="collapse-0c2f829793a1f0562fea97120357dd2d43319164">Siapa yang bertanggung
                                 jawab atas implementasi SPBE di Pemerintah Daerah?
-                            </h2>
+                            </h3>
                             <div id="collapse-0c2f829793a1f0562fea97120357dd2d43319164"
                                 class="accordion-collapse collapse border-0 "
                                 aria-labelledby="heading-0c2f829793a1f0562fea97120357dd2d43319164"
@@ -1112,7 +1112,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 mt-4 mt-lg-0">
+                {{-- <div class="col-lg-4 mt-4 mt-lg-0">
                     <div class="shadow rounded py-3 px-2 ms-0 ms-lg-4 bg-white position-relative">
                         <div class="block mx-0 mx-lg-3 mt-0">
                             <h4 class="h5">Kontak</h4>
@@ -1122,7 +1122,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </section>
