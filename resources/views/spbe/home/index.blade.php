@@ -895,49 +895,49 @@
                         <!-- Tim Pengarah -->
                         <div
                             class="border shadow rounded py-4 px-5 mb-4 text-center bg-white position-relative d-inline-block">
-                            <i class="fas fa-users position-absolute" style="top: 5px; right: 10px;color:#114A43;"></i>
+                            <i class="fas fa-users position-absolute" style="top: 5px; right: 10px;color:#114A43;font-size:24px;"></i>
                             <strong>Tim Pengarah</strong>
                         </div>
 
                         <!-- Tim Koordinasi -->
                         <div
                             class="border shadow rounded py-4 px-5 mb-4 text-center bg-white position-relative d-inline-block">
-                            <i class="fas fa-people-arrows position-absolute" style="top: 5px; right: 10px;color:#114A43;"></i>
+                            <i class="fas fa-people-arrows position-absolute" style="top: 5px; right: 10px;color:#114A43;font-size:24px;"></i>
                             <strong>Tim Koordinasi</strong>
                         </div>
 
                         <!-- Sekretariat -->
                         <div
                             class="border shadow rounded py-4 px-5 mb-4 text-center bg-white position-relative d-inline-block">
-                            <i class="fas fa-building position-absolute" style="top: 5px; right: 10px;color:#114A43;"></i>
+                            <i class="fas fa-building position-absolute" style="top: 5px; right: 10px;color:#114A43;font-size:24px;"></i>
                             <strong>Sekretariat</strong>
                         </div>
 
                         <!-- Pokja Kebijakan Internal SPBE -->
                         <div
                             class="border shadow  rounded py-3 px-2 text-center bg-white position-relative d-inline-block">
-                            <i class="fas fa-balance-scale position-absolute" style="top: 5px; right: 10px;color:#114A43;"></i>
+                            <i class="fas fa-balance-scale position-absolute" style="top: 5px; right: 10px;color:#114A43;font-size:24px;"></i>
                             <strong>Pokja <br>Kebijakan<br>Internal SPBE</strong>
                         </div>
 
                         <!-- Pokja Tata Kelola SPBE -->
                         <div
                             class="border shadow border rounded py-3 px-2 text-center bg-white position-relative d-inline-block">
-                            <i class="fas fa-network-wired position-absolute" style="top: 5px; right: 10px;color:#114A43;"></i>
+                            <i class="fas fa-network-wired position-absolute" style="top: 5px; right: 10px;color:#114A43;font-size:24px;"></i>
                             <strong>Pokja<br>Tata Kelola<br>SPBE</strong>
                         </div>
 
                         <!-- Pokja Manajemen SPBE -->
                         <div
                             class="border shadow border rounded py-3 px-2 text-center bg-white position-relative d-inline-block">
-                            <i class="fas fa-cogs position-absolute" style="top: 5px; right: 10px;color:#114A43;"></i>
+                            <i class="fas fa-cogs position-absolute" style="top: 5px; right: 10px;color:#114A43;font-size:24px;"></i>
                             <strong>Pokja<br>Manajemen<br>SPBE</strong>
                         </div>
 
                         <!-- Pokja Layanan SPBE -->
                         <div
                             class="border shadow border rounded py-3 px-2 text-center bg-white position-relative d-inline-block">
-                            <i class="fas fa-envelope-open-text position-absolute" style="top: 5px; right: 10px;color:#114A43;"></i>
+                            <i class="fas fa-envelope-open-text position-absolute" style="top: 5px; right: 10px;color:#114A43;font-size:24px;"></i>
                             <strong>Pokja<br>Layanan<br>SPBE</strong>
                         </div>
                     </div>
