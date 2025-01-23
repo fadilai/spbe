@@ -11,7 +11,7 @@
                     BERBASIS ELEKTRONIK NASIONAL
                 </p>
                 <iframe
-                    src="{{ asset('spbe_template/file/PERATURAN_PRESIDEN_REPUBLIK_INDONESIA_NOMOR_95_TAHUN_2018-1721621844.pdf') }}"
+                    src="https://drive.google.com/file/d/1ZM80PI-MCXHeQy1X97b7Qubikz7R7MN-/preview"
                     width="100%"
                     height="500px"
                     style="border: none;"
@@ -34,7 +34,7 @@
                     PERATURAN PRESIDEN REPUBLIK INDONESIA NOMOR 132 TAHUN 2022 TENTANG ARSITEKTUR SISTEM PEMERINTAHAN BERBASIS ELEKTRONIK NASIONAL
                 </p>
                 <iframe
-                    src="{{ asset('spbe_template/file/Peraturan_Presiden_132_Tahun_2022-1724914889.pdf') }}"
+                    src="https://drive.google.com/file/d/1p2aOt_5UcQ1j7AwZ6YOuyZTdspXxKyN5/preview"
                     width="100%"
                     height="500px"
                     style="border: none;"
