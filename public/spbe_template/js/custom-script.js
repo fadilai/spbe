@@ -200,19 +200,47 @@ document.addEventListener("click", (e) => {
 
 
 // Tata Kelola
-  const scrollContainer = document.getElementById("scroll-container");
-  scrollContainer.innerHTML += scrollContainer.innerHTML;
+ const scrollContainer = document.getElementById("scroll-container");
+ scrollContainer.innerHTML += scrollContainer.innerHTML;
+ let scrollAmount = 1;
+ let isUserInteracting = false;
+ function continuousScroll() {
+     if (!isUserInteracting) {
+         scrollContainer.scrollLeft += scrollAmount;
+         if (scrollContainer.scrollLeft >= scrollContainer.scrollWidth / 2) {
+             scrollContainer.scrollLeft = 0;
+         }
+     }
+     requestAnimationFrame(continuousScroll);
+ }
+ continuousScroll();
+ let isMouseDown = false;
+ let startX, scrollLeft;
 
-  let scrollAmount = 1;
+ scrollContainer.addEventListener("mousedown", (e) => {
+     isMouseDown = true;
+     startX = e.pageX - scrollContainer.offsetLeft;
+     scrollLeft = scrollContainer.scrollLeft;
+     isUserInteracting = true;
+ });
 
-  function continuousScroll() {
-      scrollContainer.scrollLeft += scrollAmount;
-      if (scrollContainer.scrollLeft >= scrollContainer.scrollWidth / 2) {
-          scrollContainer.scrollLeft = 0;
-      }
+ scrollContainer.addEventListener("mouseleave", () => {
+     isMouseDown = false;
+     isUserInteracting = false;
+ });
 
-      requestAnimationFrame(continuousScroll);
-  }
+ scrollContainer.addEventListener("mouseup", () => {
+     isMouseDown = false;
+     isUserInteracting = false;
+ });
 
-  continuousScroll();
+ scrollContainer.addEventListener("mousemove", (e) => {
+     if (!isMouseDown) return;
+     e.preventDefault();
+     const x = e.pageX - scrollContainer.offsetLeft;
+     const walk = (x - startX) * 3;
+     scrollContainer.scrollLeft = scrollLeft - walk;
+ });
+
+ scrollContainer.style.cursor = "pointer";
 // end tata kelola
