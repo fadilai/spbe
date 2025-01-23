@@ -8942,7 +8942,7 @@ fieldset:disabled .btn {
 body {
     line-height: 1.7;
     /* font-family: "Rubik", sans-serif; */
-     font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 
     -webkit-font-smoothing: antialiased;
     font-size: 15px;
@@ -8973,7 +8973,7 @@ h6,
 .h6 {
     color: #040404;
     /* font-family: "Rubik", sans-serif; */
-     font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 
     font-weight: 700;
 }
@@ -9603,7 +9603,7 @@ blockquote::before {
 }
 
 .navbar-brand {
-                                                                        font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 
     font-size: 30px;
 }
@@ -10084,8 +10084,7 @@ blockquote::before {
     border-radius: 50%;
     color: #fff;
     position: relative;
-                                                                       font-family: 'Poppins', sans-serif;
-
+    font-family: "Poppins", sans-serif;
 }
 .loan-steps .count::after {
     position: absolute;
@@ -10553,8 +10552,7 @@ textarea.form-control {
     cursor: pointer;
 }
 
-
- #admin {
+#admin {
     position: fixed;
     bottom: 0px;
     right: 15px;
@@ -10563,71 +10561,69 @@ textarea.form-control {
     border-radius: 5px;
     padding: 10px;
     transition: transform 0.3s ease;
-
 }
 
 #admin:hover {
     transform: scale(1.1);
 }
 
-
 /* Section Manajemen */
 
-#manajemen span{
+#manajemen span {
     color: #fff;
 }
-#manajemen  .scrollable-container {
-  overflow-x: auto;
-  display: flex;
-  justify-content: start;
+#manajemen .scrollable-container {
+    overflow-x: auto;
+    display: flex;
+    justify-content: start;
     scrollbar-width: none;
-  -ms-overflow-style: none;
+    -ms-overflow-style: none;
 }
 
 #manajemen .scrollable-container::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 
-#manajemen  .card-wrapper {
-  display: flex;
-  gap: 1rem;
-  width: 100%;
-  padding:1rem;
+#manajemen .card-wrapper {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    padding: 1rem;
 }
 
-#manajemen  .card-item {
-  flex: 0 0 calc(33.333% - 1rem);
-  max-width: calc(33.333% - 1rem);
-  box-sizing: border-box;
+#manajemen .card-item {
+    flex: 0 0 calc(33.333% - 1rem);
+    max-width: calc(33.333% - 1rem);
+    box-sizing: border-box;
 }
 
-#manajemen  .scroll-pagination {
-  display: flex;
-  gap: 8px;
+#manajemen .scroll-pagination {
+    display: flex;
+    gap: 8px;
 }
 
-#manajemen  .pagination-dot {
-  width: 10px;
-  height: 10px;
-  background-color: #ccc;
-  border-radius: 50%;
-  transition: background-color 0.3s ease;
+#manajemen .pagination-dot {
+    width: 10px;
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
 }
 
-#manajemen  .pagination-dot.active {
-  background-color: #51b56d ;
+#manajemen .pagination-dot.active {
+    background-color: #51b56d;
 }
 
-#manajemen .card-text{
+#manajemen .card-text {
     font-size: 15px;
 }
 
 @media (max-width: 768px) {
-  #manajemen .card-item {
-    flex: 0 0 calc(50% - 1rem);
-    max-width: calc(50% - 1rem);
-  }
-   .domains-container {
+    #manajemen .card-item {
+        flex: 0 0 calc(50% - 1rem);
+        max-width: calc(50% - 1rem);
+    }
+    .domains-container {
         flex-direction: column;
         gap: 12px;
     }
@@ -10638,29 +10634,53 @@ textarea.form-control {
 }
 
 @media (max-width: 576px) {
- #manajemen .card-item {
-    flex: 0 0 calc(100% - 1rem);
-    max-width: calc(100% - 1rem);
-  }
+    #manajemen .card-item {
+        flex: 0 0 calc(100% - 1rem);
+        max-width: calc(100% - 1rem);
+    }
 }
 /* End section Manajemen */
 
 /* Header */
 /* Warna default */
 .sticky-header {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  background-color: #fbfbfb;
-  transition: background-color 0.3s ease;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #fbfbfb;
+    transition: background-color 0.3s ease;
 }
 
 /* Warna saat di-scroll */
 .scrolled {
-  background-color: #ffffff;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 /* End Header */
 
+/* Tata Kelola */
+#scroll-container > div {
+    min-width: 200px;
+    max-width: 200px;
+    min-height: 100px;
+    max-height: 100px;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#scroll-container > div i {
+    margin-bottom: 8px;
+}
+
+#scroll-container > div strong {
+    font-size: 18px;
+    line-height: 20px;
+    color: black;
+}
+
+/* Tata kelola */
 
 /* END CUSTOM STYLE */

@@ -197,3 +197,22 @@ document.addEventListener("click", (e) => {
 });
 
 // End Dropdown index domain
+
+
+// Tata Kelola
+  const scrollContainer = document.getElementById("scroll-container");
+  scrollContainer.innerHTML += scrollContainer.innerHTML;
+
+  let scrollAmount = 1;
+
+  function continuousScroll() {
+      scrollContainer.scrollLeft += scrollAmount;
+      if (scrollContainer.scrollLeft >= scrollContainer.scrollWidth / 2) {
+          scrollContainer.scrollLeft = 0;
+      }
+
+      requestAnimationFrame(continuousScroll);
+  }
+
+  continuousScroll();
+// end tata kelola

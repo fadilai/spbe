@@ -21,7 +21,7 @@
                             <a href="{{ asset('spbe_template/file/PERATURAN_PRESIDEN_REPUBLIK_INDONESIA_NOMOR_95_TAHUN_2018-1721621844.pdf') }}"
                                 target="_blank" class="d-flex align-items-center text-decoration-none">
                                 <span class="me-2"><i class="bi bi-file-earmark-pdf"></i></span>
-                                <span class="text-truncate">Rapat Penggunaan Aplikasi Penilaian SPBE Mandiri</span>
+                                <span class="text-truncate">Rapat Penggunaan Aplikasi</span>
                             </a>
                         </div>
                         <a href="{{ asset('spbe_template/file/PERATURAN_PRESIDEN_REPUBLIK_INDONESIA_NOMOR_95_TAHUN_2018-1721621844.pdf') }}"

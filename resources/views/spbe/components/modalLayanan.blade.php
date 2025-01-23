@@ -10,40 +10,28 @@
             <div class="modal-body">
                 <div class="row">
                     <div class="col-md-4 mb-3">
-                        <div class="card text-center h-100">
-                            <img src="{{ asset('spbe_template/images/ssss.jpg') }}" class="card-img-top mx-auto mt-3"
-                                alt="Logo 1" style="width: 50%; height: auto;">
+                        <a href="https://www.lapor.go.id/">
+                            <div class="card text-center shadow">
+                            <img src="{{ asset('spbe_template/images/layanan/lapor.png') }}" class="card-img-top mx-auto mt-3"
+                                alt="Logo 1" style="width: 65%; height: auto;">
                             <div class="card-body d-flex flex-column">
-                                <h6 class="card-title flex-grow-1">Judul Layanan 1</h6>
+                                <h6 class="card-title flex-grow-1">LAPOR</h6>
                             </div>
                         </div>
+                        </a>
+
                     </div>
                     <div class="col-md-4 mb-3">
-                        <div class="card text-center h-100">
-                            <img src="{{ asset('spbe_template/images/ssss.jpg') }}" class="card-img-top mx-auto mt-3"
-                                alt="Logo 2" style="width: 45%; height: auto;">
+                        <a href="/">
+                            <div class="card text-center shadow">
+                            <img src="{{ asset('spbe_template/images/layanan/spbe_tb.png') }}" class="card-img-top mx-auto mt-3"
+                                alt="Logo 2" style="width: 65%; height: auto;">
                             <div class="card-body d-flex flex-column">
-                                <h6 class="card-title flex-grow-1">Judul Layanan dengan Judul yang Panjang</h6>
+                                <h6 class="card-title flex-grow-1">SPBE</h6>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-4 mb-3">
-                        <div class="card text-center h-100">
-                            <img src="{{ asset('spbe_template/images/ssss.jpg') }}" class="card-img-top mx-auto mt-3"
-                                alt="Logo 3" style="width: 45%; height: auto;">
-                            <div class="card-body d-flex flex-column">
-                                <h6 class="card-title flex-grow-1">Judul</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3">
-                        <div class="card text-center h-100">
-                            <img src="{{ asset('spbe_template/images/ssss.jpg') }}" class="card-img-top mx-auto mt-3"
-                                alt="Logo 3" style="width: 45%; height: auto;">
-                            <div class="card-body d-flex flex-column">
-                                <h6 class="card-title flex-grow-1">Judul</h6>
-                            </div>
-                        </div>
+                        </a>
+
                     </div>
                 </div>
             </div>

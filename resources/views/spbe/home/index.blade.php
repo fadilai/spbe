@@ -220,16 +220,14 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="card mb-2 shadow"
-                        style="pointer-events: none !important;  background-color:#114A43; ">
+                    <div class="card mb-2 shadow" style="pointer-events: none !important;  background-color:#114A43; ">
                         <div class="card-body">
                             <h3 class="card-title text-white" id="nilai-spbe">2.85</h3>
                             <h5 class="card-text text-white" id="tahun-spbe">Nilai SPBE Tahun 2024</h5>
                         </div>
                     </div>
 
-                    <div class="card shadow"
-                        style="pointer-events: none !important;  ">
+                    <div class="card shadow" style="pointer-events: none !important;  ">
                         <div class="card-body">
                             <h5 class="card-title mb-3">Domain SPBE</h5>
                             <div class="domains-container" id="domains-container">
@@ -367,8 +365,8 @@
                                 <div class="block">
                                     <h5 class="mb-3">Peraturan Menteri Komunikasi dan Informatika Nomor 16 Tahun 2020
                                     </h5>
-                                    <a href="/" class="mb-0">Lihat<i
-                                            class="bi bi-arrow-right-circle ms-2"></i></a>
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#modalKebijakan5"
+                                        class="mb-0">Lihat<i class="bi bi-arrow-right-circle ms-2"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -380,8 +378,8 @@
                                 </div>
                                 <div class="block">
                                     <h5 class="mb-3">Peraturan Badan Riset dan Inovasi Nasional Nomor 2 Tahun 2024</h5>
-                                    <a href="/" class="mb-0">Lihat<i
-                                            class="bi bi-arrow-right-circle ms-2"></i></a>
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#modalKebijakan6"
+                                        class="mb-0">Lihat<i class="bi bi-arrow-right-circle ms-2"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -392,9 +390,9 @@
                                         style="font-size:28px"></i>
                                 </div>
                                 <div class="block">
-                                    <h5 class="mb-3">Peraturan Presiden 132 Tahun 2022</h5>
-                                    <a href="/" class="mb-0">Lihat<i
-                                            class="bi bi-arrow-right-circle ms-2"></i></a>
+                                    <h5 class="mb-3">Peraturan Menteri PANRB Nomor 16 Tahun 2020</h5>
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#modalKebijakan8"
+                                        class="mb-0">Lihat<i class="bi bi-arrow-right-circle ms-2"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -447,15 +445,31 @@
                                             <div class="row">
                                                 <!-- Card 1 -->
                                                 <div class="col-md-6 mb-4">
-                                                    <a href="/ ">
+                                                    <a
+                                                        href="https://play.google.com/store/apps/details?id=com.tulangbawangkab.siaptuba&hl=en_ZA">
                                                         <div class="card shadow-sm h-100 rounded-4">
                                                             <div class="card-body text-center">
                                                                 <div class="mb-3">
-                                                                    <img src="{{ asset('spbe_template/images/layanan/spbe_tb.png') }}"
+                                                                    <img src="{{ asset('spbe_template/images/layanan/siap tuba2.png') }}"
                                                                         alt="Icon" class="img-fluid"
                                                                         style="object-fit: contain;">
                                                                 </div>
-                                                                <b class="card-title">SPBE</b>
+                                                                <b class="card-title">SIAP TUBA</b>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <!-- Card 4 -->
+                                                <div class="col-md-6 mb-4">
+                                                    <a href="https://sikeptemen.tulangbawangkab.go.id/main ">
+                                                        <div class="card shadow-sm h-100 rounded-4">
+                                                            <div class="card-body text-center">
+                                                                <div class="mb-3">
+                                                                    <img src="{{ asset('spbe_template/images/layanan/sikep temen.png') }}"
+                                                                        alt="Icon" class="img-fluid"
+                                                                        style="object-fit: contain;">
+                                                                </div>
+                                                                <b class="card-title">SIKEP TEMEN</b>
                                                             </div>
                                                         </div>
                                                     </a>
@@ -490,21 +504,7 @@
                                                         </div>
                                                     </a>
                                                 </div>
-                                                <!-- Card 4 -->
-                                                <div class="col-md-6 mb-4">
-                                                    <a href="https://sikeptemen.tulangbawangkab.go.id/main ">
-                                                        <div class="card shadow-sm h-100 rounded-4">
-                                                            <div class="card-body text-center">
-                                                                <div class="mb-3">
-                                                                    <img src="{{ asset('spbe_template/images/layanan/sikep temen.png') }}"
-                                                                        alt="Icon" class="img-fluid"
-                                                                        style="object-fit: contain;">
-                                                                </div>
-                                                                <b class="card-title">SIKEP TEMEN</b>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </div>
+
                                             </div>
                                             <div class="d-flex justify-content-center">
                                                 <button class="btn btn-custom mt-2" data-bs-toggle="modal"
@@ -669,7 +669,7 @@
                 <div class="col-lg-4 col-md-6 pt-1">
                     <a href="#" data-bs-toggle="modal" data-bs-target="#modalKegiatan"
                         class="text-decoration-none">
-                        <div class=" rounded bg-white p-4 mt-4 shadow" >
+                        <div class=" rounded bg-white p-4 mt-4 shadow">
                             <div class="d-block d-sm-flex align-items-center mb-3">
                                 <i class="bi bi-calendar3" style="font-size: 30px;color:#114a43;"></i>
                                 <div class="mt-3 mt-sm-0 ms-0 ms-sm-3">
@@ -685,7 +685,7 @@
                 <!-- Card 2 -->
                 <div class="col-lg-4 col-md-6 pt-1">
                     <a href="#" class="text-decoration-none">
-                        <div class=" rounded bg-white p-4 mt-4 shadow" >
+                        <div class=" rounded bg-white p-4 mt-4 shadow">
                             <div class="d-block d-sm-flex align-items-center mb-3">
                                 <i class="bi bi-calendar3" style="font-size: 30px;color:#114a43;"></i>
                                 <div class="mt-3 mt-sm-0 ms-0 ms-sm-3">
@@ -701,7 +701,7 @@
                 <!-- Card 3 -->
                 <div class="col-lg-4 col-md-6 pt-1">
                     <a href="#" class="text-decoration-none">
-                        <div class="rounded bg-white p-4 mt-4 shadow" >
+                        <div class="rounded bg-white p-4 mt-4 shadow">
                             <div class="d-block d-sm-flex align-items-center mb-3">
                                 <i class="bi bi-calendar3" style="font-size: 30px;color:#114a43;"></i>
                                 <div class="mt-3 mt-sm-0 ms-0 ms-sm-3">
@@ -800,7 +800,8 @@
                     <div class="col-md-4 card-item" data-category="manajemen-layanan">
                         <div class="card shadow-sm border-0">
                             <div class="card-body">
-                                <h5 class="card-title text-dark">SOP Pemanfaatan SPLP (Sistem Penghubung Layanan Pemerintah)</h5>
+                                <h5 class="card-title text-dark">SOP Pemanfaatan SPLP (Sistem Penghubung Layanan
+                                    Pemerintah)</h5>
                                 <span class="badge bg-primary mb-2">#Manajemen Layanan SPBE</span>
                                 <p class="card-text">SOP Pemanfaatan SPLP (Sistem Penghubung Layanan Pemerintah)</p>
                                 <a href="#" data-bs-toggle="modal" data-bs-target="#modalManajemen"
@@ -811,7 +812,8 @@
                     <div class="col-md-4 card-item" data-category="manajemen-layanan">
                         <div class="card shadow-sm border-0">
                             <div class="card-body">
-                                <h5 class="card-title text-dark">SOP Permohonan Penyelenggaraan Pelayanan Video Converence</h5>
+                                <h5 class="card-title text-dark">SOP Permohonan Penyelenggaraan Pelayanan Video Converence
+                                </h5>
                                 <span class="badge bg-primary mb-2">#Manajemen Layanan SPBE</span>
                                 <p class="card-text">Prosedur tentang Permohonan Penyelenggaraan Pelayanan</p>
                                 <a href="#" data-bs-toggle="modal" data-bs-target="#modalManajemen"
@@ -867,8 +869,88 @@
     </section>
     {{-- End Section Manajemen --}}
 
+    {{-- Section Tata Kelola --}}
+    <section id="tatakelola" class="section testimonials overflow-hidden bg-tertiary">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="section-title text-center mb-1 pb-2">
+                        <h2>Tata Kelola</h2>
+                        <p class="text-primary fw-bold mb-3">Memastikan penerapan unsur-unsur SPBE secara terpadu.</p>
+
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="container">
+                <div class="text-center mt-1 mb-5">
+                    <h5 class="fw-bold text-black">SUSUNAN KEANGGOTAAN TIM KOORDINASI PELAKSANAAN SPBE PEMERINTAH KABUPATEN
+                        TULANG BAWANG</h5>
+                </div>
+                <!-- Kontainer dengan scroll horizontal -->
+                <div class="position-relative" style="overflow: hidden; width: 100%;">
+                    <div class="d-flex" id="scroll-container"
+                        style="gap: 20px; white-space: nowrap; overflow: hidden; display: flex; flex-wrap: nowrap; scroll-behavior: smooth;">
+                        <!-- Tim Pengarah -->
+                        <div
+                            class="border shadow rounded py-4 px-5 mb-4 text-center bg-white position-relative d-inline-block">
+                            <i class="fas fa-users position-absolute" style="top: 5px; right: 10px;color:#114A43;"></i>
+                            <strong>Tim Pengarah</strong>
+                        </div>
+
+                        <!-- Tim Koordinasi -->
+                        <div
+                            class="border shadow rounded py-4 px-5 mb-4 text-center bg-white position-relative d-inline-block">
+                            <i class="fas fa-people-arrows position-absolute" style="top: 5px; right: 10px;color:#114A43;"></i>
+                            <strong>Tim Koordinasi</strong>
+                        </div>
+
+                        <!-- Sekretariat -->
+                        <div
+                            class="border shadow rounded py-4 px-5 mb-4 text-center bg-white position-relative d-inline-block">
+                            <i class="fas fa-building position-absolute" style="top: 5px; right: 10px;color:#114A43;"></i>
+                            <strong>Sekretariat</strong>
+                        </div>
+
+                        <!-- Pokja Kebijakan Internal SPBE -->
+                        <div
+                            class="border shadow  rounded py-3 px-2 text-center bg-white position-relative d-inline-block">
+                            <i class="fas fa-balance-scale position-absolute" style="top: 5px; right: 10px;color:#114A43;"></i>
+                            <strong>Pokja <br>Kebijakan<br>Internal SPBE</strong>
+                        </div>
+
+                        <!-- Pokja Tata Kelola SPBE -->
+                        <div
+                            class="border shadow border rounded py-3 px-2 text-center bg-white position-relative d-inline-block">
+                            <i class="fas fa-network-wired position-absolute" style="top: 5px; right: 10px;color:#114A43;"></i>
+                            <strong>Pokja<br>Tata Kelola<br>SPBE</strong>
+                        </div>
+
+                        <!-- Pokja Manajemen SPBE -->
+                        <div
+                            class="border shadow border rounded py-3 px-2 text-center bg-white position-relative d-inline-block">
+                            <i class="fas fa-cogs position-absolute" style="top: 5px; right: 10px;color:#114A43;"></i>
+                            <strong>Pokja<br>Manajemen<br>SPBE</strong>
+                        </div>
+
+                        <!-- Pokja Layanan SPBE -->
+                        <div
+                            class="border shadow border rounded py-3 px-2 text-center bg-white position-relative d-inline-block">
+                            <i class="fas fa-envelope-open-text position-absolute" style="top: 5px; right: 10px;color:#114A43;"></i>
+                            <strong>Pokja<br>Layanan<br>SPBE</strong>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    {{-- End Tata Kelola --}}
+
     {{-- Section Pengetahuan/Pertanyaan --}}
-    <section class="section testimonials overflow-hidden bg-tertiary">
+    <section class="section testimonials overflow-hidden">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12">
@@ -1048,24 +1130,4 @@
     </section>
     {{-- End Section Pengetahuan/Pertanyaan --}}
 
-    {{-- Section Tata Kelola --}}
-    {{-- <section id="tatakelola" class="section testimonials overflow-hidden bg-tertiary">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12">
-                    <div class="section-title text-center mb-5 pb-2">
-                        <h2>Tata Kelola</h2>
-                        <p class="text-primary fw-bold mb-3">Memastikan penerapan unsur-unsur SPBE secara terpadu.</p>
-
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="card" style="width: 90%">
-
-            </div>
-        </div>
-    </section> --}}
-    {{-- End Tata Kelola --}}
 @endsection
