@@ -977,8 +977,7 @@
                                 <div class="accordion-body py-0 content">
 
                                     <p></p>
-                                    <div><span style="font-size: 13.2px;"><b>Peraturan Bupati Tulang Bawang Nomor 31 Tahun
-                                                2021 tentang Sistem Pemerintahan Berbasis Elektronik Pemerintah Daerah
+                                    <div><span style="font-size: 13.2px;"><b>Peraturan Bupati Tulang Bawang Nomor 20 Tahun 2022 tentang Sistem Pemerintahan Berbasis Elektronik Pemerintah Daerah
                                                 Kabupaten Tulang Bawang:</b></span></div>
                                     <div><span style="font-size: 13.2px;">Mengatur kerangka kerja untuk implementasi
                                             SPBE di Pemerintah Daerah Kabupaten Tulang Bawang, termasuk kebijakan, tata
