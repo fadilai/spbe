@@ -56,7 +56,7 @@
                         </li>
                         <li class="mb-2"><a href="#">Sibete</a>
                         </li>
-                         <li class="mb-2"><a href="https://jdih.tulangbawangkab.go.id/">JDIH</a>
+                        <li class="mb-2"><a href="https://jdih.tulangbawangkab.go.id/">JDIH</a>
                         </li>
                     </ul>
                 </div>
@@ -66,27 +66,61 @@
         <div class="row align-items-center mt-5 position-relative">
             <div class="position-absolute text-center top-0">
                 <div class="footer-copyright-text">
-                    <p>Copyright © {{ date('Y') }} <a href="https://diskominfo.tulangbawangkab.go.id/">DISKOMINFO Tulang Bawang.</a></p>
+                    <p>Copyright © {{ date('Y') }} <a href="https://diskominfo.tulangbawangkab.go.id/">DISKOMINFO
+                            Tulang Bawang.</a></p>
                 </div>
             </div>
 
         </div>
 
 
-        <div id="admin" onclick="openWhatssApp()" style="cursor: pointer !important;"> <i class="bi bi-whatsapp" style="font-size: 50px;color:#114a43;"></i>
+        {{-- <div id="admin" onclick="openWhatssApp()" style="cursor: pointer !important;"> <i class="bi bi-whatsapp"
+                style="font-size: 50px;color:#114a43;"></i>
         </div>
 
         <script>
-             function openWhatssApp() {
+            function openWhatssApp() {
                 var message =
                     "Halo Min, saya memiliki kendala dalam menggunakan website SPBE. Bisa bantu saya?";
                 var phoneNumber = "6282175324747";
 
-                // Membuat URL untuk mengarahkan pengguna ke halaman WhatsApp
                 var whatsappURL = "https://api.whatsapp.com/send?phone=" + phoneNumber + "&text=" + encodeURIComponent(message);
 
                 window.open(whatsappURL, "_blank");
             }
+        </script> --}}
+
+        <script>
+            (function() {
+                if (!window.chatbase || window.chatbase("getState") !== "initialized") {
+                    window.chatbase = (...arguments) => {
+                        if (!window.chatbase.q) {
+                            window.chatbase.q = []
+                        }
+                        window.chatbase.q.push(arguments)
+                    };
+                    window.chatbase = new Proxy(window.chatbase, {
+                        get(target, prop) {
+                            if (prop === "q") {
+                                return target.q
+                            }
+                            return (...args) => target(prop, ...args)
+                        }
+                    })
+                }
+                const onLoad = function() {
+                    const script = document.createElement("script");
+                    script.src = "https://www.chatbase.co/embed.min.js";
+                    script.id = "pxqwaHbXczKMWw1g8xeLa";
+                    script.domain = "www.chatbase.co";
+                    document.body.appendChild(script)
+                };
+                if (document.readyState === "complete") {
+                    onLoad()
+                } else {
+                    window.addEventListener("load", onLoad)
+                }
+            })();
         </script>
 
     </div>

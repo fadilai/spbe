@@ -58,7 +58,7 @@
                     PERATURAN PRESIDEN REPUBLIK INDONESIA NOMOR 82 TAHUN 2023 TENTANG PERCEPATAN TRANSFORMASI DIGITAL DAN KETERPADUAN LAYANAN DIGITAL NASIONAL
                 </p>
                 <iframe
-                    src="{{ asset('spbe_template/file/Peraturan_Presiden_82_Tahun_2023-1724904867.pdf') }}"
+                    src="https://drive.google.com/file/d/1Iauv7c_sKEZwNf3Yfcpgb64Oea5hPnQ9/preview"
                     width="100%"
                     height="500px"
                     style="border: none;"
@@ -81,7 +81,7 @@
                     PERATURAN PRESIDEN REPUBLIK INDONESIA NOMOR 47 TAHUN 2023 TENTANG STRATEGI KEAMANAN SIBER NASIONAL DAN MANAJEMEN KRISIS SIBER
                 </p>
                 <iframe
-                    src="{{ asset('spbe_template/file/Peraturan_Presiden_47_Tahun_2023-1724904776.pdf') }}"
+                    src="https://drive.google.com/file/d/1VSZwPpWBRDdDZvyl1RKoM5QrBy9lj9Xy/preview"
                     width="100%"
                     height="500px"
                     style="border: none;"
