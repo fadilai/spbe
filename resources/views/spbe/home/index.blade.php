@@ -16,7 +16,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="ps-lg-5 text-center">
-                        <img loading="lazy" decoding="async" src="{{ asset('spbe_template/images/img_cover.png') }}"
+                        <img loading="lazy" decoding="async" src="{{ asset('spbe_template/images/sekda.png') }}"
                             alt="banner image" class="w-70">
                     </div>
                 </div>
