@@ -182,16 +182,28 @@ function updateData(year) {
     if (data) {
         nilaiSpbeElement.textContent = data.nilai;
         tahunSpbeElement.textContent = `Nilai SPBE Tahun ${year}`;
-        domainsContainer.innerHTML = data.domains
-            .map(
-                (domain) => `
-                <div class="domain">
-                    <h5 class="text-primary">${domain.score}</h5>
-                    <p>${domain.name}</p>
-                </div>
-            `
-            )
-            .join("");
+        
+        // Clear existing domain elements
+        while (domainsContainer.firstChild) {
+            domainsContainer.removeChild(domainsContainer.firstChild);
+        }
+
+        // Create and append new domain elements
+        data.domains.forEach(domain => {
+            const domainDiv = document.createElement('div');
+            domainDiv.className = 'domain';
+
+            const scoreH5 = document.createElement('h5');
+            scoreH5.className = 'text-primary';
+            scoreH5.textContent = domain.score;
+
+            const nameP = document.createElement('p');
+            nameP.textContent = domain.name;
+
+            domainDiv.appendChild(scoreH5);
+            domainDiv.appendChild(nameP);
+            domainsContainer.appendChild(domainDiv);
+        });
     }
 }
 
@@ -210,7 +222,12 @@ document.addEventListener("click", (e) => {
 
 // Tata Kelola
  const scrollContainer = document.getElementById("scroll-container");
- scrollContainer.innerHTML += scrollContainer.innerHTML;
+ const contentToClone = Array.from(scrollContainer.children);
+ contentToClone.forEach(item => {
+    const clone = item.cloneNode(true);
+    scrollContainer.appendChild(clone);
+ });
+
  let scrollAmount = 1;
  let isUserInteracting = false;
  function continuousScroll() {
