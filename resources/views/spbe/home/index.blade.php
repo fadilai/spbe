@@ -170,10 +170,10 @@
                             new Chart(ctx, {
                                 type: 'bar',
                                 data: {
-                                    labels: ['2019', '2020', '2021', '2022', '2023', '2024'],
+                                    labels: ['2019', '2020', '2021', '2022', '2023', '2024', '2025'],
                                     datasets: [{
                                         label: 'Statistik SPBE Kabupaten Tulang Bawang',
-                                        data: [1.52, 0.00, 0.00, 2.09, 2.55, 2.85],
+                                        data: [1.52, 0.00, 0.00, 2.09, 2.55, 2.85, 3.38],
                                         borderWidth: 1,
                                         backgroundColor: '#134B44',
                                         borderColor: '#134B44'
@@ -218,12 +218,15 @@
                             <li><a href="#" class="dropdown-item" data-year="2024"
                                     style="display: block; padding: 10px; text-decoration: none; color: black; cursor: pointer;">2024</a>
                             </li>
+                            <li><a href="#" class="dropdown-item" data-year="2025"
+                                    style="display: block; padding: 10px; text-decoration: none; color: black; cursor: pointer;">2025</a>
+                            </li>
                         </ul>
                     </div>
                     <div class="card mb-2 shadow" style="pointer-events: none !important;  background-color:#114A43; ">
                         <div class="card-body">
-                            <h3 class="card-title text-white" id="nilai-spbe">2.85</h3>
-                            <h5 class="card-text text-white" id="tahun-spbe">Nilai SPBE Tahun 2024</h5>
+                            <h3 class="card-title text-white" id="nilai-spbe">3.38</h3>
+                            <h5 class="card-text text-white" id="tahun-spbe">Nilai SPBE Tahun 2025</h5>
                         </div>
                     </div>
 
@@ -232,11 +235,11 @@
                             <h5 class="card-title mb-3">Domain SPBE</h5>
                             <div class="domains-container" id="domains-container">
                                 <div class="domain">
-                                    <h5 class="text-primary">3.70</h5>
+                                    <h5 class="text-primary">4.90</h5>
                                     <p>Domain Kebijakan SPBE</p>
                                 </div>
                                 <div class="domain">
-                                    <h5 class="text-primary">2.10</h5>
+                                    <h5 class="text-primary">2.90</h5>
                                     <p>Domain Tata Kelola SPBE</p>
                                 </div>
                                 <div class="domain">
@@ -244,7 +247,7 @@
                                     <p>Domain Manajemen SPBE</p>
                                 </div>
                                 <div class="domain">
-                                    <h5 class="text-primary">3.69</h5>
+                                    <h5 class="text-primary">4.08</h5>
                                     <p>Domain Layanan SPBE</p>
                                 </div>
                             </div>

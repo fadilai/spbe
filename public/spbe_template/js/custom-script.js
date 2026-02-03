@@ -149,6 +149,15 @@ const dataSPBE = {
             { score: "3.69", name: "Domain Layanan SPBE" },
         ],
     },
+     2025: {
+        nilai: "3.38",
+        domains: [
+            { score: "4.90", name: "Domain Kebijakan SPBE" },
+            { score: "2.90", name: "Domain Tata Kelola SPBE" },
+            { score: "1.00", name: "Domain Manajemen SPBE" },
+            { score: "4.08", name: "Domain Layanan SPBE" },
+        ],
+    },
 };
 
 dropdownButton.addEventListener("click", () => {
@@ -187,7 +196,7 @@ function updateData(year) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    updateData("2024");
+    updateData("2025");
 });
 
 document.addEventListener("click", (e) => {
